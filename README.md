@@ -1,13 +1,13 @@
 # Clinical Reasoning Graphs
 
 **Structured Evaluation of LLM Diagnostic Reasoning Reveals Competence Without Consistency**
-(SD4H @ ICML 2026)
+(Structured Data for Health Workshop at ICML 2026)
 
 Code and released artifacts for extracting **clinical reasoning graphs** from free-text LLM
 diagnostic traces and testing whether those traces show stable, schema-like reasoning structure
 for clinically similar cases. Across 750 traces (50 NEJM CPC cases × 5 frontier models × 3 prompt
 conditions), within-cluster and between-cluster graph similarity are statistically
-indistinguishable: models reach accurate diagnoses without reasoning that is measurably more
+indistinguishable. Models reach accurate diagnoses without reasoning that is measurably more
 similar for similar cases.
 
 ## What is a clinical reasoning graph?
@@ -53,7 +53,7 @@ All commands run from the repository root and operate on the released `all_graph
 keys or external data required. Each command below was verified to run end-to-end on a fresh clone.
 
 ```bash
-# Primary consistency result — per-cell within/between similarity, pooled 0.475 / 0.472 (Table 1, App. D)
+# Primary consistency result — per-cell within/between similarity, pooled 0.475 / 0.472 (Table 1, Appendix D)
 python -m analysis.run_analysis --step reproduce  --graphs data/extracted/all_graphs.json --clusters data/clusters/clusters.json
 
 # Per-cell decomposition + content-channel sign tests
@@ -78,7 +78,7 @@ python analysis/calibrate_content.py
 Reproduction runs write only to `results/extended/` (gitignored); the shipped summary artifacts at
 `results/` root are not overwritten.
 
-## Numbers that require inputs not in this tree (honest provenance)
+## Numbers that require inputs not in this tree
 
 - **Soft-Jaccard / semantic-matching row (Table 5, ≈ 0.003 / 0.001):** requires
   `data/extracted/label_embeddings.json` (OpenAI `text-embedding-3-large`, ≈ 2 GB), which is **not
@@ -104,7 +104,7 @@ Reproduction runs write only to `results/extended/` (gitignored); the shipped su
 
 The extracted graphs are provided, so this is not needed to reproduce the analyses. To regenerate
 them you must supply the raw model traces and the NEJM case texts under `data/raw/` (neither is
-redistributed), set an OpenAI key in `.env` (the extractor is GPT-5.4), then:
+redistributed), set an OpenAI key in `.env` (the extractor used was GPT-5.4), then:
 
 ```bash
 python -m src.extract --input data/raw/results.jsonl --cases data/raw/cases.json --output data/extracted/
@@ -129,7 +129,7 @@ python -m src.extract --input data/raw/results.jsonl --cases data/raw/cases.json
 ## Companion study
 
 The 750 traces were generated under the preregistered protocol for a companion
-diagnostic-accuracy / confidence-calibration study (preregistration: OSF, see the paper's
+diagnostic-accuracy / confidence-calibration study (see paper
 references).
 
 ## Citation
@@ -139,7 +139,7 @@ references).
   title     = {Clinical Reasoning Graphs: Structured Evaluation of LLM Diagnostic
                Reasoning Reveals Competence Without Consistency},
   author    = {Patel, Nisarg},
-  booktitle = {Workshop on Structured Data for Health (SD4H) at ICML},
+  booktitle = {Proceedings of the Workshop on Structured Data for Health at the 43rd International Conference on Machine Learning},
   year      = {2026}
 }
 ```
