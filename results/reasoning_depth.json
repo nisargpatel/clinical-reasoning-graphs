@@ -1,0 +1,86 @@
+{
+  "density": {
+    "by_condition": {
+      "baseline": {
+        "mean": 1.0988941242121955,
+        "std": 0.17914089581382944,
+        "median": 1.057983193277311
+      },
+      "adversarial": {
+        "mean": 1.2398746324137642,
+        "std": 0.20227458677054164,
+        "median": 1.2055052790346907
+      },
+      "structured": {
+        "mean": 1.2855270784074901,
+        "std": 0.24307811630825754,
+        "median": 1.2360681114551084
+      }
+    },
+    "baseline_vs_structured_U": 47525.0,
+    "baseline_vs_structured_p": 7.091296103461821e-24
+  },
+  "discriminating_ratio": {
+    "by_condition": {
+      "baseline": {
+        "mean": 0.02604397723652683,
+        "std": 0.02698731237131662,
+        "median": 0.020833333333333332
+      },
+      "adversarial": {
+        "mean": 0.02384436061939964,
+        "std": 0.017222785038556582,
+        "median": 0.02020408163265306
+      },
+      "structured": {
+        "mean": 0.03287759082028264,
+        "std": 0.022302079749157884,
+        "median": 0.028169014084507043
+      }
+    },
+    "baseline_vs_structured_U": 37359.0,
+    "baseline_vs_structured_p": 0.0001487930762229107
+  },
+  "reflection_density": {
+    "by_condition": {
+      "baseline": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "adversarial": {
+        "mean": 0.10228691893761553,
+        "std": 0.03627443850482183,
+        "median": 0.1
+      },
+      "structured": {
+        "mean": 0.11471083820981517,
+        "std": 0.03916431669392324,
+        "median": 0.1
+      }
+    },
+    "baseline_vs_structured_U": 62500.0,
+    "baseline_vs_structured_p": 3.872952040551902e-95
+  },
+  "n_edges": {
+    "by_condition": {
+      "baseline": {
+        "mean": 57.036,
+        "std": 23.152599756874128,
+        "median": 51.0
+      },
+      "adversarial": {
+        "mean": 58.036,
+        "std": 12.76709437558839,
+        "median": 56.5
+      },
+      "structured": {
+        "mean": 66.272,
+        "std": 13.945894301603104,
+        "median": 65.0
+      }
+    },
+    "baseline_vs_structured_U": 43700.5,
+    "baseline_vs_structured_p": 1.271667944088119e-14
+  }
+}

@@ -1,0 +1,258 @@
+TRACE ID: V04
+Case: NEJM_CPC_28_2010 | Model: openai/gpt-5.2 | Condition: baseline
+Ground truth: Postpartum coronary-artery dissection
+Final diagnosis: Spontaneous coronary artery dissection (postpartum-associated SCAD) (55%)
+================================================================================
+
+ORIGINAL TRACE:
+----------------------------------------
+## 1) Differential Diagnosis (ranked, top 5)
+
+1. **Spontaneous coronary artery dissection (SCAD), postpartum-associated (likely LAD territory)**
+2. **Coronary vasospasm (Prinzmetal / variant angina)**
+3. **Acute coronary syndrome from thrombosis/embolism in the postpartum hypercoagulable state** (including antiphospholipid syndrome–associated thrombosis)
+4. **Pulmonary embolism**
+5. **Stress-induced (Takotsubo) cardiomyopathy / peripartum myocardial injury**
+
+---
+
+## 2) Leading Diagnosis with Reasoning
+
+### Leading diagnosis: **Postpartum spontaneous coronary artery dissection (SCAD)**
+
+This presentation is most consistent with **acute coronary syndrome in a young postpartum woman without traditional atherosclerotic risk factors**, with **dynamic anterior ST-segment elevation** and classic ischemic symptoms (substernal pain radiating to the jaw). **SCAD is a leading cause of MI in pregnancy and the early postpartum period**, often involving the **LAD**, producing **anterolateral ST elevation** and sometimes **waxing/waning ischemia** as the intramural hematoma/dissection flap intermittently compromises coronary flow.
+
+Key points supporting SCAD over atherosclerotic STEMI:
+- **Timing and demographic:** 3 weeks postpartum, age 32, no smoking/drugs, no known dyslipidemia/diabetes.
+- **ECG territory:** Marked transient **ST elevation V1–V6** with reciprocal inferior depression → strongly suggests **acute LAD-territory transmural ischemia**, which in this demographic is classically SCAD until proven otherwise.
+- **Episodic pain with transient ST changes:** While vasospasm is a strong alternative, **SCAD can also present with intermittent ischemia** (dynamic obstruction from an evolving intramural hematoma or changing true-lumen compression).
+- **Troponin initially negative does not exclude MI/SCAD:** She presented early; biomarkers can lag and may rise later.
+
+---
+
+## 3) Step-by-step Reasoning and Ranking
+
+### Step 1 — Identify the syndrome: ischemic chest pain with transient STEMI pattern
+- **Symptoms:** sudden substernal pain radiating to the **jaw**, associated shortness of breath → very typical for myocardial ischemia.
+- **ECG evolution:** prehospital ECG with **up to 4 mm ST elevation in V3–V6**, later **V1–V6** with **hyperacute T waves** and **inferior ST depression** → this is a high-risk **anterior STEMI-equivalent** pattern (dynamic but clearly ischemic).
+- **Recurrent short episodes (~5 min) with complete ECG normalization between** → dynamic coronary obstruction.
+
+This anchors the differential primarily in **coronary causes** (SCAD, spasm, thrombosis/embolus) before PE/aortic dissection.
+
+---
+
+### Step 2 — Explain why SCAD is #1
+**Findings that support SCAD**
+- **Postpartum state is a major SCAD risk window** (hormonal/arterial wall changes, hemodynamic stress).
+- **Young woman, minimal traditional CAD risk factors** → makes plaque rupture less likely.
+- **LAD-territory ischemia** is common in SCAD.
+- **Dynamic ischemia** can occur in SCAD (propagation, intermittent true lumen compression, superimposed spasm).
+
+**Findings that might argue against SCAD**
+- **Very brief, fully reversible episodes** can be more typical of pure vasospasm.
+- No biomarker elevation yet (but early).
+
+**Why it still ranks above vasospasm:** postpartum status strongly shifts pre-test probability toward SCAD among life-threatening coronary diagnoses, and the initial ECG changes were large and strongly territorial (suggesting a substantial jeopardized myocardium), which SCAD commonly produces.
+
+---
+
+### Step 3 — Why coronary vasospasm is #2 (very plausible)
+**Supporting**
+- **Transient ST-segment elevation with complete resolution** between episodes is classic for vasospastic angina.
+- Symptom relief after **nitroglycerin** is compatible (though not specific).
+
+**Against**
+- The **postpartum period** is more specifically linked to **SCAD** than to new-onset pure Prinzmetal.
+- The initial episode featured **marked, extensive anterior ST elevation with reciprocal changes**, which can occur in spasm but also fits SCAD with large territory at risk.
+
+Thus vasospasm is a close second; angiography would be decisive.
+
+---
+
+### Step 4 — Why postpartum thrombosis/embolism is #3
+**Supporting**
+- Postpartum is **hypercoagulable**, and acute coronary thrombosis (or coronary embolus) can occur.
+- Placental findings (**small placenta, increased perivillous fibrin**) plus prior hypertensive pregnancy raise the possibility of an underlying **prothrombotic/vasculopathic disorder** (e.g., antiphospholipid syndrome), which could predispose to arterial thrombosis.
+
+**Against**
+- A thrombotic LAD occlusion usually causes **persistent** ischemia/ECG changes and escalating troponin rather than repeated brief episodes with full normalization (unless there is spontaneous lysis/re-occlusion, which is less typical).
+
+---
+
+### Step 5 — Why PE is #4
+**Supporting**
+- Postpartum risk + **elevated D-dimer**.
+- Some shortness of breath and mild oxygen desaturation (95% on room air).
+
+**Against**
+- The ECG is not PE-typical; instead it shows a **territorial anterior STEMI pattern** with reciprocal changes.
+- No pleuritic pain, no leg symptoms, normal CXR, and pain radiating to jaw is far more coronary than PE.
+
+PE still must be considered clinically in postpartum patients, but it is not the best explanation for these ECG findings.
+
+---
+
+### Step 6 — Why Takotsubo/peripartum myocardial injury is #5
+**Supporting**
+- Occurs in women under acute stress; can present with chest pain and ST elevation.
+
+**Against**
+- Typically does **not** produce rapid on/off ST-elevation episodes tightly coupled to brief pain spells.
+- More often associated with a sustained syndrome and echo findings (apical ballooning) rather than transient ischemic ECG normalization.
+
+---
+
+### What this assessment implies for immediate evaluation (high-level)
+- Treat as **high-risk ACS/STEMI-equivalent** with urgent cardiology involvement.
+- **Emergent coronary angiography** is key to distinguish **SCAD vs vasospasm vs thrombotic occlusion** and guide therapy (important because SCAD management often differs from routine PCI-first strategies).
+- Bedside **echocardiography** (regional wall motion abnormalities).
+- Serial **troponins**.
+- Consider targeted evaluation for **APS/thrombophilia** if coronary thrombosis/SCAD suggested and placental pathology/history raise suspicion.
+
+**Leading Diagnosis:** Spontaneous coronary artery dissection (postpartum-associated SCAD)  
+**Estimated Probability:** 55%
+
+================================================================================
+EXTRACTED GRAPH: 43 nodes, 47 edges
+----------------------------------------
+
+NODES:
+  [n1] diagnosis: Spontaneous coronary artery dissection (SCAD), postpartum-associated (likely LAD territory) (55%) (phase: phase1)
+  [n2] diagnosis: Coronary vasospasm (Prinzmetal / variant angina) (35%) (phase: phase1)
+  [n3] diagnosis: Acute coronary syndrome from thrombosis/embolism in the postpartum hypercoagulable state (20%) (phase: phase1)
+  [n4] diagnosis: Pulmonary embolism (10%) (phase: phase1)
+  [n5] diagnosis: Stress-induced (Takotsubo) cardiomyopathy / peripartum myocardial injury (10%) (phase: phase1)
+  [n6] clinical_feature: young postpartum woman without traditional atherosclerotic risk factors (phase: phase1)
+  [n7] clinical_feature: dynamic anterior ST-segment elevation (phase: phase1)
+  [n8] clinical_feature: substernal pain radiating to the jaw (phase: phase1)
+  [n9] evidence_reference: SCAD is a leading cause of MI in pregnancy and the early postpartum period (phase: phase1)
+  [n10] clinical_feature: LAD (phase: phase1)
+  [n11] clinical_feature: anterolateral ST elevation (phase: phase1)
+  [n12] clinical_feature: waxing/waning ischemia (phase: phase1)
+  [n13] clinical_feature: 3 weeks postpartum, age 32, no smoking/drugs, no known dyslipidemia/diabetes (phase: phase1)
+  [n14] clinical_feature: Marked transient ST elevation V1–V6 with reciprocal inferior depression (phase: phase1)
+  [n15] clinical_feature: Episodic pain with transient ST changes (phase: phase1)
+  [n16] clinical_feature: Troponin initially negative (phase: phase1)
+  [n17] clinical_feature: presented early (phase: phase1)
+  [n18] clinical_feature: sudden substernal pain radiating to the jaw, associated shortness of breath (phase: phase1)
+  [n19] clinical_feature: up to 4 mm ST elevation in V3–V6, later V1–V6 with hyperacute T waves and inferior ST depression (phase: phase1)
+  [n20] clinical_feature: Recurrent short episodes (~5 min) with complete ECG normalization between (phase: phase1)
+  [n21] semantic_qualifier: coronary causes (phase: phase1)
+  [n22] clinical_feature: Postpartum state (phase: phase1)
+  [n23] clinical_feature: Young woman, minimal traditional CAD risk factors (phase: phase1)
+  [n24] clinical_feature: LAD-territory ischemia (phase: phase1)
+  [n25] clinical_feature: Dynamic ischemia (phase: phase1)
+  [n26] discriminating_feature: Very brief, fully reversible episodes (phase: phase1)
+  [n27] clinical_feature: postpartum status (phase: phase1)
+  [n28] clinical_feature: initial ECG changes were large and strongly territorial (phase: phase1)
+  [n29] clinical_feature: Transient ST-segment elevation with complete resolution between episodes (phase: phase1)
+  [n30] clinical_feature: Symptom relief after nitroglycerin (phase: phase1)
+  [n31] clinical_feature: marked, extensive anterior ST elevation with reciprocal changes (phase: phase1)
+  [n32] clinical_feature: Postpartum is hypercoagulable (phase: phase1)
+  [n33] clinical_feature: Placental findings (small placenta, increased perivillous fibrin) plus prior hypertensive pregnancy (phase: phase1)
+  [n34] diagnosis: antiphospholipid syndrome (20%) (phase: phase1)
+  [n35] discriminating_feature: repeated brief episodes with full normalization (phase: phase1)
+  [n36] clinical_feature: elevated D-dimer (phase: phase1)
+  [n37] clinical_feature: shortness of breath and mild oxygen desaturation (95% on room air) (phase: phase1)
+  [n38] clinical_feature: territorial anterior STEMI pattern with reciprocal changes (phase: phase1)
+  [n39] clinical_feature: No pleuritic pain, no leg symptoms, normal CXR, and pain radiating to jaw (phase: phase1)
+  [n40] clinical_feature: women under acute stress (phase: phase1)
+  [n41] clinical_feature: chest pain and ST elevation (phase: phase1)
+  [n42] clinical_feature: rapid on/off ST-elevation episodes tightly coupled to brief pain spells (phase: phase1)
+  [n43] clinical_feature: sustained syndrome and echo findings (apical ballooning) rather than transient ischemic ECG normalization (phase: phase1)
+
+EDGES:
+  [e1] supports (phase1): young postpartum woman without tradition -> Spontaneous coronary artery dissection (
+         verbatim: "This presentation is most consistent with acute coronary syndrome in a young postpartum woman withou"
+  [e2] supports (phase1): dynamic anterior ST-segment elevation -> Spontaneous coronary artery dissection (
+         verbatim: "with dynamic anterior ST-segment elevation"
+  [e3] supports (phase1): substernal pain radiating to the jaw -> Spontaneous coronary artery dissection (
+         verbatim: "and classic ischemic symptoms (substernal pain radiating to the jaw)"
+  [e4] supports (phase1): SCAD is a leading cause of MI in pregnan -> Spontaneous coronary artery dissection (
+         verbatim: "SCAD is a leading cause of MI in pregnancy and the early postpartum period"
+  [e5] supports (phase1): LAD -> Spontaneous coronary artery dissection (
+         verbatim: "often involving the LAD"
+  [e6] supports (phase1): anterolateral ST elevation -> Spontaneous coronary artery dissection (
+         verbatim: "producing anterolateral ST elevation"
+  [e7] supports (phase1): waxing/waning ischemia -> Spontaneous coronary artery dissection (
+         verbatim: "and sometimes waxing/waning ischemia"
+  [e8] supports (phase1): 3 weeks postpartum, age 32, no smoking/d -> Spontaneous coronary artery dissection (
+         verbatim: "Timing and demographic: 3 weeks postpartum, age 32, no smoking/drugs, no known dyslipidemia/diabetes"
+  [e9] argues_against (phase1): 3 weeks postpartum, age 32, no smoking/d -> Acute coronary syndrome from thrombosis/
+         verbatim: "Young woman, minimal traditional CAD risk factors → makes plaque rupture less likely."
+  [e10] supports (phase1): Marked transient ST elevation V1–V6 with -> Spontaneous coronary artery dissection (
+         verbatim: "Marked transient ST elevation V1–V6 with reciprocal inferior depression → strongly suggests acute LA"
+  [e11] supports (phase1): Episodic pain with transient ST changes -> Spontaneous coronary artery dissection (
+         verbatim: "Episodic pain with transient ST changes: While vasospasm is a strong alternative, SCAD can also pres"
+  [e12] argues_against (phase1): Troponin initially negative -> Spontaneous coronary artery dissection (
+         verbatim: "No biomarker elevation yet (but early)."
+  [e13] supports (phase1): presented early -> Spontaneous coronary artery dissection (
+         verbatim: "Troponin initially negative does not exclude MI/SCAD: She presented early; biomarkers can lag and ma"
+  [e14] supports (phase1): sudden substernal pain radiating to the  -> coronary causes
+         verbatim: "Symptoms: sudden substernal pain radiating to the jaw, associated shortness of breath → very typical"
+  [e15] supports (phase1): up to 4 mm ST elevation in V3–V6, later  -> coronary causes
+         verbatim: "ECG evolution: prehospital ECG with up to 4 mm ST elevation in V3–V6, later V1–V6 with hyperacute T "
+  [e16] supports (phase1): Recurrent short episodes (~5 min) with c -> coronary causes
+         verbatim: "Recurrent short episodes (~5 min) with complete ECG normalization between → dynamic coronary obstruc"
+  [e17] supports (phase1): coronary causes -> Spontaneous coronary artery dissection (
+         verbatim: "This anchors the differential primarily in coronary causes (SCAD, spasm, thrombosis/embolus)"
+  [e18] supports (phase1): coronary causes -> Coronary vasospasm (Prinzmetal / variant
+         verbatim: "This anchors the differential primarily in coronary causes (SCAD, spasm, thrombosis/embolus)"
+  [e19] supports (phase1): coronary causes -> Acute coronary syndrome from thrombosis/
+         verbatim: "This anchors the differential primarily in coronary causes (SCAD, spasm, thrombosis/embolus)"
+  [e20] supports (phase1): Postpartum state -> Spontaneous coronary artery dissection (
+         verbatim: "Postpartum state is a major SCAD risk window"
+  [e21] supports (phase1): Young woman, minimal traditional CAD ris -> Spontaneous coronary artery dissection (
+         verbatim: "Young woman, minimal traditional CAD risk factors"
+  [e22] supports (phase1): LAD-territory ischemia -> Spontaneous coronary artery dissection (
+         verbatim: "LAD-territory ischemia is common in SCAD."
+  [e23] supports (phase1): Dynamic ischemia -> Spontaneous coronary artery dissection (
+         verbatim: "Dynamic ischemia can occur in SCAD"
+  [e24] argues_against (phase1): Very brief, fully reversible episodes -> Spontaneous coronary artery dissection (
+         verbatim: "Very brief, fully reversible episodes can be more typical of pure vasospasm."
+  [e25] supports (phase1): Very brief, fully reversible episodes -> Coronary vasospasm (Prinzmetal / variant
+         verbatim: "Very brief, fully reversible episodes can be more typical of pure vasospasm."
+  [e26] discriminates_between (phase1): Very brief, fully reversible episodes -> Spontaneous coronary artery dissection (
+         verbatim: "Very brief, fully reversible episodes can be more typical of pure vasospasm."
+  [e27] supports (phase1): postpartum status -> Spontaneous coronary artery dissection (
+         verbatim: "postpartum status strongly shifts pre-test probability toward SCAD among life-threatening coronary d"
+  [e28] argues_against (phase1): postpartum status -> Coronary vasospasm (Prinzmetal / variant
+         verbatim: "The postpartum period is more specifically linked to SCAD than to new-onset pure Prinzmetal."
+  [e29] supports (phase1): initial ECG changes were large and stron -> Spontaneous coronary artery dissection (
+         verbatim: "the initial ECG changes were large and strongly territorial (suggesting a substantial jeopardized my"
+  [e30] supports (phase1): Transient ST-segment elevation with comp -> Coronary vasospasm (Prinzmetal / variant
+         verbatim: "Transient ST-segment elevation with complete resolution between episodes is classic for vasospastic "
+  [e31] supports (phase1): Symptom relief after nitroglycerin -> Coronary vasospasm (Prinzmetal / variant
+         verbatim: "Symptom relief after nitroglycerin is compatible (though not specific)."
+  [e32] argues_against (phase1): postpartum status -> Coronary vasospasm (Prinzmetal / variant
+         verbatim: "The postpartum period is more specifically linked to SCAD than to new-onset pure Prinzmetal."
+  [e33] argues_against (phase1): marked, extensive anterior ST elevation  -> Coronary vasospasm (Prinzmetal / variant
+         verbatim: "The initial episode featured marked, extensive anterior ST elevation with reciprocal changes, which "
+  [e34] supports (phase1): Postpartum is hypercoagulable -> Acute coronary syndrome from thrombosis/
+         verbatim: "Postpartum is hypercoagulable, and acute coronary thrombosis (or coronary embolus) can occur."
+  [e35] supports (phase1): Placental findings (small placenta, incr -> Acute coronary syndrome from thrombosis/
+         verbatim: "Placental findings (small placenta, increased perivillous fibrin) plus prior hypertensive pregnancy "
+  [e36] supports (phase1): Placental findings (small placenta, incr -> antiphospholipid syndrome
+         verbatim: "Placental findings (small placenta, increased perivillous fibrin) plus prior hypertensive pregnancy "
+  [e37] supports (phase1): antiphospholipid syndrome -> Acute coronary syndrome from thrombosis/
+         verbatim: "antiphospholipid syndrome, which could predispose to arterial thrombosis."
+  [e38] argues_against (phase1): repeated brief episodes with full normal -> Acute coronary syndrome from thrombosis/
+         verbatim: "A thrombotic LAD occlusion usually causes persistent ischemia/ECG changes and escalating troponin ra"
+  [e39] supports (phase1): elevated D-dimer -> Pulmonary embolism
+         verbatim: "Postpartum risk + elevated D-dimer."
+  [e40] supports (phase1): shortness of breath and mild oxygen desa -> Pulmonary embolism
+         verbatim: "Some shortness of breath and mild oxygen desaturation (95% on room air)."
+  [e41] argues_against (phase1): territorial anterior STEMI pattern with  -> Pulmonary embolism
+         verbatim: "The ECG is not PE-typical; instead it shows a territorial anterior STEMI pattern with reciprocal cha"
+  [e42] argues_against (phase1): No pleuritic pain, no leg symptoms, norm -> Pulmonary embolism
+         verbatim: "No pleuritic pain, no leg symptoms, normal CXR, and pain radiating to jaw is far more coronary than "
+  [e43] supports (phase1): women under acute stress -> Stress-induced (Takotsubo) cardiomyopath
+         verbatim: "Occurs in women under acute stress"
+  [e44] supports (phase1): chest pain and ST elevation -> Stress-induced (Takotsubo) cardiomyopath
+         verbatim: "can present with chest pain and ST elevation."
+  [e45] argues_against (phase1): rapid on/off ST-elevation episodes tight -> Stress-induced (Takotsubo) cardiomyopath
+         verbatim: "Typically does not produce rapid on/off ST-elevation episodes tightly coupled to brief pain spells."
+  [e46] argues_against (phase1): sustained syndrome and echo findings (ap -> Stress-induced (Takotsubo) cardiomyopath
+         verbatim: "More often associated with a sustained syndrome and echo findings (apical ballooning) rather than tr"
+  [e47] discriminates_between (phase1): repeated brief episodes with full normal -> Acute coronary syndrome from thrombosis/
+         verbatim: "A thrombotic LAD occlusion usually causes persistent ischemia/ECG changes and escalating troponin ra"

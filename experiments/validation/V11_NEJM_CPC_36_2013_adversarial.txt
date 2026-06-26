@@ -1,0 +1,258 @@
+TRACE ID: V11
+Case: NEJM_CPC_36_2013 | Model: openai/gpt-5.2 | Condition: adversarial
+Ground truth: Autoimmune hemolytic anemia and thrombocytopenia (Evans syndrome) due to systemic lupus erythematosus
+Final diagnosis: Evans syndrome (autoimmune hemolytic anemia with immune thrombocytopenia), likely secondary to systemic autoimmunity (SLE/Sjögren-spectrum) (55%)
+================================================================================
+
+ORIGINAL TRACE:
+----------------------------------------
+## Phase 1 — Initial Assessment
+
+### Top 5 differential diagnosis (ranked)
+1. **Evans syndrome (autoimmune hemolytic anemia + immune thrombocytopenia), likely secondary to systemic autoimmunity (SLE/Sjögren-spectrum)**
+2. **Mixed-type autoimmune hemolytic anemia (warm + cold autoantibodies)** with associated secondary thrombocytopenia (overlaps clinically with Evans)
+3. **Systemic lupus erythematosus (SLE) presenting with autoimmune cytopenias** (Evans phenotype) ± antiphospholipid antibodies
+4. **Thrombotic microangiopathy (TTP/aHUS)** (a “can’t miss” alternative given headache/visual symptoms and anemia + thrombocytopenia)
+5. **Infection-triggered immune hemolysis** (e.g., EBV-associated AIHA, less likely malaria/babesiosis given travel/dark urine but smear and DAT pattern argue against as primary)
+
+### Leading diagnosis (with probability)
+**Leading diagnosis: Evans syndrome (DAT-positive autoimmune hemolytic anemia with immune thrombocytopenia), most likely autoimmune-disease–associated (SLE/Sjögren spectrum).**  
+**Estimated probability: 60%**
+
+### Reasoning
+- Clear evidence of **immune hemolysis**:
+  - **Positive direct antiglobulin test** (and indirect test), reported **warm- and cold-reacting autoantibodies**
+  - Smear with **microspherocytes** and **polychromasia**, elevated reticulocytes (~10%), **very low haptoglobin**, indirect hyperbilirubinemia, elevated LDH, urobilinogen 3+
+  - No schistocytes → argues against microangiopathic hemolysis as the primary mechanism.
+- **Thrombocytopenia** present (53k → 87k → 122k, later 67k), with otherwise normal coagulation tests → fits **immune thrombocytopenia** accompanying AIHA.
+- **Autoimmune diathesis suggested** by evolving serologies:
+  - ANA became positive (homogeneous), SSA/SSB rose substantially later; anticardiolipin IgM elevated; very high ESR.
+- **Transfusion difficulty and reaction-like symptoms** are very consistent with **panagglutinating autoantibodies** complicating crossmatch and causing “least incompatible” transfusion issues in AIHA (not necessarily true ABO hemolytic mismatch).
+
+---
+
+## Phase 2 — Adversarial Self-Critique (skeptical second opinion)
+
+### Strongest argument *against* Evans syndrome as the unifying diagnosis
+The case includes features that could indicate a **thrombotic microangiopathy (TTP)** rather than immune cytopenias: **headache and intermittent blurred/double vision**, anemia + thrombocytopenia, and an episode of **hypotension**. TTP can have minimal early schistocytosis and can be missed if one anchors on a positive DAT.
+
+### Findings not fully explained by the leading diagnosis
+- **Neurologic/visual symptoms**: Evans/AIHA can cause nonspecific symptoms from anemia, but true focal/episodic diplopia raises concern for TTP or other CNS process.
+- **Marked leukocytosis** (WBC 27k with left shift) and **very high ESR**: could be steroid effect/stress/inflammation, but it is not classic for isolated Evans.
+- **Rising transaminases** later (ALT 349, AST 138) with **anti–smooth muscle antibody positivity**: suggests an autoimmune hepatitis process or viral hepatitis reactivation/flare, which is related but not “explained” by Evans alone.
+- **Vesicular lesions (HSV-2)**: may be incidental or a trigger, but not intrinsic to Evans.
+
+### Alternative diagnosis that could explain the constellation better
+- **TTP (acquired ADAMTS13 deficiency)** could explain anemia + thrombocytopenia + neurologic symptoms and could be rapidly fatal if untreated. However, the **lack of schistocytes** and the strong immune-hemolysis signature (spherocytes, strong DAT positivity, low haptoglobin with reticulocytosis, indirect hyperbilirubinemia) weigh against TTP as primary.
+- Another coherent alternative within immune hemolysis is **paroxysmal cold hemoglobinuria (Donath–Landsteiner hemolysis)** after a viral syndrome (hemoglobinuria/dark urine, complement-mediated DAT). But it is uncommon in adults and does not naturally explain the immune thrombocytopenia pattern.
+
+### “Can’t miss” diagnosis I may be anchoring away from
+**TTP** is the key “can’t miss.” If suspected clinically, it warrants **urgent ADAMTS13 testing and empiric plasma exchange** even before confirmation, because waiting can be catastrophic.
+
+---
+
+## Phase 3 — Revised Assessment
+
+### Did the self-critique change my assessment?
+**No major change in the leading diagnosis**, but it **lowers my confidence slightly** and elevates **TTP** as a critical competing diagnosis that must be actively excluded (or treated empirically if suspicion remains), despite the DAT positivity.
+
+### Final differential diagnosis (ranked)
+1. **Evans syndrome (warm AIHA ± mixed warm/cold features + immune thrombocytopenia), likely secondary to systemic autoimmunity (SLE/Sjögren-spectrum)**
+2. **Mixed autoimmune hemolytic anemia (warm + cold autoantibodies)** with secondary thrombocytopenia (overlapping entity)
+3. **Systemic lupus erythematosus / Sjögren-spectrum autoimmune disease presenting with autoimmune cytopenias** (Evans phenotype) ± antiphospholipid antibodies; consider overlap with **autoimmune hepatitis**
+4. **Thrombotic thrombocytopenic purpura (TTP)** (can’t miss; needs ADAMTS13 evaluation and low threshold for plasma exchange if clinical concern)
+5. **Infection-triggered immune cytopenias/hemolysis** (EBV-associated AIHA; less likely malaria/babesiosis given smear description and strong DAT-driven immune hemolysis)
+
+**Final Leading Diagnosis:** Evans syndrome (autoimmune hemolytic anemia with immune thrombocytopenia), likely secondary to systemic autoimmunity (SLE/Sjögren-spectrum)  
+**Final Probability:** 55%
+
+================================================================================
+EXTRACTED GRAPH: 48 nodes, 66 edges
+----------------------------------------
+
+NODES:
+  [n1] diagnosis: Evans syndrome (autoimmune hemolytic anemia + immune thrombocytopenia), likely secondary to systemic autoimmunity (SLE/Sjögren-spectrum) (60%) (phase: phase1)
+  [n2] diagnosis: Mixed-type autoimmune hemolytic anemia (warm + cold autoantibodies) with associated secondary thrombocytopenia (phase: phase1)
+  [n3] diagnosis: Systemic lupus erythematosus (SLE) presenting with autoimmune cytopenias (Evans phenotype) ± antiphospholipid antibodies (phase: phase1)
+  [n4] diagnosis: Thrombotic microangiopathy (TTP/aHUS) (phase: phase1)
+  [n5] diagnosis: Infection-triggered immune hemolysis (phase: phase1)
+  [n6] clinical_feature: Positive direct antiglobulin test (phase: phase1)
+  [n7] clinical_feature: indirect test (phase: phase1)
+  [n8] clinical_feature: warm- and cold-reacting autoantibodies (phase: phase1)
+  [n9] clinical_feature: microspherocytes (phase: phase1)
+  [n10] clinical_feature: polychromasia (phase: phase1)
+  [n11] clinical_feature: elevated reticulocytes (~10%) (phase: phase1)
+  [n12] clinical_feature: very low haptoglobin (phase: phase1)
+  [n13] clinical_feature: indirect hyperbilirubinemia (phase: phase1)
+  [n14] clinical_feature: elevated LDH (phase: phase1)
+  [n15] clinical_feature: urobilinogen 3+ (phase: phase1)
+  [n16] discriminating_feature: No schistocytes (phase: phase1)
+  [n17] clinical_feature: Thrombocytopenia present (53k → 87k → 122k, later 67k) (phase: phase1)
+  [n18] clinical_feature: otherwise normal coagulation tests (phase: phase1)
+  [n19] clinical_feature: ANA became positive (homogeneous) (phase: phase1)
+  [n20] clinical_feature: SSA/SSB rose substantially later (phase: phase1)
+  [n21] clinical_feature: anticardiolipin IgM elevated (phase: phase1)
+  [n22] clinical_feature: very high ESR (phase: phase1)
+  [n23] clinical_feature: Transfusion difficulty and reaction-like symptoms (phase: phase1)
+  [n24] clinical_feature: panagglutinating autoantibodies complicating crossmatch and causing “least incompatible” transfusion issues in AIHA (phase: phase1)
+  [n25] discriminating_feature: headache and intermittent blurred/double vision (phase: phase2)
+  [n26] clinical_feature: anemia + thrombocytopenia (phase: phase2)
+  [n27] clinical_feature: hypotension (phase: phase2)
+  [n28] clinical_feature: true focal/episodic diplopia (phase: phase2)
+  [n29] clinical_feature: Marked leukocytosis (WBC 27k with left shift) (phase: phase2)
+  [n30] clinical_feature: Rising transaminases later (ALT 349, AST 138) (phase: phase2)
+  [n31] clinical_feature: anti–smooth muscle antibody positivity (phase: phase2)
+  [n32] diagnosis: autoimmune hepatitis (phase: phase2)
+  [n33] diagnosis: viral hepatitis reactivation/flare (phase: phase2)
+  [n34] clinical_feature: Vesicular lesions (HSV-2) (phase: phase2)
+  [n35] diagnosis: TTP (acquired ADAMTS13 deficiency) (phase: phase2)
+  [n36] clinical_feature: strong immune-hemolysis signature (spherocytes, strong DAT positivity, low haptoglobin with reticulocytosis, indirect hyperbilirubinemia) (phase: phase2)
+  [n37] diagnosis: paroxysmal cold hemoglobinuria (Donath–Landsteiner hemolysis) (phase: phase2)
+  [n38] clinical_feature: after a viral syndrome (phase: phase2)
+  [n39] clinical_feature: hemoglobinuria/dark urine (phase: phase2)
+  [n40] clinical_feature: complement-mediated DAT (phase: phase2)
+  [n41] clinical_feature: uncommon in adults (phase: phase2)
+  [n42] clinical_feature: does not naturally explain the immune thrombocytopenia pattern (phase: phase2)
+  [n43] evidence_reference: urgent ADAMTS13 testing and empiric plasma exchange even before confirmation, because waiting can be catastrophic (phase: phase2)
+  [n44] diagnosis: Thrombotic thrombocytopenic purpura (TTP) (phase: phase3)
+  [n45] diagnosis: Evans syndrome (warm AIHA ± mixed warm/cold features + immune thrombocytopenia), likely secondary to systemic autoimmunity (SLE/Sjögren-spectrum) (55%) (phase: phase3)
+  [n46] diagnosis: Mixed autoimmune hemolytic anemia (warm + cold autoantibodies) with secondary thrombocytopenia (phase: phase3)
+  [n47] diagnosis: Systemic lupus erythematosus / Sjögren-spectrum autoimmune disease presenting with autoimmune cytopenias (Evans phenotype) ± antiphospholipid antibodies; consider overlap with autoimmune hepatitis (phase: phase3)
+  [n48] diagnosis: Infection-triggered immune cytopenias/hemolysis (phase: phase3)
+
+EDGES:
+  [e1] supports (phase1): Positive direct antiglobulin test -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Positive direct antiglobulin test"
+  [e2] supports (phase1): indirect test -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "(and indirect test)"
+  [e3] supports (phase1): warm- and cold-reacting autoantibodies -> Mixed-type autoimmune hemolytic anemia (
+         verbatim: "reported warm- and cold-reacting autoantibodies"
+  [e4] supports (phase1): warm- and cold-reacting autoantibodies -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "reported warm- and cold-reacting autoantibodies"
+  [e5] supports (phase1): microspherocytes -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Smear with microspherocytes"
+  [e6] supports (phase1): polychromasia -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Smear with polychromasia"
+  [e7] supports (phase1): elevated reticulocytes (~10%) -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "elevated reticulocytes (~10%)"
+  [e8] supports (phase1): very low haptoglobin -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "very low haptoglobin"
+  [e9] supports (phase1): indirect hyperbilirubinemia -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "indirect hyperbilirubinemia"
+  [e10] supports (phase1): elevated LDH -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "elevated LDH"
+  [e11] supports (phase1): urobilinogen 3+ -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "urobilinogen 3+"
+  [e12] argues_against (phase1): No schistocytes -> Thrombotic microangiopathy (TTP/aHUS)
+         verbatim: "No schistocytes → argues against microangiopathic hemolysis as the primary mechanism."
+  [e13] supports (phase1): Thrombocytopenia present (53k → 87k → 12 -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Thrombocytopenia present (53k → 87k → 122k, later 67k) → fits immune thrombocytopenia accompanying A"
+  [e14] supports (phase1): otherwise normal coagulation tests -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "with otherwise normal coagulation tests → fits immune thrombocytopenia accompanying AIHA."
+  [e15] supports (phase1): ANA became positive (homogeneous) -> Systemic lupus erythematosus (SLE) prese
+         verbatim: "ANA became positive (homogeneous)"
+  [e16] supports (phase1): SSA/SSB rose substantially later -> Systemic lupus erythematosus (SLE) prese
+         verbatim: "SSA/SSB rose substantially later"
+  [e17] supports (phase1): anticardiolipin IgM elevated -> Systemic lupus erythematosus (SLE) prese
+         verbatim: "anticardiolipin IgM elevated"
+  [e18] supports (phase1): very high ESR -> Systemic lupus erythematosus (SLE) prese
+         verbatim: "very high ESR"
+  [e19] supports (phase1): Transfusion difficulty and reaction-like -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Transfusion difficulty and reaction-like symptoms are very consistent with panagglutinating autoanti"
+  [e20] supports (phase1): panagglutinating autoantibodies complica -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "panagglutinating autoantibodies complicating crossmatch and causing “least incompatible” transfusion"
+  [e21] supports (phase2): headache and intermittent blurred/double -> Thrombotic microangiopathy (TTP/aHUS)
+         verbatim: "headache and intermittent blurred/double vision"
+  [e22] supports (phase2): anemia + thrombocytopenia -> Thrombotic microangiopathy (TTP/aHUS)
+         verbatim: "anemia + thrombocytopenia"
+  [e23] supports (phase2): hypotension -> Thrombotic microangiopathy (TTP/aHUS)
+         verbatim: "an episode of hypotension"
+  [e24] argues_against (phase2): headache and intermittent blurred/double -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "The case includes features that could indicate a thrombotic microangiopathy (TTP) rather than immune"
+  [e25] argues_against (phase2): anemia + thrombocytopenia -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "The case includes features that could indicate a thrombotic microangiopathy (TTP) rather than immune"
+  [e26] argues_against (phase2): hypotension -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "The case includes features that could indicate a thrombotic microangiopathy (TTP) rather than immune"
+  [e27] supports (phase2): true focal/episodic diplopia -> Thrombotic microangiopathy (TTP/aHUS)
+         verbatim: "true focal/episodic diplopia raises concern for TTP or other CNS process."
+  [e28] argues_against (phase2): true focal/episodic diplopia -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Evans/AIHA can cause nonspecific symptoms from anemia, but true focal/episodic diplopia raises conce"
+  [e29] argues_against (phase2): Marked leukocytosis (WBC 27k with left s -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Marked leukocytosis (WBC 27k with left shift) and very high ESR: could be steroid effect/stress/infl"
+  [e30] argues_against (phase2): very high ESR -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Marked leukocytosis (WBC 27k with left shift) and very high ESR: could be steroid effect/stress/infl"
+  [e31] supports (phase2): Rising transaminases later (ALT 349, AST -> autoimmune hepatitis
+         verbatim: "Rising transaminases later (ALT 349, AST 138) with anti–smooth muscle antibody positivity: suggests "
+  [e32] supports (phase2): anti–smooth muscle antibody positivity -> autoimmune hepatitis
+         verbatim: "anti–smooth muscle antibody positivity: suggests an autoimmune hepatitis process"
+  [e33] supports (phase2): Rising transaminases later (ALT 349, AST -> viral hepatitis reactivation/flare
+         verbatim: "Rising transaminases later (ALT 349, AST 138) with anti–smooth muscle antibody positivity: suggests."
+  [e34] supports (phase2): anti–smooth muscle antibody positivity -> viral hepatitis reactivation/flare
+         verbatim: "anti–smooth muscle antibody positivity: suggests... viral hepatitis reactivation/flare"
+  [e35] argues_against (phase2): Rising transaminases later (ALT 349, AST -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Rising transaminases later (ALT 349, AST 138) with anti–smooth muscle antibody positivity... is rela"
+  [e36] argues_against (phase2): anti–smooth muscle antibody positivity -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "anti–smooth muscle antibody positivity... is related but not “explained” by Evans alone."
+  [e37] argues_against (phase2): Vesicular lesions (HSV-2) -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "Vesicular lesions (HSV-2): may be incidental or a trigger, but not intrinsic to Evans."
+  [e38] supports (phase2): anemia + thrombocytopenia -> TTP (acquired ADAMTS13 deficiency)
+         verbatim: "TTP (acquired ADAMTS13 deficiency) could explain anemia + thrombocytopenia + neurologic symptoms"
+  [e39] supports (phase2): headache and intermittent blurred/double -> TTP (acquired ADAMTS13 deficiency)
+         verbatim: "TTP (acquired ADAMTS13 deficiency) could explain anemia + thrombocytopenia + neurologic symptoms"
+  [e40] argues_against (phase2): No schistocytes -> TTP (acquired ADAMTS13 deficiency)
+         verbatim: "the lack of schistocytes... weigh against TTP as primary."
+  [e41] argues_against (phase2): strong immune-hemolysis signature (spher -> TTP (acquired ADAMTS13 deficiency)
+         verbatim: "the strong immune-hemolysis signature (spherocytes, strong DAT positivity, low haptoglobin with reti"
+  [e42] supports (phase2): after a viral syndrome -> paroxysmal cold hemoglobinuria (Donath–L
+         verbatim: "paroxysmal cold hemoglobinuria (Donath–Landsteiner hemolysis) after a viral syndrome"
+  [e43] supports (phase2): hemoglobinuria/dark urine -> paroxysmal cold hemoglobinuria (Donath–L
+         verbatim: "(hemoglobinuria/dark urine, complement-mediated DAT)"
+  [e44] supports (phase2): complement-mediated DAT -> paroxysmal cold hemoglobinuria (Donath–L
+         verbatim: "(hemoglobinuria/dark urine, complement-mediated DAT)"
+  [e45] argues_against (phase2): uncommon in adults -> paroxysmal cold hemoglobinuria (Donath–L
+         verbatim: "But it is uncommon in adults"
+  [e46] argues_against (phase2): does not naturally explain the immune th -> paroxysmal cold hemoglobinuria (Donath–L
+         verbatim: "does not naturally explain the immune thrombocytopenia pattern."
+  [e47] supports (phase2): urgent ADAMTS13 testing and empiric plas -> TTP (acquired ADAMTS13 deficiency)
+         verbatim: "If suspected clinically, it warrants urgent ADAMTS13 testing and empiric plasma exchange even before"
+  [e48] discriminates_between (phase2): No schistocytes -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "the lack of schistocytes and the strong immune-hemolysis signature... weigh against TTP as primary."
+  [e49] discriminates_between (phase2): headache and intermittent blurred/double -> Evans syndrome (autoimmune hemolytic ane
+         verbatim: "headache and intermittent blurred/double vision... could indicate a thrombotic microangiopathy (TTP)"
+  [e50] triggered_reflection (phase2): headache and intermittent blurred/double -> r1
+         verbatim: "The case includes features that could indicate a thrombotic microangiopathy (TTP) rather than immune"
+  [e51] triggered_reflection (phase2): Rising transaminases later (ALT 349, AST -> r1
+         verbatim: "Rising transaminases later (ALT 349, AST 138) with anti–smooth muscle antibody positivity... not “ex"
+  [e52] triggered_reflection (phase2): Marked leukocytosis (WBC 27k with left s -> r1
+         verbatim: "Marked leukocytosis (WBC 27k with left shift) and very high ESR... it is not classic for isolated Ev"
+  [e53] demoted (phase3): r1 -> Evans syndrome (warm AIHA ± mixed warm/c
+         verbatim: "No major change in the leading diagnosis, but it lowers my confidence slightly"
+  [e54] promoted (phase3): r1 -> Thrombotic thrombocytopenic purpura (TTP
+         verbatim: "elevates TTP as a critical competing diagnosis that must be actively excluded"
+  [e55] unchanged (phase3): r1 -> Mixed autoimmune hemolytic anemia (warm 
+         verbatim: "No major change in the leading diagnosis"
+  [e56] unchanged (phase3): r1 -> Systemic lupus erythematosus / Sjögren-s
+         verbatim: "No major change in the leading diagnosis"
+  [e57] unchanged (phase3): r1 -> Infection-triggered immune cytopenias/he
+         verbatim: "No major change in the leading diagnosis"
+  [e58] supports (phase3): warm- and cold-reacting autoantibodies -> Mixed autoimmune hemolytic anemia (warm 
+         verbatim: "Mixed autoimmune hemolytic anemia (warm + cold autoantibodies)"
+  [e59] supports (phase3): Thrombocytopenia present (53k → 87k → 12 -> Mixed autoimmune hemolytic anemia (warm 
+         verbatim: "with secondary thrombocytopenia"
+  [e60] supports (phase3): ANA became positive (homogeneous) -> Systemic lupus erythematosus / Sjögren-s
+         verbatim: "Systemic lupus erythematosus / Sjögren-spectrum autoimmune disease"
+  [e61] supports (phase3): SSA/SSB rose substantially later -> Systemic lupus erythematosus / Sjögren-s
+         verbatim: "Sjögren-spectrum autoimmune disease"
+  [e62] supports (phase3): anticardiolipin IgM elevated -> Systemic lupus erythematosus / Sjögren-s
+         verbatim: "± antiphospholipid antibodies"
+  [e63] supports (phase3): anti–smooth muscle antibody positivity -> Systemic lupus erythematosus / Sjögren-s
+         verbatim: "consider overlap with autoimmune hepatitis"
+  [e64] supports (phase3): headache and intermittent blurred/double -> Thrombotic thrombocytopenic purpura (TTP
+         verbatim: "Thrombotic thrombocytopenic purpura (TTP) (can’t miss; needs ADAMTS13 evaluation and low threshold f"
+  [e65] supports (phase3): urgent ADAMTS13 testing and empiric plas -> Thrombotic thrombocytopenic purpura (TTP
+         verbatim: "needs ADAMTS13 evaluation and low threshold for plasma exchange if clinical concern"
+  [e66] supports (phase3): after a viral syndrome -> Infection-triggered immune cytopenias/he
+         verbatim: "EBV-associated AIHA"
+
+REFLECTION EVENTS:
+  [r1] neurologic/visual symptoms and other findings not fully explained by Evans syndr (phase: phase2)

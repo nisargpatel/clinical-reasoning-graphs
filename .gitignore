@@ -1,0 +1,53 @@
+# Data (raw traces contain model outputs — don't commit)
+data/raw/
+data/extracted/
+!data/clusters/
+
+# Experiment raw model traces & extraction streams (embed NEJM case text / redundant with the
+# kept all_graphs.json — not redistributed; reliability numbers reproducible by re-running scripts)
+experiments/extractor_comparison/traces_20.jsonl
+experiments/gold_ablation/traces_no_gold.jsonl
+experiments/gold_ablation/extracted_no_gold.jsonl
+experiments/retest/retest_traces.jsonl
+experiments/extractor_comparison/opus_extracted/graphs_incremental.jsonl
+experiments/retest/retest_extracted/graphs_incremental.jsonl
+
+# Environment
+.env
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs (regenerable)
+figures/*.png
+figures/*.pdf
+figures/*.html
+
+# Reproduction-run outputs (regenerable, e.g. results/extended/). Keep the shipped
+# summary artifacts at results/ root so a clone has them.
+results/*
+!results/diagnostic_schema_consistency.json
+!results/discriminating_ratios.csv
+!results/motif_distributions.json
+!results/reasoning_depth.json
+!results/reflection_consistency_effect.json
+
+# Working / process notes — kept locally, excluded from release
+analysis/camera_ready_changes.md
+analysis/camera_ready_state.md
+analysis/staged_bimodality_relocation.md
+analysis/archival_revisions.md
+
+# Local clutter
+.claude/
+Think Twice.pdf
+original_submission.zip
+sd4h_icml2026.zip
+Clinical Reasoning Graphs (ICML SD4H).pdf
+Clinical Reasoning Graphs ICML SD4H Camera Ready.pdf

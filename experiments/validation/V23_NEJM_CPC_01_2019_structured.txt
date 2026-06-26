@@ -1,0 +1,254 @@
+TRACE ID: V23
+Case: NEJM_CPC_01_2019 | Model: openai/gpt-5.2 | Condition: structured
+Ground truth: Post-traumatic stress disorder
+Final diagnosis: Post-traumatic stress disorder (PTSD) with panic attacks (with comorbid postconcussive/TBI sequelae and substance-related contributions) (65%)
+================================================================================
+
+ORIGINAL TRACE:
+----------------------------------------
+## Phase 1 — Initial Assessment
+
+### A. Problem Representation (1 sentence)
+A 34-year-old former special-operations combat medic with multiple prior blast/impact exposures and a prolonged loss-of-consciousness concussion presents with **chronic post-traumatic headaches** plus **progressive cognitive/mood/behavioral changes and trauma-related intrusive symptoms (flashbacks, hypervigilance, panic)** and more recent **prominent nausea/vomiting with weight loss**, in the setting of **heavy alcohol use and daily cannabis use**, with a normal general/neurologic exam and largely unremarkable basic labs.
+
+### B. Initial Differential Diagnosis (Top 5, ranked)
+1. **Post-traumatic stress disorder (PTSD) with panic attacks and depressive symptoms**, with prominent somatic/autonomic symptoms (vomiting, chest/arm paresthesias)  
+2. **Persistent postconcussive symptoms / mild neurocognitive disorder due to traumatic brain injury (TBI)** (headaches, irritability, sleep disturbance, cognitive complaints)  
+3. **Cannabinoid hyperemesis syndrome (CHS)** (daily cannabis + morning emesis, chronic nausea, weight loss)  
+4. **Alcohol use disorder with alcohol-related gastritis/dyspepsia and anxiety amplification** (daily large whiskey intake; GI symptoms and mood lability)  
+5. **Primary neurologic/structural disorder mimicking psychiatric illness** (e.g., intracranial mass/raised ICP, seizures, inflammatory CNS disease) — lower probability but important to exclude given vomiting + cognitive change
+
+**Leading diagnosis:** **PTSD with panic attacks (with comorbid TBI-related postconcussive symptoms and substance use contributing)**  
+**Estimated probability:** **60%**
+
+**Reasoning (why this is most likely):**
+- The symptom cluster strongly matches PTSD: **intrusive recollections/flashbacks**, **hypervigilance/easy startle**, **avoidance** (won’t go to malls; avoids driving), **negative mood/cognition** (anhedonia, detachment, guilt/burden), **irritability**, and **sleep disturbance**.
+- Episodes of **chest pain and left arm tingling** temporally linked to traumatic memories are classic for **panic/autonomic surges** rather than focal neurologic disease.
+- His cognitive/behavioral changes are plausibly multifactorial (PTSD/depression + sleep disruption + alcohol/cannabis + prior TBI), and his headaches fit common post-TBI patterns (migraine phenotype plus cervicogenic/occipital neuralgia).
+- The **new GI syndrome** could be driven by anxiety/trauma triggers, but daily cannabis use makes CHS a strong comorbidity.
+
+---
+
+## Phase 2 — Structured Second Look
+
+### A. Problem Representation Check
+- Key discriminators I may have underweighted: **(1) daily morning vomiting with 9-kg weight loss**, **(2) the chronicity and severity of cognitive lapses** reported by his wife (misplacing objects, getting lost, amnestic gaps), and **(3) multiple head injuries including blast exposure and a 20-minute LOC**.
+- My leading diagnosis follows the abstraction: the case is dominated by a **trauma-related syndrome with panic physiology** plus **post-TBI headache/cognitive symptoms**, rather than a purely gastrointestinal or purely neurologic disease.
+
+### B. Stress Test of Leading Diagnosis (PTSD with panic attacks)
+**Strongest argument against PTSD as the primary/unifying diagnosis:**
+- **Persistent morning emesis and significant unintentional weight loss** can indicate **organic GI disease** or **intracranial pathology**, and PTSD alone should not be accepted as an explanation without excluding these.
+
+**Findings not fully explained by PTSD alone:**
+- Two distinct, persistent headache syndromes (one migraine-like, one occipital “electric” pain with neck movement) suggest **neuropathic/cervicogenic mechanisms**.
+- Cognitive changes (topographic disorientation, notable forgetfulness) could be **TBI-related neurocognitive disorder** beyond what PTSD/depression typically produces.
+- Chronic daily cannabis use raises CHS as a separate driver of vomiting.
+
+### C. Consider Alternatives
+**Single best alternative diagnosis:** **Cannabinoid hyperemesis syndrome**
+- Supports: **daily marijuana use**, **recurrent morning vomiting**, chronic nausea/abdominal pain, weight loss, extensive acid-suppression regimen with persistent symptoms.
+- Against: the case description does not mention hallmark behavior (compulsive hot showers/baths), and vomiting is sometimes described as occurring with flashbacks (suggesting a psychophysiologic trigger).
+
+**“Can’t miss” diagnosis to consider:**
+- **Intracranial mass/raised intracranial pressure** (morning vomiting + headaches + cognitive change). Even with a normal exam, this warrants exclusion with neuroimaging if not already done.
+- Also, given weight loss and persistent upper abdominal pain: **peptic ulcer disease/complicated GERD, biliary disease, malignancy** (less likely at 34, but still requires appropriate evaluation).
+
+### D. Defend or Update
+**Findings that most strongly support PTSD/panic as primary:**
+- Clear trauma exposure (combat, suicide responses, severe accident).
+- Core PTSD features: **intrusions/flashbacks**, **avoidance**, **hyperarousal**, **negative mood/cognition**, functional impairment.
+- **Panic physiology** tightly linked to trauma recall (chest pain/arm tingling, palpitations, emesis).
+
+**PTSD vs CHS on overall fit:**
+- PTSD best explains the **global neuropsychiatric syndrome** (intrusions, hypervigilance, avoidance, mood/cognition).
+- CHS best explains the **GI syndrome**, but does not explain the trauma-linked panic/flashbacks and long-standing postdeployment functional decline.
+- Net: PTSD remains the leading *primary* diagnosis, with high likelihood of **comorbid CHS and TBI sequelae**.
+
+**Is unexplained evidence enough to change the ranking?**
+- No—because the most discriminating features (trauma-linked intrusions/hyperarousal/avoidance) strongly anchor PTSD; the GI symptoms likely represent a concurrent process (CHS and/or functional vomiting) rather than overturning the primary diagnosis.
+
+---
+
+## Phase 3 — Revised Assessment
+
+### Final Differential (ranked)
+1. **Post-traumatic stress disorder (PTSD) with panic attacks and depressive symptoms**, with prominent somatic/autonomic manifestations  
+2. **Persistent postconcussive symptoms / mild neurocognitive disorder due to TBI** (headache syndromes, irritability, cognitive complaints)  
+3. **Cannabinoid hyperemesis syndrome** contributing to chronic nausea/vomiting and weight loss  
+4. **Alcohol use disorder** with alcohol-related gastritis/dyspepsia and worsening anxiety/sleep/cognition  
+5. **Organic neurologic/structural disease** (e.g., intracranial lesion/raised ICP or seizure disorder) — low probability but should be ruled out because of morning vomiting + headaches + cognitive change
+
+**Did my reassessment change the leading diagnosis?**
+- **No.** The second look increases my confidence that **PTSD with panic** is the primary driver of the overall presentation, while strengthening the view that the **GI symptoms require parallel evaluation and are plausibly CHS** (plus other GI causes to exclude).
+
+**Final Leading Diagnosis:** Post-traumatic stress disorder (PTSD) with panic attacks (with comorbid postconcussive/TBI sequelae and substance-related contributions)
+**Final Probability:** 65%
+
+================================================================================
+EXTRACTED GRAPH: 45 nodes, 55 edges
+----------------------------------------
+
+NODES:
+  [n1] diagnosis: Post-traumatic stress disorder (PTSD) with panic attacks and depressive symptoms (65%) (phase: phase1)
+  [n2] diagnosis: Persistent postconcussive symptoms / mild neurocognitive disorder due to traumatic brain injury (TBI) (30%) (phase: phase1)
+  [n3] diagnosis: Cannabinoid hyperemesis syndrome (CHS) (25%) (phase: phase1)
+  [n4] diagnosis: Alcohol use disorder with alcohol-related gastritis/dyspepsia and anxiety amplification (20%) (phase: phase1)
+  [n5] diagnosis: Primary neurologic/structural disorder mimicking psychiatric illness (10%) (phase: phase1)
+  [n6] clinical_feature: intrusive recollections/flashbacks (phase: phase1)
+  [n7] clinical_feature: hypervigilance/easy startle (phase: phase1)
+  [n8] clinical_feature: avoidance (won’t go to malls; avoids driving) (phase: phase1)
+  [n9] clinical_feature: negative mood/cognition (anhedonia, detachment, guilt/burden) (phase: phase1)
+  [n10] clinical_feature: irritability (phase: phase1)
+  [n11] clinical_feature: sleep disturbance (phase: phase1)
+  [n12] clinical_feature: chest pain and left arm tingling temporally linked to traumatic memories (phase: phase1)
+  [n13] clinical_feature: cognitive/behavioral changes (phase: phase1)
+  [n14] clinical_feature: prior TBI (phase: phase1)
+  [n15] clinical_feature: headaches fit common post-TBI patterns (migraine phenotype plus cervicogenic/occipital neuralgia) (phase: phase1)
+  [n16] clinical_feature: new GI syndrome (phase: phase1)
+  [n17] clinical_feature: daily cannabis use (phase: phase1)
+  [n18] clinical_feature: daily morning vomiting with 9-kg weight loss (phase: phase2)
+  [n19] clinical_feature: the chronicity and severity of cognitive lapses reported by his wife (misplacing objects, getting lost, amnestic gaps) (phase: phase2)
+  [n20] clinical_feature: multiple head injuries including blast exposure and a 20-minute LOC (phase: phase2)
+  [n21] semantic_qualifier: trauma-related syndrome with panic physiology (phase: phase2)
+  [n22] semantic_qualifier: post-TBI headache/cognitive symptoms (phase: phase2)
+  [n23] clinical_feature: Persistent morning emesis and significant unintentional weight loss (phase: phase2)
+  [n24] diagnosis: organic GI disease (10%) (phase: phase2)
+  [n25] diagnosis: intracranial pathology (10%) (phase: phase2)
+  [n26] clinical_feature: Two distinct, persistent headache syndromes (one migraine-like, one occipital “electric” pain with neck movement) (phase: phase2)
+  [n27] clinical_feature: Cognitive changes (topographic disorientation, notable forgetfulness) (phase: phase2)
+  [n28] clinical_feature: recurrent morning vomiting (phase: phase2)
+  [n29] clinical_feature: chronic nausea/abdominal pain (phase: phase2)
+  [n30] clinical_feature: weight loss (phase: phase2)
+  [n31] clinical_feature: extensive acid-suppression regimen with persistent symptoms (phase: phase2)
+  [n32] clinical_feature: the case description does not mention hallmark behavior (compulsive hot showers/baths) (phase: phase2)
+  [n33] clinical_feature: vomiting is sometimes described as occurring with flashbacks (phase: phase2)
+  [n34] diagnosis: Intracranial mass/raised intracranial pressure (10%) (phase: phase2)
+  [n35] clinical_feature: morning vomiting + headaches + cognitive change (phase: phase2)
+  [n36] diagnosis: peptic ulcer disease/complicated GERD (10%) (phase: phase2)
+  [n37] diagnosis: biliary disease (10%) (phase: phase2)
+  [n38] diagnosis: malignancy (5%) (phase: phase2)
+  [n39] clinical_feature: persistent upper abdominal pain (phase: phase2)
+  [n40] clinical_feature: Clear trauma exposure (combat, suicide responses, severe accident) (phase: phase2)
+  [n41] clinical_feature: Core PTSD features: intrusions/flashbacks, avoidance, hyperarousal, negative mood/cognition, functional impairment (phase: phase2)
+  [n42] clinical_feature: Panic physiology tightly linked to trauma recall (chest pain/arm tingling, palpitations, emesis) (phase: phase2)
+  [n43] discriminating_feature: PTSD best explains the global neuropsychiatric syndrome (phase: phase2)
+  [n44] discriminating_feature: CHS best explains the GI syndrome (phase: phase2)
+  [n45] discriminating_feature: the most discriminating features (trauma-linked intrusions/hyperarousal/avoidance) (phase: phase2)
+
+EDGES:
+  [e1] supports (phase1): intrusive recollections/flashbacks -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "The symptom cluster strongly matches PTSD: intrusive recollections/flashbacks"
+  [e2] supports (phase1): hypervigilance/easy startle -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "The symptom cluster strongly matches PTSD: hypervigilance/easy startle"
+  [e3] supports (phase1): avoidance (won’t go to malls; avoids dri -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "The symptom cluster strongly matches PTSD: avoidance (won’t go to malls; avoids driving)"
+  [e4] supports (phase1): negative mood/cognition (anhedonia, deta -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "The symptom cluster strongly matches PTSD: negative mood/cognition (anhedonia, detachment, guilt/bur"
+  [e5] supports (phase1): irritability -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "The symptom cluster strongly matches PTSD: irritability"
+  [e6] supports (phase1): sleep disturbance -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "The symptom cluster strongly matches PTSD: sleep disturbance"
+  [e7] supports (phase1): chest pain and left arm tingling tempora -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "Episodes of chest pain and left arm tingling temporally linked to traumatic memories are classic for"
+  [e8] supports (phase1): cognitive/behavioral changes -> Persistent postconcussive symptoms / mil
+         verbatim: "His cognitive/behavioral changes are plausibly multifactorial (PTSD/depression + sleep disruption + "
+  [e9] supports (phase1): prior TBI -> Persistent postconcussive symptoms / mil
+         verbatim: "His cognitive/behavioral changes are plausibly multifactorial (PTSD/depression + sleep disruption + "
+  [e10] supports (phase1): headaches fit common post-TBI patterns ( -> Persistent postconcussive symptoms / mil
+         verbatim: "his headaches fit common post-TBI patterns (migraine phenotype plus cervicogenic/occipital neuralgia"
+  [e11] supports (phase1): new GI syndrome -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "The new GI syndrome could be driven by anxiety/trauma triggers, but daily cannabis use makes CHS a s"
+  [e12] supports (phase1): daily cannabis use -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "daily cannabis use makes CHS a strong comorbidity"
+  [e13] supports (phase1): daily cannabis use -> Alcohol use disorder with alcohol-relate
+         verbatim: "heavy alcohol use and daily cannabis use"
+  [e14] supports (phase2): daily morning vomiting with 9-kg weight  -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "Key discriminators I may have underweighted: (1) daily morning vomiting with 9-kg weight loss"
+  [e15] supports (phase2): the chronicity and severity of cognitive -> Persistent postconcussive symptoms / mil
+         verbatim: "the chronicity and severity of cognitive lapses reported by his wife (misplacing objects, getting lo"
+  [e16] supports (phase2): multiple head injuries including blast e -> Persistent postconcussive symptoms / mil
+         verbatim: "multiple head injuries including blast exposure and a 20-minute LOC"
+  [e17] supports (phase2): trauma-related syndrome with panic physi -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "the case is dominated by a trauma-related syndrome with panic physiology"
+  [e18] supports (phase2): post-TBI headache/cognitive symptoms -> Persistent postconcussive symptoms / mil
+         verbatim: "plus post-TBI headache/cognitive symptoms"
+  [e19] argues_against (phase2): Persistent morning emesis and significan -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "Persistent morning emesis and significant unintentional weight loss can indicate organic GI disease "
+  [e20] supports (phase2): Persistent morning emesis and significan -> organic GI disease
+         verbatim: "Persistent morning emesis and significant unintentional weight loss can indicate organic GI disease"
+  [e21] supports (phase2): Persistent morning emesis and significan -> intracranial pathology
+         verbatim: "Persistent morning emesis and significant unintentional weight loss can indicate intracranial pathol"
+  [e22] supports (phase2): Two distinct, persistent headache syndro -> Persistent postconcussive symptoms / mil
+         verbatim: "Two distinct, persistent headache syndromes (one migraine-like, one occipital “electric” pain with n"
+  [e23] supports (phase2): Cognitive changes (topographic disorient -> Persistent postconcussive symptoms / mil
+         verbatim: "Cognitive changes (topographic disorientation, notable forgetfulness) could be TBI-related neurocogn"
+  [e24] supports (phase2): daily cannabis use -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "Supports: daily marijuana use"
+  [e25] supports (phase2): recurrent morning vomiting -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "Supports: recurrent morning vomiting"
+  [e26] supports (phase2): chronic nausea/abdominal pain -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "Supports: chronic nausea/abdominal pain"
+  [e27] supports (phase2): weight loss -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "Supports: weight loss"
+  [e28] supports (phase2): extensive acid-suppression regimen with  -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "Supports: extensive acid-suppression regimen with persistent symptoms"
+  [e29] argues_against (phase2): the case description does not mention ha -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "Against: the case description does not mention hallmark behavior (compulsive hot showers/baths)"
+  [e30] argues_against (phase2): vomiting is sometimes described as occur -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "vomiting is sometimes described as occurring with flashbacks (suggesting a psychophysiologic trigger"
+  [e31] supports (phase2): morning vomiting + headaches + cognitive -> Intracranial mass/raised intracranial pr
+         verbatim: "Intracranial mass/raised intracranial pressure (morning vomiting + headaches + cognitive change)."
+  [e32] supports (phase2): weight loss -> peptic ulcer disease/complicated GERD
+         verbatim: "given weight loss and persistent upper abdominal pain: peptic ulcer disease/complicated GERD"
+  [e33] supports (phase2): persistent upper abdominal pain -> peptic ulcer disease/complicated GERD
+         verbatim: "given weight loss and persistent upper abdominal pain: peptic ulcer disease/complicated GERD"
+  [e34] supports (phase2): weight loss -> biliary disease
+         verbatim: "given weight loss and persistent upper abdominal pain: biliary disease"
+  [e35] supports (phase2): persistent upper abdominal pain -> biliary disease
+         verbatim: "given weight loss and persistent upper abdominal pain: biliary disease"
+  [e36] supports (phase2): weight loss -> malignancy
+         verbatim: "given weight loss and persistent upper abdominal pain: malignancy"
+  [e37] supports (phase2): persistent upper abdominal pain -> malignancy
+         verbatim: "given weight loss and persistent upper abdominal pain: malignancy"
+  [e38] supports (phase2): Clear trauma exposure (combat, suicide r -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "Findings that most strongly support PTSD/panic as primary: Clear trauma exposure (combat, suicide re"
+  [e39] supports (phase2): Core PTSD features: intrusions/flashback -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "Findings that most strongly support PTSD/panic as primary: Core PTSD features: intrusions/flashbacks"
+  [e40] supports (phase2): Panic physiology tightly linked to traum -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "Findings that most strongly support PTSD/panic as primary: Panic physiology tightly linked to trauma"
+  [e41] supports (phase2): PTSD best explains the global neuropsych -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "PTSD best explains the global neuropsychiatric syndrome"
+  [e42] supports (phase2): CHS best explains the GI syndrome -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "CHS best explains the GI syndrome"
+  [e43] discriminates_between (phase2): PTSD best explains the global neuropsych -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "PTSD vs CHS on overall fit: PTSD best explains the global neuropsychiatric syndrome"
+  [e44] discriminates_between (phase2): CHS best explains the GI syndrome -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "PTSD vs CHS on overall fit: CHS best explains the GI syndrome"
+  [e45] supports (phase2): the most discriminating features (trauma -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "the most discriminating features (trauma-linked intrusions/hyperarousal/avoidance) strongly anchor P"
+  [e46] discriminates_between (phase2): the most discriminating features (trauma -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "the most discriminating features (trauma-linked intrusions/hyperarousal/avoidance) strongly anchor P"
+  [e47] triggered_reflection (phase2): daily morning vomiting with 9-kg weight  -> r1
+         verbatim: "Key discriminators I may have underweighted: (1) daily morning vomiting with 9-kg weight loss"
+  [e48] triggered_reflection (phase2): the chronicity and severity of cognitive -> r1
+         verbatim: "Key discriminators I may have underweighted: (2) the chronicity and severity of cognitive lapses rep"
+  [e49] triggered_reflection (phase2): multiple head injuries including blast e -> r1
+         verbatim: "Key discriminators I may have underweighted: (3) multiple head injuries including blast exposure and"
+  [e50] promoted (phase3): r1 -> Post-traumatic stress disorder (PTSD) wi
+         verbatim: "The second look increases my confidence that PTSD with panic is the primary driver of the overall pr"
+  [e51] unchanged (phase3): r1 -> Cannabinoid hyperemesis syndrome (CHS)
+         verbatim: "while strengthening the view that the GI symptoms require parallel evaluation and are plausibly CHS"
+  [e52] unchanged (phase3): r1 -> Persistent postconcussive symptoms / mil
+         verbatim: "with comorbid postconcussive/TBI sequelae"
+  [e53] unchanged (phase3): r1 -> Alcohol use disorder with alcohol-relate
+         verbatim: "with comorbid postconcussive/TBI sequelae and substance-related contributions"
+  [e54] unchanged (phase3): r1 -> Primary neurologic/structural disorder m
+         verbatim: "Organic neurologic/structural disease ... low probability but should be ruled out"
+  [e55] supports (phase3): morning vomiting + headaches + cognitive -> Primary neurologic/structural disorder m
+         verbatim: "Organic neurologic/structural disease ... low probability but should be ruled out because of morning"
+
+REFLECTION EVENTS:
+  [r1] underweighted daily morning vomiting with 9-kg weight loss, severe cognitive lap (phase: phase2)
+
+PROBLEM REPRESENTATION:
+  A 34-year-old former special-operations combat medic with multiple prior blast/impact exposures and a prolonged loss-of-consciousness concussion presents with chronic post-traumatic headaches plus pro

@@ -1,0 +1,501 @@
+TRACE ID: V01
+Case: NEJM_CPC_11_2015 | Model: openai/gpt-5.4 | Condition: baseline
+Ground truth: Invasive Neisseria meningitidis infection
+Final diagnosis: Meningococcemia with meningococcal meningitis due to *Neisseria meningitidis* (85%)
+================================================================================
+
+ORIGINAL TRACE:
+----------------------------------------
+## Differential Diagnosis, Ranked by Probability
+
+1. **Meningococcemia with meningococcal meningitis due to *Neisseria meningitidis***
+2. **Disseminated gonococcal infection with meningitis / meningococcemia-like syndrome**
+3. **Rocky Mountain spotted fever or another rickettsial infection**
+4. **Pneumococcal meningitis with sepsis/purpura**
+5. **Viral meningoencephalitis with noninfectious thrombocytopenic purpura or early sepsis-related rash**
+
+---
+
+## Leading Diagnosis with Reasoning
+
+This presentation is **most consistent with invasive meningococcal disease — specifically meningococcemia with meningitis**.
+
+The key syndrome is: **acute severe headache + fever + mild meningismus + rapidly progressive petechial/purpuric rash + thrombocytopenia + neutrophilic CSF pleocytosis**, all evolving over hours. That constellation is classic for meningococcal infection.
+
+Several features strongly support this:
+
+- **Rash**: The patient developed **small red macules that became petechiae and purpura**, with rapid progression over hours. A petechial or purpuric rash in an acutely ill febrile patient is highly concerning for meningococcemia.
+- **Meningeal involvement**: Severe generalized headache, nausea/vomiting, and mild neck stiffness/nuchal rigidity support meningitis.
+- **CSF profile**: CSF shows **217 nucleated cells, 100% neutrophils**, consistent with early bacterial meningitis. Protein is not markedly elevated and glucose is normal, but in **very early meningococcal meningitis** CSF chemistry can be less dramatic.
+- **Systemic inflammatory response**: Fever rose to 39.0°C, pulse to 122, white count increased from 15,000 to 29,900 with marked neutrophilia and bands.
+- **Thrombocytopenia and elevated D-dimer**: These suggest early consumptive coagulopathy/endothelial injury, compatible with meningococcemia.
+- **Gram stain negative**: This does not rule it out. Meningococcal CSF Gram stain may be negative early or after partial clearance, and organisms may be sparse.
+
+Vaccination against meningococcus does **not exclude disease**, because:
+- vaccine coverage is serogroup-specific,
+- protection is incomplete,
+- immunity may wane,
+- and not all circulating strains are covered.
+
+The prior history of “bacterial meningitis” in childhood raises the possibility of an underlying predisposition, especially **complement deficiency**, which particularly predisposes to recurrent invasive *Neisseria* infections. That historical clue further strengthens the meningococcal hypothesis.
+
+---
+
+## Step-by-Step Diagnostic Reasoning
+
+### 1. Identify the dominant clinical syndrome
+This is an **acute febrile illness with headache, meningismus, and petechial/purpuric rash**.
+
+That syndrome immediately raises concern for:
+- **meningococcal disease**
+- other bacterial sepsis with purpura
+- rickettsial disease
+- disseminated gonococcal infection
+- less likely viral meningitis with incidental rash
+- less likely hematologic/thrombotic disorders causing petechiae
+
+The speed of progression is especially important: she was well that morning, then within hours developed severe headache, fever, myalgias, rash, and then rapidly increasing petechiae. Hyperacute progression strongly suggests an **invasive bloodstream infection**.
+
+### 2. Assess whether meningitis is present
+She had:
+- severe generalized headache
+- nausea/vomiting
+- mild neck stiffness / nuchal rigidity
+- CSF pleocytosis
+
+So yes, there is **meningeal inflammation**. The CSF is notable for:
+- **217 WBC/mm3**
+- **100% neutrophils**
+- protein 39 mg/dL
+- glucose 67 mg/dL
+- Gram stain: many PMNs, no organisms
+
+This is not the most dramatic bacterial CSF pattern, but it is very compatible with **early bacterial meningitis**, especially meningococcal disease. Viral meningitis can sometimes be neutrophilic early, but the accompanying petechial/purpuric rash and thrombocytopenia make a purely viral illness much less likely.
+
+### 3. Interpret the rash
+The rash began as small flat red lesions and evolved to **scattered petechiae** and at least one **purpuric tender lesion**, with new lesions appearing over several hours.
+
+That pattern is classic for **vascular injury with dermal hemorrhage**, seen in:
+- meningococcemia
+- severe rickettsiosis
+- DIC from bacterial sepsis
+- vasculitis
+- thrombotic microangiopathy
+
+But here, the combination with meningitis and abrupt onset makes **meningococcemia** the best fit.
+
+The tender purpuric lesion suggests more substantial vascular involvement. Meningococcal skin lesions can progress from macules to petechiae to purpura rapidly.
+
+### 4. Evaluate hematologic/coagulation data
+She has:
+- platelet count 90,000 initially, then 101,000
+- D-dimer mildly elevated
+- normal fibrinogen, aPTT, haptoglobin, LDH
+
+This suggests **early or limited consumptive coagulopathy**, not full-blown DIC. In meningococcemia, thrombocytopenia often appears early due to endothelial injury and consumption, even before classic DIC labs become abnormal.
+
+Normal haptoglobin and LDH argue against a major hemolytic microangiopathy such as TTP/HUS.
+
+### 5. Consider epidemiology and host factors
+She is a young adult, an age group in which invasive meningococcal disease occurs. She has a **remote history of bacterial meningitis in childhood**, which is highly relevant. Recurrent invasive infections with *Neisseria* suggest **terminal complement deficiency** or another complement pathway disorder. She lacks a broader history of recurrent sinopulmonary infections, making generalized humoral immunodeficiency less likely. This recurrent-pattern clue points specifically toward meningococcal susceptibility.
+
+---
+
+## Differential Diagnosis: Support and Opposition for Each
+
+### 1. Meningococcemia with meningococcal meningitis — **Most likely**
+**Supporting findings**
+- Acute onset over hours
+- Severe headache, fever, myalgias, mild meningismus
+- **Rapidly progressive petechial and purpuric rash**
+- Leukocytosis with neutrophilia and bandemia
+- Thrombocytopenia
+- Mild D-dimer elevation, suggesting early coagulopathy
+- CSF neutrophilic pleocytosis
+- Prior childhood bacterial meningitis raises concern for complement deficiency and recurrent *Neisseria* infection
+
+**Arguing against**
+- Gram stain negative
+- CSF glucose and protein are relatively normal
+- She reports vaccination against meningococcus
+
+These do not meaningfully outweigh the supporting features. Early disease can have less dramatic CSF abnormalities, Gram stain can be negative, and vaccination is not fully protective.
+
+### 2. Disseminated gonococcal infection (DGI) with meningitis — **Second**
+This is much less likely than meningococcal disease, but worth considering because *Neisseria gonorrhoeae* can occasionally cause meningococcemia-like illness.
+
+**Supporting findings**
+- Young sexually active woman
+- Petechial/pustular rash can occur in DGI
+- *Neisseria* species can produce similar syndromes
+
+**Arguing against**
+- DGI usually causes the triad of **tenosynovitis, migratory polyarthralgia, and dermatitis**
+- Meningitis from gonococcus is rare
+- The rash of DGI is often sparse pustular/necrotic lesions on extremities, not a rapidly progressive diffuse petechial-purpuric eruption with meningismus
+- No joint symptoms or tenosynovitis
+
+Thus possible but clearly lower probability.
+
+### 3. Rocky Mountain spotted fever or other rickettsial infection — **Third**
+**Supporting findings**
+- Fever, headache, myalgias, petechial rash, thrombocytopenia
+- Rash can evolve from macules to petechiae
+- Early CSF pleocytosis can occur in RMSF
+
+**Arguing against**
+- Geography is New England, where RMSF is less common than some other tick-borne diseases
+- No tick exposure recalled, though that does not exclude it
+- Rash distribution began on trunk/chest/abdomen rather than classically wrists/ankles progressing centrally
+- Meningismus and neutrophilic CSF with this hyperacute time course better fit meningococcal disease
+- The dramatic purpuric progression over hours is more characteristic of meningococcemia
+
+Rickettsial illness remains important because it can be fatal if missed, but it is not the best overall fit.
+
+### 4. Pneumococcal meningitis with sepsis/purpura — **Fourth**
+**Supporting findings**
+- Acute bacterial meningitis can present with headache, fever, neck stiffness, neutrophilic CSF, leukocytosis
+- Pneumococcal sepsis can cause purpura and thrombocytopenia
+
+**Arguing against**
+- Petechial/purpuric rash is much more strongly associated with meningococcemia than pneumococcus
+- No obvious otitis, sinusitis, pneumonia, CSF leak, or asplenia history given
+- Gram stain did not reveal gram-positive diplococci
+- The recurrent childhood meningitis clue is more suggestive of complement deficiency and *Neisseria* than pneumococcal predisposition
+
+### 5. Viral meningoencephalitis with noninfectious thrombocytopenic purpura or early sepsis-related rash — **Fifth**
+**Supporting findings**
+- Headache, mild meningismus, normal CSF glucose/protein could be seen in viral meningitis
+- Early viral CSF can occasionally be neutrophil predominant
+
+**Arguing against**
+- Viral meningitis does not typically cause a rapidly progressive **petechial/purpuric rash with thrombocytopenia**
+- High neutrophilic leukocytosis and progression of skin lesions over hours strongly favor bacterial invasive disease
+- The clinical concern was high enough to warrant empiric treatment for bacterial meningitis, and the syndrome justifies that
+
+So this is far less likely.
+
+---
+
+## Why Meningococcal Disease Ranks Clearly Above the Others
+
+The most decisive feature is the **combination** rather than any single finding:
+
+- meningitic symptoms,
+- **nonblanching petechial/purpuric rash**,
+- thrombocytopenia,
+- rapid progression,
+- neutrophilic systemic and CSF inflammatory response.
+
+That is the signature pattern of **invasive meningococcal infection**.
+
+Even if one hesitated because the CSF glucose is normal and Gram stain is negative, the skin findings make the diagnosis far more likely. Meningococcemia can predominate, with relatively modest meningeal findings early. In fact, meningococcal disease can present as a bloodstream infection with rash and only subtle early CSF abnormalities.
+
+The childhood episode of bacterial meningitis is a particularly valuable clue because recurrent invasive meningococcal disease should prompt suspicion for **terminal complement component deficiency (C5-C9)** or properdin deficiency. That does not change the acute diagnosis, but it strengthens the likelihood that this infection is due to *Neisseria meningitidis*.
+
+---
+
+## Additional Diagnostic Considerations Implied by the Case
+
+If this were a real-time diagnostic assessment, I would also be thinking about:
+- **blood cultures**
+- **CSF culture/PCR**
+- **skin lesion biopsy or aspirate** if needed
+- evaluation for **complement deficiency** after stabilization, especially given prior meningitis history
+- screening for close contacts and postexposure prophylaxis if meningococcus is confirmed or strongly suspected
+
+But diagnostically, the central answer remains invasive meningococcal disease.
+
+**Leading Diagnosis:** Meningococcemia with meningococcal meningitis due to *Neisseria meningitidis*  
+**Estimated Probability:** 85%
+
+================================================================================
+EXTRACTED GRAPH: 91 nodes, 96 edges
+----------------------------------------
+
+NODES:
+  [n1] diagnosis: Meningococcemia with meningococcal meningitis due to *Neisseria meningitidis* (85%) (phase: phase1)
+  [n2] diagnosis: Disseminated gonococcal infection with meningitis / meningococcemia-like syndrome (25%) (phase: phase1)
+  [n3] diagnosis: Rocky Mountain spotted fever or another rickettsial infection (20%) (phase: phase1)
+  [n4] diagnosis: Pneumococcal meningitis with sepsis/purpura (15%) (phase: phase1)
+  [n5] diagnosis: Viral meningoencephalitis with noninfectious thrombocytopenic purpura or early sepsis-related rash (10%) (phase: phase1)
+  [n6] clinical_feature: acute severe headache + fever + mild meningismus + rapidly progressive petechial/purpuric rash + thrombocytopenia + neutrophilic CSF pleocytosis (phase: phase1)
+  [n7] clinical_feature: small red macules that became petechiae and purpura (phase: phase1)
+  [n8] clinical_feature: Severe generalized headache, nausea/vomiting, and mild neck stiffness/nuchal rigidity (phase: phase1)
+  [n9] clinical_feature: 217 nucleated cells, 100% neutrophils (phase: phase1)
+  [n10] clinical_feature: Protein is not markedly elevated and glucose is normal (phase: phase1)
+  [n11] clinical_feature: Fever rose to 39.0°C, pulse to 122, white count increased from 15,000 to 29,900 with marked neutrophilia and bands (phase: phase1)
+  [n12] clinical_feature: Thrombocytopenia and elevated D-dimer (phase: phase1)
+  [n13] clinical_feature: Gram stain negative (phase: phase1)
+  [n14] clinical_feature: vaccination against meningococcus (phase: phase1)
+  [n15] clinical_feature: prior history of “bacterial meningitis” in childhood (phase: phase1)
+  [n16] diagnosis: complement deficiency (phase: phase1)
+  [n17] clinical_feature: acute febrile illness with headache, meningismus, and petechial/purpuric rash (phase: phase1)
+  [n18] diagnosis: meningococcal disease (phase: phase1)
+  [n19] diagnosis: other bacterial sepsis with purpura (phase: phase1)
+  [n20] diagnosis: rickettsial disease (phase: phase1)
+  [n21] diagnosis: disseminated gonococcal infection (phase: phase1)
+  [n22] diagnosis: viral meningitis with incidental rash (phase: phase1)
+  [n23] diagnosis: hematologic/thrombotic disorders causing petechiae (phase: phase1)
+  [n24] clinical_feature: well that morning, then within hours developed severe headache, fever, myalgias, rash, and then rapidly increasing petechiae (phase: phase1)
+  [n25] diagnosis: invasive bloodstream infection (phase: phase1)
+  [n26] clinical_feature: CSF pleocytosis (phase: phase1)
+  [n27] clinical_feature: 217 WBC/mm3 (phase: phase1)
+  [n28] clinical_feature: 100% neutrophils (phase: phase1)
+  [n29] clinical_feature: protein 39 mg/dL (phase: phase1)
+  [n30] clinical_feature: glucose 67 mg/dL (phase: phase1)
+  [n31] clinical_feature: many PMNs, no organisms (phase: phase1)
+  [n32] diagnosis: early bacterial meningitis (phase: phase1)
+  [n33] clinical_feature: accompanying petechial/purpuric rash and thrombocytopenia (phase: phase1)
+  [n34] diagnosis: purely viral illness (phase: phase1)
+  [n35] clinical_feature: scattered petechiae and at least one purpuric tender lesion, with new lesions appearing over several hours (phase: phase1)
+  [n36] clinical_feature: vascular injury with dermal hemorrhage (phase: phase1)
+  [n37] diagnosis: meningococcemia (phase: phase1)
+  [n38] diagnosis: severe rickettsiosis (phase: phase1)
+  [n39] diagnosis: DIC from bacterial sepsis (phase: phase1)
+  [n40] diagnosis: vasculitis (phase: phase1)
+  [n41] diagnosis: thrombotic microangiopathy (phase: phase1)
+  [n42] clinical_feature: combination with meningitis and abrupt onset (phase: phase1)
+  [n43] clinical_feature: tender purpuric lesion (phase: phase1)
+  [n44] clinical_feature: platelet count 90,000 initially, then 101,000 (phase: phase1)
+  [n45] clinical_feature: D-dimer mildly elevated (phase: phase1)
+  [n46] clinical_feature: normal fibrinogen, aPTT, haptoglobin, LDH (phase: phase1)
+  [n47] clinical_feature: early or limited consumptive coagulopathy (phase: phase1)
+  [n48] clinical_feature: Normal haptoglobin and LDH (phase: phase1)
+  [n49] diagnosis: TTP/HUS (phase: phase1)
+  [n50] clinical_feature: young adult (phase: phase1)
+  [n51] clinical_feature: recurrent invasive infections with *Neisseria* (phase: phase1)
+  [n52] diagnosis: terminal complement deficiency (phase: phase1)
+  [n53] diagnosis: another complement pathway disorder (phase: phase1)
+  [n54] clinical_feature: lacks a broader history of recurrent sinopulmonary infections (phase: phase1)
+  [n55] diagnosis: generalized humoral immunodeficiency (phase: phase1)
+  [n56] clinical_feature: recurrent-pattern clue (phase: phase1)
+  [n57] clinical_feature: Young sexually active woman (phase: phase1)
+  [n58] clinical_feature: Petechial/pustular rash can occur in DGI (phase: phase1)
+  [n59] clinical_feature: *Neisseria* species can produce similar syndromes (phase: phase1)
+  [n60] clinical_feature: DGI usually causes the triad of tenosynovitis, migratory polyarthralgia, and dermatitis (phase: phase1)
+  [n61] clinical_feature: Meningitis from gonococcus is rare (phase: phase1)
+  [n62] clinical_feature: rash of DGI is often sparse pustular/necrotic lesions on extremities, not a rapidly progressive diffuse petechial-purpuric eruption with meningismus (phase: phase1)
+  [n63] clinical_feature: No joint symptoms or tenosynovitis (phase: phase1)
+  [n64] clinical_feature: Fever, headache, myalgias, petechial rash, thrombocytopenia (phase: phase1)
+  [n65] clinical_feature: Rash can evolve from macules to petechiae (phase: phase1)
+  [n66] clinical_feature: Early CSF pleocytosis can occur in RMSF (phase: phase1)
+  [n67] clinical_feature: Geography is New England, where RMSF is less common than some other tick-borne diseases (phase: phase1)
+  [n68] clinical_feature: No tick exposure recalled (phase: phase1)
+  [n69] clinical_feature: Rash distribution began on trunk/chest/abdomen rather than classically wrists/ankles progressing centrally (phase: phase1)
+  [n70] clinical_feature: Meningismus and neutrophilic CSF with this hyperacute time course better fit meningococcal disease (phase: phase1)
+  [n71] clinical_feature: dramatic purpuric progression over hours is more characteristic of meningococcemia (phase: phase1)
+  [n72] clinical_feature: Acute bacterial meningitis can present with headache, fever, neck stiffness, neutrophilic CSF, leukocytosis (phase: phase1)
+  [n73] clinical_feature: Pneumococcal sepsis can cause purpura and thrombocytopenia (phase: phase1)
+  [n74] clinical_feature: Petechial/purpuric rash is much more strongly associated with meningococcemia than pneumococcus (phase: phase1)
+  [n75] clinical_feature: No obvious otitis, sinusitis, pneumonia, CSF leak, or asplenia history given (phase: phase1)
+  [n76] clinical_feature: Gram stain did not reveal gram-positive diplococci (phase: phase1)
+  [n77] clinical_feature: recurrent childhood meningitis clue is more suggestive of complement deficiency and *Neisseria* than pneumococcal predisposition (phase: phase1)
+  [n78] clinical_feature: Headache, mild meningismus, normal CSF glucose/protein could be seen in viral meningitis (phase: phase1)
+  [n79] clinical_feature: Early viral CSF can occasionally be neutrophil predominant (phase: phase1)
+  [n80] clinical_feature: Viral meningitis does not typically cause a rapidly progressive petechial/purpuric rash with thrombocytopenia (phase: phase1)
+  [n81] clinical_feature: High neutrophilic leukocytosis and progression of skin lesions over hours strongly favor bacterial invasive disease (phase: phase1)
+  [n82] clinical_feature: The clinical concern was high enough to warrant empiric treatment for bacterial meningitis, and the syndrome justifies that (phase: phase1)
+  [n83] clinical_feature: meningitic symptoms (phase: phase1)
+  [n84] discriminating_feature: nonblanching petechial/purpuric rash (phase: phase1)
+  [n85] clinical_feature: rapid progression (phase: phase1)
+  [n86] clinical_feature: neutrophilic systemic and CSF inflammatory response (phase: phase1)
+  [n87] clinical_feature: CSF glucose is normal and Gram stain is negative (phase: phase1)
+  [n88] clinical_feature: skin findings make the diagnosis far more likely (phase: phase1)
+  [n89] clinical_feature: Meningococcemia can predominate, with relatively modest meningeal findings early (phase: phase1)
+  [n90] clinical_feature: meningococcal disease can present as a bloodstream infection with rash and only subtle early CSF abnormalities (phase: phase1)
+  [n91] diagnosis: properdin deficiency (phase: phase1)
+
+EDGES:
+  [e1] supports (phase1): acute severe headache + fever + mild men -> Meningococcemia with meningococcal menin
+         verbatim: "The key syndrome is: acute severe headache + fever + mild meningismus + rapidly progressive petechia"
+  [e2] supports (phase1): small red macules that became petechiae  -> Meningococcemia with meningococcal menin
+         verbatim: "The patient developed small red macules that became petechiae and purpura, with rapid progression ov"
+  [e3] supports (phase1): Severe generalized headache, nausea/vomi -> Meningococcemia with meningococcal menin
+         verbatim: "Severe generalized headache, nausea/vomiting, and mild neck stiffness/nuchal rigidity support mening"
+  [e4] supports (phase1): 217 nucleated cells, 100% neutrophils -> Meningococcemia with meningococcal menin
+         verbatim: "CSF shows 217 nucleated cells, 100% neutrophils, consistent with early bacterial meningitis."
+  [e5] argues_against (phase1): Protein is not markedly elevated and glu -> early bacterial meningitis
+         verbatim: "Protein is not markedly elevated and glucose is normal"
+  [e6] supports (phase1): Protein is not markedly elevated and glu -> Meningococcemia with meningococcal menin
+         verbatim: "Protein is not markedly elevated and glucose is normal, but in very early meningococcal meningitis C"
+  [e7] supports (phase1): Fever rose to 39.0°C, pulse to 122, whit -> Meningococcemia with meningococcal menin
+         verbatim: "Fever rose to 39.0°C, pulse to 122, white count increased from 15,000 to 29,900 with marked neutroph"
+  [e8] supports (phase1): Thrombocytopenia and elevated D-dimer -> Meningococcemia with meningococcal menin
+         verbatim: "These suggest early consumptive coagulopathy/endothelial injury, compatible with meningococcemia."
+  [e9] argues_against (phase1): Gram stain negative -> Meningococcemia with meningococcal menin
+         verbatim: "Gram stain negative"
+  [e10] supports (phase1): Gram stain negative -> Meningococcemia with meningococcal menin
+         verbatim: "This does not rule it out. Meningococcal CSF Gram stain may be negative early or after partial clear"
+  [e11] argues_against (phase1): vaccination against meningococcus -> Meningococcemia with meningococcal menin
+         verbatim: "She reports vaccination against meningococcus"
+  [e12] supports (phase1): vaccination against meningococcus -> Meningococcemia with meningococcal menin
+         verbatim: "Vaccination against meningococcus does not exclude disease"
+  [e13] supports (phase1): prior history of “bacterial meningitis”  -> complement deficiency
+         verbatim: "The prior history of “bacterial meningitis” in childhood raises the possibility of an underlying pre"
+  [e14] supports (phase1): prior history of “bacterial meningitis”  -> Meningococcemia with meningococcal menin
+         verbatim: "That historical clue further strengthens the meningococcal hypothesis."
+  [e15] supports (phase1): acute febrile illness with headache, men -> meningococcal disease
+         verbatim: "That syndrome immediately raises concern for: meningococcal disease"
+  [e16] supports (phase1): acute febrile illness with headache, men -> other bacterial sepsis with purpura
+         verbatim: "That syndrome immediately raises concern for: other bacterial sepsis with purpura"
+  [e17] supports (phase1): acute febrile illness with headache, men -> rickettsial disease
+         verbatim: "That syndrome immediately raises concern for: rickettsial disease"
+  [e18] supports (phase1): acute febrile illness with headache, men -> disseminated gonococcal infection
+         verbatim: "That syndrome immediately raises concern for: disseminated gonococcal infection"
+  [e19] supports (phase1): acute febrile illness with headache, men -> viral meningitis with incidental rash
+         verbatim: "That syndrome immediately raises concern for: less likely viral meningitis with incidental rash"
+  [e20] supports (phase1): acute febrile illness with headache, men -> hematologic/thrombotic disorders causing
+         verbatim: "That syndrome immediately raises concern for: less likely hematologic/thrombotic disorders causing p"
+  [e21] supports (phase1): well that morning, then within hours dev -> invasive bloodstream infection
+         verbatim: "Hyperacute progression strongly suggests an invasive bloodstream infection."
+  [e22] supports (phase1): Severe generalized headache, nausea/vomi -> early bacterial meningitis
+         verbatim: "Severe generalized headache, nausea/vomiting, and mild neck stiffness/nuchal rigidity support mening"
+  [e23] supports (phase1): CSF pleocytosis -> early bacterial meningitis
+         verbatim: "So yes, there is meningeal inflammation. The CSF is notable for"
+  [e24] supports (phase1): 217 WBC/mm3 -> early bacterial meningitis
+         verbatim: "This is not the most dramatic bacterial CSF pattern, but it is very compatible with early bacterial "
+  [e25] supports (phase1): 100% neutrophils -> early bacterial meningitis
+         verbatim: "This is not the most dramatic bacterial CSF pattern, but it is very compatible with early bacterial "
+  [e26] supports (phase1): protein 39 mg/dL -> early bacterial meningitis
+         verbatim: "This is not the most dramatic bacterial CSF pattern, but it is very compatible with early bacterial "
+  [e27] supports (phase1): glucose 67 mg/dL -> early bacterial meningitis
+         verbatim: "This is not the most dramatic bacterial CSF pattern, but it is very compatible with early bacterial "
+  [e28] supports (phase1): many PMNs, no organisms -> early bacterial meningitis
+         verbatim: "This is not the most dramatic bacterial CSF pattern, but it is very compatible with early bacterial "
+  [e29] supports (phase1): early bacterial meningitis -> Meningococcemia with meningococcal menin
+         verbatim: "it is very compatible with early bacterial meningitis, especially meningococcal disease."
+  [e30] argues_against (phase1): accompanying petechial/purpuric rash and -> purely viral illness
+         verbatim: "the accompanying petechial/purpuric rash and thrombocytopenia make a purely viral illness much less "
+  [e31] supports (phase1): scattered petechiae and at least one pur -> vascular injury with dermal hemorrhage
+         verbatim: "That pattern is classic for vascular injury with dermal hemorrhage"
+  [e32] supports (phase1): vascular injury with dermal hemorrhage -> meningococcemia
+         verbatim: "seen in: meningococcemia"
+  [e33] supports (phase1): vascular injury with dermal hemorrhage -> severe rickettsiosis
+         verbatim: "seen in: severe rickettsiosis"
+  [e34] supports (phase1): vascular injury with dermal hemorrhage -> DIC from bacterial sepsis
+         verbatim: "seen in: DIC from bacterial sepsis"
+  [e35] supports (phase1): vascular injury with dermal hemorrhage -> vasculitis
+         verbatim: "seen in: vasculitis"
+  [e36] supports (phase1): vascular injury with dermal hemorrhage -> thrombotic microangiopathy
+         verbatim: "seen in: thrombotic microangiopathy"
+  [e37] supports (phase1): combination with meningitis and abrupt o -> meningococcemia
+         verbatim: "But here, the combination with meningitis and abrupt onset makes meningococcemia the best fit."
+  [e38] supports (phase1): tender purpuric lesion -> meningococcemia
+         verbatim: "The tender purpuric lesion suggests more substantial vascular involvement. Meningococcal skin lesion"
+  [e39] supports (phase1): platelet count 90,000 initially, then 10 -> early or limited consumptive coagulopath
+         verbatim: "This suggests early or limited consumptive coagulopathy, not full-blown DIC."
+  [e40] supports (phase1): D-dimer mildly elevated -> early or limited consumptive coagulopath
+         verbatim: "This suggests early or limited consumptive coagulopathy, not full-blown DIC."
+  [e41] supports (phase1): normal fibrinogen, aPTT, haptoglobin, LD -> early or limited consumptive coagulopath
+         verbatim: "This suggests early or limited consumptive coagulopathy, not full-blown DIC."
+  [e42] supports (phase1): early or limited consumptive coagulopath -> meningococcemia
+         verbatim: "In meningococcemia, thrombocytopenia often appears early due to endothelial injury and consumption, "
+  [e43] argues_against (phase1): Normal haptoglobin and LDH -> TTP/HUS
+         verbatim: "Normal haptoglobin and LDH argue against a major hemolytic microangiopathy such as TTP/HUS."
+  [e44] supports (phase1): young adult -> Meningococcemia with meningococcal menin
+         verbatim: "She is a young adult, an age group in which invasive meningococcal disease occurs."
+  [e45] supports (phase1): recurrent invasive infections with *Neis -> terminal complement deficiency
+         verbatim: "Recurrent invasive infections with *Neisseria* suggest terminal complement deficiency"
+  [e46] supports (phase1): recurrent invasive infections with *Neis -> another complement pathway disorder
+         verbatim: "Recurrent invasive infections with *Neisseria* suggest terminal complement deficiency or another com"
+  [e47] argues_against (phase1): lacks a broader history of recurrent sin -> generalized humoral immunodeficiency
+         verbatim: "She lacks a broader history of recurrent sinopulmonary infections, making generalized humoral immuno"
+  [e48] supports (phase1): recurrent-pattern clue -> Meningococcemia with meningococcal menin
+         verbatim: "This recurrent-pattern clue points specifically toward meningococcal susceptibility."
+  [e49] supports (phase1): small red macules that became petechiae  -> Meningococcemia with meningococcal menin
+         verbatim: "Rapidly progressive petechial and purpuric rash"
+  [e50] supports (phase1): Fever rose to 39.0°C, pulse to 122, whit -> Meningococcemia with meningococcal menin
+         verbatim: "Leukocytosis with neutrophilia and bandemia"
+  [e51] supports (phase1): platelet count 90,000 initially, then 10 -> Meningococcemia with meningococcal menin
+         verbatim: "Thrombocytopenia"
+  [e52] supports (phase1): D-dimer mildly elevated -> Meningococcemia with meningococcal menin
+         verbatim: "Mild D-dimer elevation, suggesting early coagulopathy"
+  [e53] supports (phase1): CSF pleocytosis -> Meningococcemia with meningococcal menin
+         verbatim: "CSF neutrophilic pleocytosis"
+  [e54] argues_against (phase1): Protein is not markedly elevated and glu -> Meningococcemia with meningococcal menin
+         verbatim: "CSF glucose and protein are relatively normal"
+  [e55] supports (phase1): Young sexually active woman -> Disseminated gonococcal infection with m
+         verbatim: "Young sexually active woman"
+  [e56] supports (phase1): Petechial/pustular rash can occur in DGI -> Disseminated gonococcal infection with m
+         verbatim: "Petechial/pustular rash can occur in DGI"
+  [e57] supports (phase1): *Neisseria* species can produce similar  -> Disseminated gonococcal infection with m
+         verbatim: "*Neisseria* species can produce similar syndromes"
+  [e58] argues_against (phase1): DGI usually causes the triad of tenosyno -> Disseminated gonococcal infection with m
+         verbatim: "DGI usually causes the triad of tenosynovitis, migratory polyarthralgia, and dermatitis"
+  [e59] argues_against (phase1): Meningitis from gonococcus is rare -> Disseminated gonococcal infection with m
+         verbatim: "Meningitis from gonococcus is rare"
+  [e60] argues_against (phase1): rash of DGI is often sparse pustular/nec -> Disseminated gonococcal infection with m
+         verbatim: "The rash of DGI is often sparse pustular/necrotic lesions on extremities, not a rapidly progressive "
+  [e61] argues_against (phase1): No joint symptoms or tenosynovitis -> Disseminated gonococcal infection with m
+         verbatim: "No joint symptoms or tenosynovitis"
+  [e62] supports (phase1): Fever, headache, myalgias, petechial ras -> Rocky Mountain spotted fever or another 
+         verbatim: "Fever, headache, myalgias, petechial rash, thrombocytopenia"
+  [e63] supports (phase1): Rash can evolve from macules to petechia -> Rocky Mountain spotted fever or another 
+         verbatim: "Rash can evolve from macules to petechiae"
+  [e64] supports (phase1): Early CSF pleocytosis can occur in RMSF -> Rocky Mountain spotted fever or another 
+         verbatim: "Early CSF pleocytosis can occur in RMSF"
+  [e65] argues_against (phase1): Geography is New England, where RMSF is  -> Rocky Mountain spotted fever or another 
+         verbatim: "Geography is New England, where RMSF is less common than some other tick-borne diseases"
+  [e66] argues_against (phase1): No tick exposure recalled -> Rocky Mountain spotted fever or another 
+         verbatim: "No tick exposure recalled, though that does not exclude it"
+  [e67] argues_against (phase1): Rash distribution began on trunk/chest/a -> Rocky Mountain spotted fever or another 
+         verbatim: "Rash distribution began on trunk/chest/abdomen rather than classically wrists/ankles progressing cen"
+  [e68] argues_against (phase1): Meningismus and neutrophilic CSF with th -> Rocky Mountain spotted fever or another 
+         verbatim: "Meningismus and neutrophilic CSF with this hyperacute time course better fit meningococcal disease"
+  [e69] argues_against (phase1): dramatic purpuric progression over hours -> Rocky Mountain spotted fever or another 
+         verbatim: "The dramatic purpuric progression over hours is more characteristic of meningococcemia"
+  [e70] supports (phase1): Acute bacterial meningitis can present w -> Pneumococcal meningitis with sepsis/purp
+         verbatim: "Acute bacterial meningitis can present with headache, fever, neck stiffness, neutrophilic CSF, leuko"
+  [e71] supports (phase1): Pneumococcal sepsis can cause purpura an -> Pneumococcal meningitis with sepsis/purp
+         verbatim: "Pneumococcal sepsis can cause purpura and thrombocytopenia"
+  [e72] argues_against (phase1): Petechial/purpuric rash is much more str -> Pneumococcal meningitis with sepsis/purp
+         verbatim: "Petechial/purpuric rash is much more strongly associated with meningococcemia than pneumococcus"
+  [e73] argues_against (phase1): No obvious otitis, sinusitis, pneumonia, -> Pneumococcal meningitis with sepsis/purp
+         verbatim: "No obvious otitis, sinusitis, pneumonia, CSF leak, or asplenia history given"
+  [e74] argues_against (phase1): Gram stain did not reveal gram-positive  -> Pneumococcal meningitis with sepsis/purp
+         verbatim: "Gram stain did not reveal gram-positive diplococci"
+  [e75] argues_against (phase1): recurrent childhood meningitis clue is m -> Pneumococcal meningitis with sepsis/purp
+         verbatim: "The recurrent childhood meningitis clue is more suggestive of complement deficiency and *Neisseria* "
+  [e76] supports (phase1): Headache, mild meningismus, normal CSF g -> Viral meningoencephalitis with noninfect
+         verbatim: "Headache, mild meningismus, normal CSF glucose/protein could be seen in viral meningitis"
+  [e77] supports (phase1): Early viral CSF can occasionally be neut -> Viral meningoencephalitis with noninfect
+         verbatim: "Early viral CSF can occasionally be neutrophil predominant"
+  [e78] argues_against (phase1): Viral meningitis does not typically caus -> Viral meningoencephalitis with noninfect
+         verbatim: "Viral meningitis does not typically cause a rapidly progressive petechial/purpuric rash with thrombo"
+  [e79] argues_against (phase1): High neutrophilic leukocytosis and progr -> Viral meningoencephalitis with noninfect
+         verbatim: "High neutrophilic leukocytosis and progression of skin lesions over hours strongly favor bacterial i"
+  [e80] argues_against (phase1): The clinical concern was high enough to  -> Viral meningoencephalitis with noninfect
+         verbatim: "The clinical concern was high enough to warrant empiric treatment for bacterial meningitis, and the "
+  [e81] supports (phase1): meningitic symptoms -> Meningococcemia with meningococcal menin
+         verbatim: "The most decisive feature is the combination rather than any single finding: meningitic symptoms"
+  [e82] supports (phase1): nonblanching petechial/purpuric rash -> Meningococcemia with meningococcal menin
+         verbatim: "The most decisive feature is the combination rather than any single finding: nonblanching petechial/"
+  [e83] supports (phase1): platelet count 90,000 initially, then 10 -> Meningococcemia with meningococcal menin
+         verbatim: "The most decisive feature is the combination rather than any single finding: thrombocytopenia"
+  [e84] supports (phase1): rapid progression -> Meningococcemia with meningococcal menin
+         verbatim: "The most decisive feature is the combination rather than any single finding: rapid progression"
+  [e85] supports (phase1): neutrophilic systemic and CSF inflammato -> Meningococcemia with meningococcal menin
+         verbatim: "The most decisive feature is the combination rather than any single finding: neutrophilic systemic a"
+  [e86] argues_against (phase1): CSF glucose is normal and Gram stain is  -> Meningococcemia with meningococcal menin
+         verbatim: "Even if one hesitated because the CSF glucose is normal and Gram stain is negative"
+  [e87] supports (phase1): skin findings make the diagnosis far mor -> Meningococcemia with meningococcal menin
+         verbatim: "the skin findings make the diagnosis far more likely."
+  [e88] supports (phase1): Meningococcemia can predominate, with re -> Meningococcemia with meningococcal menin
+         verbatim: "Meningococcemia can predominate, with relatively modest meningeal findings early."
+  [e89] supports (phase1): meningococcal disease can present as a b -> Meningococcemia with meningococcal menin
+         verbatim: "meningococcal disease can present as a bloodstream infection with rash and only subtle early CSF abn"
+  [e90] supports (phase1): prior history of “bacterial meningitis”  -> terminal complement deficiency
+         verbatim: "recurrent invasive meningococcal disease should prompt suspicion for terminal complement component d"
+  [e91] supports (phase1): prior history of “bacterial meningitis”  -> properdin deficiency
+         verbatim: "recurrent invasive meningococcal disease should prompt suspicion for terminal complement component d"
+  [e92] discriminates_between (phase1): nonblanching petechial/purpuric rash -> Meningococcemia with meningococcal menin
+         verbatim: "Petechial/purpuric rash is much more strongly associated with meningococcemia than pneumococcus"
+  [e93] discriminates_between (phase1): rash of DGI is often sparse pustular/nec -> Disseminated gonococcal infection with m
+         verbatim: "The rash of DGI is often sparse pustular/necrotic lesions on extremities, not a rapidly progressive "
+  [e94] discriminates_between (phase1): Rash distribution began on trunk/chest/a -> Rocky Mountain spotted fever or another 
+         verbatim: "Rash distribution began on trunk/chest/abdomen rather than classically wrists/ankles progressing cen"
+  [e95] discriminates_between (phase1): dramatic purpuric progression over hours -> Rocky Mountain spotted fever or another 
+         verbatim: "The dramatic purpuric progression over hours is more characteristic of meningococcemia"
+  [e96] discriminates_between (phase1): Meningismus and neutrophilic CSF with th -> Rocky Mountain spotted fever or another 
+         verbatim: "Meningismus and neutrophilic CSF with this hyperacute time course better fit meningococcal disease"

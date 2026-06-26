@@ -1,0 +1,288 @@
+TRACE ID: V22
+Case: NEJM_CPC_38_2023 | Model: openai/gpt-5.2 | Condition: structured
+Ground truth: Chorea due to antiphospholipid syndrome and systemic lupus erythematosus
+Final diagnosis: Antiphospholipid syndrome (likely autoimmune; primary APS or SLE-associated) causing recurrent multifocal ischemic strokes (despite apixaban) with associated chorea (60%)
+================================================================================
+
+ORIGINAL TRACE:
+----------------------------------------
+## Phase 1 — Initial Assessment
+
+### A. Problem Representation
+A 68-year-old woman with a history of recurrent venous thrombosis (on apixaban after long-term warfarin), pulmonary hypertension, and autoimmune comorbidity (vitiligo, hypothyroidism) developed subacute progressive generalized choreiform/athetoid movements followed by worsening encephalopathy, with MRI showing recurrent, multifocal acute-to-subacute ischemic infarcts in multiple vascular territories (cortical and subcortical, bilateral, plus cerebellum) despite therapeutic anticoagulation, accompanied by anemia and leukopenia and a mildly prolonged aPTT.
+
+### B. Initial Differential Diagnosis (Top 5, ranked)
+
+1) **Antiphospholipid syndrome (APS), likely autoimmune (primary APS or SLE-associated), with arterial thromboembolism and APS-associated chorea**  
+   **Leading diagnosis probability: 60%**  
+   **Reasoning:** Prior DVTs + new recurrent multifocal ischemic strokes in multiple territories while on a DOAC (apixaban)—a known failure scenario in high-risk APS; mildly prolonged aPTT compatible with lupus anticoagulant effect; autoimmune background (vitiligo/thyroid disease) and cytopenias (anemia, leukopenia) fit an autoimmune systemic process; chorea is a recognized neurologic manifestation of APS/SLE and can precede or accompany ischemic events.
+
+2) **Nonbacterial thrombotic endocarditis (NBTE; marantic endocarditis) due to occult malignancy or systemic autoimmune disease**  
+   Multifocal “embolic shower” infarcts across vascular territories; anemia could reflect malignancy/chronic disease. TTE can miss small vegetations (TEE often needed).
+
+3) **Infective endocarditis with cerebral emboli**  
+   Multi-territory infarcts are compatible; however afebrile, leukopenic rather than leukocytotic, and no supportive systemic infectious features provided—still a “can’t miss.”
+
+4) **Primary CNS vasculitis / systemic inflammatory vasculitis with CNS involvement**  
+   Can cause multifocal ischemia and encephalopathy; however MRA shows no stenosis/irregularity (not sensitive), and the strong thrombotic history pushes higher toward APS/NBTE.
+
+5) **Occult atrial fibrillation or other cardioembolic source not captured on telemetry (e.g., atrial cardiopathy, left atrial appendage thrombus, valvular disease)**  
+   Pattern is embolic; telemetry/TTE were unrevealing but do not exclude paroxysmal AF or small structural lesions.
+
+---
+
+## Phase 2 — Structured Second Look
+
+### A. Problem Representation Check
+- Key discriminating features that must be explicit: **(1) recurrent venous thrombosis**, **(2) recurrent multifocal ischemic infarcts in multiple territories despite apixaban**, **(3) progressive chorea + encephalopathy**, **(4) autoimmune diathesis/cytopenias**, **(5) mildly prolonged aPTT**.  
+- The leading diagnosis (APS) matches the abstracted illness script: hypercoagulable autoimmune state → venous and arterial thrombosis; DOAC failure in high-risk APS; neurologic manifestations including stroke and chorea.
+
+### B. Stress Test the Leading Diagnosis (APS)
+- **Strongest argument against APS:** The MRI lesions are described mainly as cortical and subcortical infarcts (embolus-like distribution) rather than a classic basal ganglia lacunar pattern one might expect to “explain” chorea. Also, APS is not confirmed serologically here (no antibody data yet), and aPTT interpretation is confounded by anticoagulation.
+- **Findings not fully explained by APS:** The **severity of anemia (Hgb 7.9)** is not automatically explained by APS itself and raises concern for bleeding, hemolysis, marrow disease, or malignancy—each of which could shift toward NBTE/malignancy-associated thrombosis.
+
+### C. Consider Alternatives
+- **Single best alternative:** **NBTE from occult malignancy (or autoimmune disease)**  
+  **Supporting findings over APS:** Multi-territory cortical infarcts strongly suggest an embolic shower; severe anemia could be malignancy-related; NBTE can occur with systemic autoimmune disease and may not be seen on TTE (TEE required).
+- **“Can’t miss” diagnosis:** **Infective endocarditis** (requires blood cultures/TEE promptly because missing it changes management and is high morbidity). Also **TTP** is a can’t-miss in neuro + anemia, but normal platelets make it less likely.
+
+### D. Defend or Update
+- **Findings that most strongly support APS:** Prior recurrent DVTs; arterial events (strokes) while on a DOAC; autoimmune background; mild aPTT prolongation; chorea as a known APS/SLE manifestation.
+- **APS vs NBTE overall fit:**  
+  - APS better explains the *combined* venous + arterial thrombotic history and DOAC failure pattern, and can coexist with pulmonary hypertension.  
+  - NBTE better explains an embolic shower pattern and could relate to anemia/malignancy, but does not inherently explain the long-standing DVT history unless malignancy is chronic/occult or there is a parallel thrombophilia.
+- **Update decision:** Keep APS as leading, but with a **high-priority competing diagnosis of NBTE**; the unexplained anemia is clinically significant and mandates evaluation for malignancy/bleeding/hemolysis and for valvular vegetations.
+
+---
+
+## Phase 3 — Revised Assessment
+
+**Reassessment change?** No change in the leading diagnosis, but the second look increases the weight of **NBTE (malignancy/autoimmune-associated)** and reinforces **infective endocarditis** as a must-exclude cause of multi-territory infarcts.
+
+### Final Differential (ranked)
+1) **Antiphospholipid syndrome (primary or SLE-associated), causing recurrent arterial thromboembolism and APS-associated chorea; DOAC failure**  
+2) **Nonbacterial thrombotic endocarditis (marantic), malignancy- or autoimmune-associated, causing embolic strokes**  
+3) **Infective endocarditis with septic embolic strokes**  
+4) **Systemic autoimmune disease (e.g., SLE) with secondary APS and/or CNS vasculitis**  
+5) **Occult cardioembolic source not detected on initial testing (paroxysmal AF/atrial cardiopathy/valvular lesion)**
+
+**Final Leading Diagnosis:** Antiphospholipid syndrome (likely autoimmune; primary APS or SLE-associated) causing recurrent multifocal ischemic strokes (despite apixaban) with associated chorea  
+**Final Probability:** 60%
+
+================================================================================
+EXTRACTED GRAPH: 62 nodes, 71 edges
+----------------------------------------
+
+NODES:
+  [n1] clinical_feature: recurrent venous thrombosis (phase: phase1)
+  [n2] clinical_feature: on apixaban after long-term warfarin (phase: phase1)
+  [n3] clinical_feature: pulmonary hypertension (phase: phase1)
+  [n4] clinical_feature: autoimmune comorbidity (vitiligo, hypothyroidism) (phase: phase1)
+  [n5] clinical_feature: subacute progressive generalized choreiform/athetoid movements (phase: phase1)
+  [n6] clinical_feature: worsening encephalopathy (phase: phase1)
+  [n7] clinical_feature: recurrent, multifocal acute-to-subacute ischemic infarcts in multiple vascular territories (cortical and subcortical, bilateral, plus cerebellum) despite therapeutic anticoagulation (phase: phase1)
+  [n8] clinical_feature: anemia (phase: phase1)
+  [n9] clinical_feature: leukopenia (phase: phase1)
+  [n10] clinical_feature: mildly prolonged aPTT (phase: phase1)
+  [n11] diagnosis: Antiphospholipid syndrome (APS), likely autoimmune (primary APS or SLE-associated), with arterial thromboembolism and APS-associated chorea (60%) (phase: phase1)
+  [n12] diagnosis: Nonbacterial thrombotic endocarditis (NBTE; marantic endocarditis) due to occult malignancy or systemic autoimmune disease (phase: phase1)
+  [n13] diagnosis: Infective endocarditis with cerebral emboli (phase: phase1)
+  [n14] diagnosis: Primary CNS vasculitis / systemic inflammatory vasculitis with CNS involvement (phase: phase1)
+  [n15] diagnosis: Occult atrial fibrillation or other cardioembolic source not captured on telemetry (e.g., atrial cardiopathy, left atrial appendage thrombus, valvular disease) (phase: phase1)
+  [n16] clinical_feature: Prior DVTs (phase: phase1)
+  [n17] clinical_feature: new recurrent multifocal ischemic strokes in multiple territories while on a DOAC (apixaban) (phase: phase1)
+  [n18] clinical_feature: DOAC (apixaban)—a known failure scenario in high-risk APS (phase: phase1)
+  [n19] clinical_feature: autoimmune background (vitiligo/thyroid disease) (phase: phase1)
+  [n20] clinical_feature: cytopenias (anemia, leukopenia) (phase: phase1)
+  [n21] clinical_feature: chorea (phase: phase1)
+  [n22] clinical_feature: multifocal “embolic shower” infarcts across vascular territories (phase: phase1)
+  [n23] clinical_feature: anemia could reflect malignancy/chronic disease (phase: phase1)
+  [n24] clinical_feature: TTE can miss small vegetations (TEE often needed) (phase: phase1)
+  [n25] clinical_feature: Multi-territory infarcts (phase: phase1)
+  [n26] clinical_feature: afebrile (phase: phase1)
+  [n27] clinical_feature: leukopenic rather than leukocytotic (phase: phase1)
+  [n28] clinical_feature: no supportive systemic infectious features provided (phase: phase1)
+  [n29] clinical_feature: MRA shows no stenosis/irregularity (phase: phase1)
+  [n30] clinical_feature: the strong thrombotic history (phase: phase1)
+  [n31] clinical_feature: telemetry/TTE were unrevealing (phase: phase1)
+  [n32] clinical_feature: small structural lesions (phase: phase1)
+  [n33] discriminating_feature: recurrent venous thrombosis (phase: phase2)
+  [n34] discriminating_feature: recurrent multifocal ischemic infarcts in multiple territories despite apixaban (phase: phase2)
+  [n35] discriminating_feature: progressive chorea + encephalopathy (phase: phase2)
+  [n36] discriminating_feature: autoimmune diathesis/cytopenias (phase: phase2)
+  [n37] discriminating_feature: mildly prolonged aPTT (phase: phase2)
+  [n38] clinical_feature: hypercoagulable autoimmune state → venous and arterial thrombosis (phase: phase2)
+  [n39] clinical_feature: DOAC failure in high-risk APS (phase: phase2)
+  [n40] clinical_feature: neurologic manifestations including stroke and chorea (phase: phase2)
+  [n41] clinical_feature: MRI lesions are described mainly as cortical and subcortical infarcts (embolus-like distribution) rather than a classic basal ganglia lacunar pattern one might expect to “explain” chorea (phase: phase2)
+  [n42] clinical_feature: APS is not confirmed serologically here (no antibody data yet) (phase: phase2)
+  [n43] clinical_feature: aPTT interpretation is confounded by anticoagulation (phase: phase2)
+  [n44] clinical_feature: severity of anemia (Hgb 7.9) (phase: phase2)
+  [n45] diagnosis: NBTE from occult malignancy (or autoimmune disease) (phase: phase2)
+  [n46] clinical_feature: Multi-territory cortical infarcts strongly suggest an embolic shower (phase: phase2)
+  [n47] clinical_feature: severe anemia could be malignancy-related (phase: phase2)
+  [n48] clinical_feature: NBTE can occur with systemic autoimmune disease (phase: phase2)
+  [n49] clinical_feature: may not be seen on TTE (TEE required) (phase: phase2)
+  [n50] diagnosis: TTP (phase: phase2)
+  [n51] clinical_feature: normal platelets (phase: phase2)
+  [n52] clinical_feature: arterial events (strokes) while on a DOAC (phase: phase2)
+  [n53] clinical_feature: chorea as a known APS/SLE manifestation (phase: phase2)
+  [n54] clinical_feature: combined venous + arterial thrombotic history (phase: phase2)
+  [n55] clinical_feature: can coexist with pulmonary hypertension (phase: phase2)
+  [n56] clinical_feature: embolic shower pattern (phase: phase2)
+  [n57] clinical_feature: could relate to anemia/malignancy (phase: phase2)
+  [n58] clinical_feature: does not inherently explain the long-standing DVT history unless malignancy is chronic/occult or there is a parallel thrombophilia (phase: phase2)
+  [n59] diagnosis: Antiphospholipid syndrome (primary or SLE-associated), causing recurrent arterial thromboembolism and APS-associated chorea; DOAC failure (60%) (phase: phase3)
+  [n60] diagnosis: Nonbacterial thrombotic endocarditis (marantic), malignancy- or autoimmune-associated, causing embolic strokes (phase: phase3)
+  [n61] diagnosis: Systemic autoimmune disease (e.g., SLE) with secondary APS and/or CNS vasculitis (phase: phase3)
+  [n62] diagnosis: Occult cardioembolic source not detected on initial testing (paroxysmal AF/atrial cardiopathy/valvular lesion) (phase: phase3)
+
+EDGES:
+  [e1] supports (phase1): Prior DVTs -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "Prior DVTs + new recurrent multifocal ischemic strokes in multiple territories while on a DOAC (apix"
+  [e2] supports (phase1): new recurrent multifocal ischemic stroke -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "Prior DVTs + new recurrent multifocal ischemic strokes in multiple territories while on a DOAC (apix"
+  [e3] supports (phase1): DOAC (apixaban)—a known failure scenario -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "a known failure scenario in high-risk APS"
+  [e4] supports (phase1): mildly prolonged aPTT -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "mildly prolonged aPTT compatible with lupus anticoagulant effect"
+  [e5] supports (phase1): autoimmune background (vitiligo/thyroid  -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "autoimmune background (vitiligo/thyroid disease) and cytopenias (anemia, leukopenia) fit an autoimmu"
+  [e6] supports (phase1): cytopenias (anemia, leukopenia) -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "autoimmune background (vitiligo/thyroid disease) and cytopenias (anemia, leukopenia) fit an autoimmu"
+  [e7] supports (phase1): chorea -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "chorea is a recognized neurologic manifestation of APS/SLE and can precede or accompany ischemic eve"
+  [e8] supports (phase1): multifocal “embolic shower” infarcts acr -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "Multifocal “embolic shower” infarcts across vascular territories"
+  [e9] supports (phase1): anemia could reflect malignancy/chronic  -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "anemia could reflect malignancy/chronic disease"
+  [e10] supports (phase1): TTE can miss small vegetations (TEE ofte -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "TTE can miss small vegetations (TEE often needed)"
+  [e11] supports (phase1): Multi-territory infarcts -> Infective endocarditis with cerebral emb
+         verbatim: "Multi-territory infarcts are compatible"
+  [e12] argues_against (phase1): afebrile -> Infective endocarditis with cerebral emb
+         verbatim: "however afebrile"
+  [e13] argues_against (phase1): leukopenic rather than leukocytotic -> Infective endocarditis with cerebral emb
+         verbatim: "leukopenic rather than leukocytotic"
+  [e14] argues_against (phase1): no supportive systemic infectious featur -> Infective endocarditis with cerebral emb
+         verbatim: "no supportive systemic infectious features provided"
+  [e15] supports (phase1): recurrent, multifocal acute-to-subacute  -> Primary CNS vasculitis / systemic inflam
+         verbatim: "Can cause multifocal ischemia and encephalopathy"
+  [e16] supports (phase1): worsening encephalopathy -> Primary CNS vasculitis / systemic inflam
+         verbatim: "Can cause multifocal ischemia and encephalopathy"
+  [e17] argues_against (phase1): MRA shows no stenosis/irregularity -> Primary CNS vasculitis / systemic inflam
+         verbatim: "however MRA shows no stenosis/irregularity (not sensitive)"
+  [e18] argues_against (phase1): the strong thrombotic history -> Primary CNS vasculitis / systemic inflam
+         verbatim: "the strong thrombotic history pushes higher toward APS/NBTE"
+  [e19] supports (phase1): recurrent, multifocal acute-to-subacute  -> Occult atrial fibrillation or other card
+         verbatim: "Pattern is embolic"
+  [e20] argues_against (phase1): telemetry/TTE were unrevealing -> Occult atrial fibrillation or other card
+         verbatim: "telemetry/TTE were unrevealing"
+  [e21] supports (phase1): small structural lesions -> Occult atrial fibrillation or other card
+         verbatim: "do not exclude paroxysmal AF or small structural lesions"
+  [e22] supports (phase2): recurrent venous thrombosis -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "The leading diagnosis (APS) matches the abstracted illness script: hypercoagulable autoimmune state "
+  [e23] supports (phase2): recurrent multifocal ischemic infarcts i -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "The leading diagnosis (APS) matches the abstracted illness script: DOAC failure in high-risk APS"
+  [e24] supports (phase2): progressive chorea + encephalopathy -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "The leading diagnosis (APS) matches the abstracted illness script: neurologic manifestations includi"
+  [e25] supports (phase2): autoimmune diathesis/cytopenias -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "The leading diagnosis (APS) matches the abstracted illness script: hypercoagulable autoimmune state "
+  [e26] supports (phase2): mildly prolonged aPTT -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "The leading diagnosis (APS) matches the abstracted illness script"
+  [e27] supports (phase2): hypercoagulable autoimmune state → venou -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "hypercoagulable autoimmune state → venous and arterial thrombosis"
+  [e28] supports (phase2): DOAC failure in high-risk APS -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "DOAC failure in high-risk APS"
+  [e29] supports (phase2): neurologic manifestations including stro -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "neurologic manifestations including stroke and chorea"
+  [e30] argues_against (phase2): MRI lesions are described mainly as cort -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "The MRI lesions are described mainly as cortical and subcortical infarcts (embolus-like distribution"
+  [e31] argues_against (phase2): APS is not confirmed serologically here  -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "APS is not confirmed serologically here (no antibody data yet)"
+  [e32] argues_against (phase2): aPTT interpretation is confounded by ant -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "aPTT interpretation is confounded by anticoagulation"
+  [e33] argues_against (phase2): severity of anemia (Hgb 7.9) -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "The severity of anemia (Hgb 7.9) is not automatically explained by APS itself"
+  [e34] supports (phase2): severity of anemia (Hgb 7.9) -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "raises concern for bleeding, hemolysis, marrow disease, or malignancy—each of which could shift towa"
+  [e35] supports (phase2): Multi-territory cortical infarcts strong -> NBTE from occult malignancy (or autoimmu
+         verbatim: "Multi-territory cortical infarcts strongly suggest an embolic shower"
+  [e36] supports (phase2): severe anemia could be malignancy-relate -> NBTE from occult malignancy (or autoimmu
+         verbatim: "severe anemia could be malignancy-related"
+  [e37] supports (phase2): NBTE can occur with systemic autoimmune  -> NBTE from occult malignancy (or autoimmu
+         verbatim: "NBTE can occur with systemic autoimmune disease"
+  [e38] supports (phase2): may not be seen on TTE (TEE required) -> NBTE from occult malignancy (or autoimmu
+         verbatim: "may not be seen on TTE (TEE required)"
+  [e39] supports (phase2): severity of anemia (Hgb 7.9) -> TTP
+         verbatim: "TTP is a can’t-miss in neuro + anemia"
+  [e40] argues_against (phase2): normal platelets -> TTP
+         verbatim: "normal platelets make it less likely"
+  [e41] supports (phase2): recurrent venous thrombosis -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "Prior recurrent DVTs"
+  [e42] supports (phase2): arterial events (strokes) while on a DOA -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "arterial events (strokes) while on a DOAC"
+  [e43] supports (phase2): autoimmune comorbidity (vitiligo, hypoth -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "autoimmune background"
+  [e44] supports (phase2): mildly prolonged aPTT -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "mild aPTT prolongation"
+  [e45] supports (phase2): chorea as a known APS/SLE manifestation -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "chorea as a known APS/SLE manifestation"
+  [e46] supports (phase2): combined venous + arterial thrombotic hi -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "APS better explains the combined venous + arterial thrombotic history"
+  [e47] supports (phase2): DOAC failure in high-risk APS -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "and DOAC failure pattern"
+  [e48] supports (phase2): can coexist with pulmonary hypertension -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "and can coexist with pulmonary hypertension"
+  [e49] supports (phase2): embolic shower pattern -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "NBTE better explains an embolic shower pattern"
+  [e50] supports (phase2): could relate to anemia/malignancy -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "and could relate to anemia/malignancy"
+  [e51] argues_against (phase2): does not inherently explain the long-sta -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "but does not inherently explain the long-standing DVT history unless malignancy is chronic/occult or"
+  [e52] discriminates_between (phase2): combined venous + arterial thrombotic hi -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "APS better explains the combined venous + arterial thrombotic history"
+  [e53] discriminates_between (phase2): embolic shower pattern -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "NBTE better explains an embolic shower pattern"
+  [e54] triggered_reflection (phase2): MRI lesions are described mainly as cort -> r1
+         verbatim: "The MRI lesions are described mainly as cortical and subcortical infarcts (embolus-like distribution"
+  [e55] triggered_reflection (phase2): severity of anemia (Hgb 7.9) -> r1
+         verbatim: "The severity of anemia (Hgb 7.9) is not automatically explained by APS itself and raises concern for"
+  [e56] unchanged (phase3): r1 -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "Reassessment change? No change in the leading diagnosis"
+  [e57] promoted (phase3): r1 -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "the second look increases the weight of NBTE (malignancy/autoimmune-associated)"
+  [e58] promoted (phase3): r1 -> Infective endocarditis with cerebral emb
+         verbatim: "and reinforces infective endocarditis as a must-exclude cause of multi-territory infarcts"
+  [e59] supports (phase3): recurrent multifocal ischemic infarcts i -> Antiphospholipid syndrome (primary or SL
+         verbatim: "Antiphospholipid syndrome (primary or SLE-associated), causing recurrent arterial thromboembolism an"
+  [e60] supports (phase3): progressive chorea + encephalopathy -> Antiphospholipid syndrome (primary or SL
+         verbatim: "Antiphospholipid syndrome (primary or SLE-associated), causing recurrent arterial thromboembolism an"
+  [e61] supports (phase3): embolic shower pattern -> Nonbacterial thrombotic endocarditis (ma
+         verbatim: "Nonbacterial thrombotic endocarditis (marantic), malignancy- or autoimmune-associated, causing embol"
+  [e62] supports (phase3): Multi-territory infarcts -> Infective endocarditis with cerebral emb
+         verbatim: "infective endocarditis as a must-exclude cause of multi-territory infarcts"
+  [e63] supports (phase3): autoimmune diathesis/cytopenias -> Systemic autoimmune disease (e.g., SLE) 
+         verbatim: "Systemic autoimmune disease (e.g., SLE) with secondary APS and/or CNS vasculitis"
+  [e64] supports (phase3): telemetry/TTE were unrevealing -> Occult cardioembolic source not detected
+         verbatim: "Occult cardioembolic source not detected on initial testing"
+  [e65] supports (phase1): on apixaban after long-term warfarin -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "on a DOAC (apixaban)"
+  [e66] supports (phase2): pulmonary hypertension -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "can coexist with pulmonary hypertension"
+  [e67] supports (phase1): subacute progressive generalized choreif -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "chorea is a recognized neurologic manifestation of APS/SLE"
+  [e68] supports (phase1): worsening encephalopathy -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "can precede or accompany ischemic events"
+  [e69] supports (phase1): anemia -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "cytopenias (anemia, leukopenia) fit an autoimmune systemic process"
+  [e70] supports (phase1): leukopenia -> Antiphospholipid syndrome (APS), likely 
+         verbatim: "cytopenias (anemia, leukopenia) fit an autoimmune systemic process"
+  [e71] supports (phase1): new recurrent multifocal ischemic stroke -> Nonbacterial thrombotic endocarditis (NB
+         verbatim: "Multifocal “embolic shower” infarcts across vascular territories"
+
+REFLECTION EVENTS:
+  [r1] Embolus-like cortical/subcortical infarct pattern and severe unexplained anemia  (phase: phase2)
+
+PROBLEM REPRESENTATION:
+  A 68-year-old woman with a history of recurrent venous thrombosis (on apixaban after long-term warfarin), pulmonary hypertension, and autoimmune comorbidity (vitiligo, hypothyroidism) developed subacu

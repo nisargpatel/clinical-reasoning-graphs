@@ -1,0 +1,52 @@
+{
+  "openai/gpt-5.2": {
+    "baseline_within_mean": 0.4536893597878609,
+    "structured_within_mean": 0.4590807695755008,
+    "delta": 0.005391409787639911,
+    "mann_whitney_U": 1369.0,
+    "p_value": 0.589971104841393,
+    "reflection_stabilizes": "False",
+    "n_baseline_pairs": 53,
+    "n_structured_pairs": 53
+  },
+  "google/gemini-3-pro-preview": {
+    "baseline_within_mean": 0.48218838414284265,
+    "structured_within_mean": 0.45671567512127964,
+    "delta": -0.02547270902156301,
+    "mann_whitney_U": 1048.0,
+    "p_value": 0.9879568725136717,
+    "reflection_stabilizes": "False",
+    "n_baseline_pairs": 53,
+    "n_structured_pairs": 53
+  },
+  "anthropic/claude-opus-4.5": {
+    "baseline_within_mean": 0.4947713413154326,
+    "structured_within_mean": 0.47443499708075904,
+    "delta": -0.020336344234673565,
+    "mann_whitney_U": 1137.0,
+    "p_value": 0.9548096191213103,
+    "reflection_stabilizes": "False",
+    "n_baseline_pairs": 53,
+    "n_structured_pairs": 53
+  },
+  "openai/gpt-5.4": {
+    "baseline_within_mean": 0.47565210918103806,
+    "structured_within_mean": 0.4515302716444076,
+    "delta": -0.02412183753663044,
+    "mann_whitney_U": 957.0,
+    "p_value": 0.9976780196775367,
+    "reflection_stabilizes": "False",
+    "n_baseline_pairs": 53,
+    "n_structured_pairs": 53
+  },
+  "anthropic/claude-sonnet-4.5": {
+    "baseline_within_mean": 0.5005789765285871,
+    "structured_within_mean": 0.4597299362416056,
+    "delta": -0.0408490402869815,
+    "mann_whitney_U": 703.0,
+    "p_value": 0.9999954108446049,
+    "reflection_stabilizes": "False",
+    "n_baseline_pairs": 53,
+    "n_structured_pairs": 53
+  }
+}

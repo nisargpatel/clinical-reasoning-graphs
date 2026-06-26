@@ -1,0 +1,510 @@
+TRACE ID: V08
+Case: NEJM_CPC_36_2024 | Model: openai/gpt-5.4 | Condition: baseline
+Ground truth: Trichobezoar
+Final diagnosis: Acute intermittent porphyria (45%)
+================================================================================
+
+ORIGINAL TRACE:
+----------------------------------------
+## Differential Diagnosis (ranked top 5)
+
+1. **Acute intermittent porphyria (AIP) / acute hepatic porphyria**
+2. **Abdominal migraine / cyclic vomiting spectrum**
+3. **Peptic ulcer disease or erosive gastritis**
+4. **Intermittent bowel pathology not captured on imaging** (e.g., transient intussusception, partial intermittent obstruction)
+5. **Functional abdominal pain disorder / disorder of gut–brain interaction**
+
+---
+
+## Leading diagnosis with reasoning
+
+This presentation is most suggestive of **acute intermittent porphyria (AIP)**, an acute hepatic porphyria causing episodic neurovisceral attacks.
+
+Key features that point in this direction:
+
+- **Recurrent severe abdominal pain with normal imaging and unrevealing routine labs.** AIP classically causes intense, poorly localized abdominal pain with nausea and vomiting but often no corresponding structural abnormality on ultrasound or CT.
+- **Associated autonomic and neurologic-type symptoms:** fatigue, dizziness, generalized weakness, and constipation. Constipation is especially characteristic in porphyric attacks because of autonomic dysfunction affecting the gut.
+- **Teenage girl with a potential hormonal trigger.** AIP often emerges after puberty and is more common in females; attacks can be precipitated by hormones, including progesterone-containing medications or cyclic hormonal changes. She is taking oral contraceptives, which is a notable clue.
+- **Pain episodes are abrupt, severe, and recurrent over weeks**, with vomiting that sometimes follows the pain. This episodic neurovisceral pattern is highly compatible with porphyria.
+- **Examination and studies are discordant with the intensity of symptoms.** She has tenderness and guarding, but imaging repeatedly shows no surgical explanation; liver tests, kidney function, urinalysis, pelvic imaging, and abdominal CT are unrevealing.
+- **Common alternatives fit less well.** Peptic disease could cause epigastric pain and nausea, but repeated abrupt brief attacks, marked constipation, weakness, and entirely normal imaging with no meal relation are less typical. Abdominal migraine is possible, but constipation and the overall neurovisceral/autonomic pattern plus the age/sex/hormonal context make AIP stronger.
+
+AIP does not require hyponatremia or obvious neuropathy to be present early; those are supportive but not necessary. The absence of psychiatric decompensation or dark urine also does not exclude it.
+
+---
+
+## Step-by-step reasoning
+
+### 1) First, characterize the syndrome
+This is a **subacute recurrent episodic abdominal pain syndrome** in a 16-year-old girl, with:
+- 4 weeks of symptoms, increasing in frequency
+- severe, abrupt, short-lived episodes initially, later lasting longer
+- epigastric/upper abdominal predominance
+- nausea and recurrent vomiting
+- worsening constipation
+- fatigue, dizziness, generalized weakness
+- no fever, diarrhea, rash, or urinary symptoms
+- repeated negative pregnancy testing
+- repeated normal ultrasonography and CT
+- normal chemistries, liver tests, kidney function, urinalysis
+
+This is therefore **not obviously inflammatory, infectious, obstructive, hepatobiliary, renal, or gynecologic** based on available data.
+
+### 2) Evaluate for surgical/structural abdominal disease
+Important considerations in a teenager with abdominal pain include appendicitis, cholecystitis, pancreatitis, ovarian torsion/cyst, bowel obstruction, inflammatory bowel disease, and peptic disease.
+
+What argues against a surgical abdomen:
+- Symptoms present for **weeks**
+- **Normal appendix on CT**
+- No obstruction on CT
+- Repeat abdominal and pelvic ultrasounds unrevealing
+- No transaminitis, cholestatic pattern, bilirubin elevation
+- No mention of elevated lipase/pancreatic findings
+- No peritoneal progression, no fever
+- Pain is **episodic**, not steadily worsening
+
+Transient pathology is still conceivable, but repeated normal imaging makes common structural causes less likely.
+
+### 3) Look for a pattern suggesting a metabolic or neurovisceral disorder
+The combination of:
+- severe abdominal pain
+- nausea/vomiting
+- constipation
+- weakness
+- dizziness
+- normal imaging
+- adolescent female after puberty
+- possible hormonal exposure (oral contraceptive)
+
+is a classic pattern for **acute hepatic porphyria**, especially AIP.
+
+AIP attacks often present with:
+- diffuse or epigastric abdominal pain
+- nausea/vomiting
+- constipation more often than diarrhea
+- tachycardia or autonomic symptoms
+- weakness, fatigue, psychiatric symptoms, sensory complaints
+- normal or minimally abnormal abdominal examination relative to symptom severity
+- no clear findings on imaging
+
+Her initial tachycardia and dry mucous membranes could simply reflect dehydration, but autonomic activation also fits.
+
+### 4) Consider inflammatory markers and CBC abnormalities
+She has:
+- leukocytosis with neutrophilia
+- thrombocytosis
+- microcytic anemia
+- mildly elevated ESR
+- normal CRP
+
+These findings do **not strongly support an acute intraabdominal inflammatory process**. The blood count is most consistent with **iron-deficiency anemia with reactive thrombocytosis**, and stress leukocytosis may accompany pain/vomiting. The inflammatory markers are not convincingly high for an occult inflammatory abdominal disease.
+
+The history of iron-deficiency anemia and prior pica is notable, but it is probably background rather than the primary diagnosis here, unless there is an underlying GI source. Still, there is no overt GI bleeding, diarrhea, weight loss, or imaging evidence of inflammatory bowel disease.
+
+### 5) Why each differential diagnosis is ranked as listed
+
+#### 1. Acute intermittent porphyria
+**Supporting findings:**
+- severe recurrent abdominal pain without structural explanation
+- nausea/vomiting
+- constipation
+- weakness/dizziness/fatigue
+- adolescent female
+- oral contraceptive exposure as possible trigger
+- normal liver enzymes, bilirubin, urinalysis, and imaging despite dramatic symptoms
+
+**Arguing against / less typical features:**
+- no documented hyponatremia
+- no clear neuropathy, psychiatric disturbance, or dark urine
+- tenderness/guarding can seem more “surgical,” though this can occur in AIP
+
+These absent features do not rule it out; many early attacks present mainly with abdominal symptoms.
+
+#### 2. Abdominal migraine / cyclic vomiting spectrum
+**Supporting findings:**
+- paroxysmal episodes of severe abdominal pain with nausea/vomiting
+- symptom-free intervals implied between episodes
+- adolescent age group
+- normal imaging and routine labs
+
+**Arguing against:**
+- constipation and generalized weakness are less characteristic than in porphyria
+- no personal or family migraine history provided
+- pain is not clearly stereotyped around migraine triggers
+- upper abdominal pain and autonomic/GI dysmotility picture push me more toward porphyria
+
+Still, abdominal migraine remains plausible in an adolescent with recurrent episodic severe pain and vomiting.
+
+#### 3. Peptic ulcer disease or erosive gastritis
+**Supporting findings:**
+- epigastric-predominant pain
+- nausea/vomiting
+- pain worsened after ibuprofen exposure
+- family history of peptic ulcer disease
+- iron-deficiency anemia could raise concern for chronic occult blood loss
+
+**Arguing against:**
+- episodes are abrupt and intermittent rather than meal-related or more persistent dyspepsia
+- constipation, weakness, and normal imaging are nonspecific
+- no melena, hematemesis, or clear response to famotidine (though she largely did not take it)
+- pain severe enough to wake from sleep is concerning, but the total pattern is still not ideal for peptic disease alone
+
+This remains important because endoscopy could reveal disease missed on imaging.
+
+#### 4. Intermittent bowel pathology not captured on imaging
+Examples include transient intussusception, intermittent volvulus, partial obstruction, or less likely internal hernia.
+
+**Supporting findings:**
+- abrupt severe episodic pain with vomiting
+- pain-free intervals possible
+- constipation
+- vomiting relieves pain somewhat, which can happen with obstructive phenomena
+
+**Arguing against:**
+- CT did not show obstruction
+- symptoms have continued for weeks without progression to clear obstructive findings
+- no distention
+- stool burden was small, not suggesting major fecal impaction
+- age and presentation are less typical for many of these conditions
+
+I keep this on the list because transient obstructive events can be missed between episodes, but probability is lower.
+
+#### 5. Functional abdominal pain disorder / disorder of gut–brain interaction
+**Supporting findings:**
+- adolescent
+- anxiety disorder
+- normal imaging and routine testing
+- recurrent pain with limited objective abnormalities
+
+**Arguing against:**
+- significant vomiting
+- waking from sleep
+- progressive constipation and weakness
+- severity of attacks and associated systemic/autonomic symptoms suggest an organic etiology should be excluded first
+
+This should be a diagnosis of exclusion, not the primary diagnosis at this stage.
+
+---
+
+## Why I rank AIP above the alternatives
+
+The most important clue in the case is the **mismatch between severe recurrent abdominal pain and repeatedly normal abdominal imaging and standard laboratory evaluation**, combined with **constipation and neurovegetative symptoms** in a **postpubertal female** with a possible **hormonal trigger**. That pattern is classic board-style and real-world classic for **acute hepatic porphyria**.
+
+If I were evaluating this patient clinically, the next key diagnostic test would be:
+- **spot urine porphobilinogen (PBG)**, ideally during symptoms, along with total urine porphyrins and delta-aminolevulinic acid (ALA)
+
+If strongly suspected, treatment should not wait too long for confirmatory testing if she clinically worsens:
+- carbohydrate loading / dextrose
+- remove precipitating drugs
+- hematin/hemin if attack confirmed or highly suspected and significant
+
+---
+
+## Additional comments on alternative diagnoses
+
+A few other diagnoses deserve mention but fall outside my top 5:
+
+- **Cannabinoid hyperemesis syndrome:** less likely because she last used marijuana 4 weeks ago and the pattern is abdominal pain-first, not classic prolonged recurrent emesis with hot bathing behavior.
+- **Superior mesenteric artery syndrome or gastric outlet pathology:** CT apparently did not support obstruction, and BMI is not low.
+- **Gastroparesis:** vomiting and retained gastric contents could suggest this, but the severe episodic pain pattern and constipation/weakness syndrome fit porphyria better.
+- **Lead poisoning:** abdominal pain, constipation, microcytic anemia, and history of pica are intriguing; however, her pica was remote, and the episodic neurovisceral attacks in a postpubertal girl with OCP exposure make AIP more likely. Still, a blood lead level would not be unreasonable if exposure risk emerged.
+- **Inflammatory bowel disease or celiac disease:** anemia and elevated ESR could raise the question, but there is no diarrhea, weight loss, GI bleeding, or imaging support.
+
+**Leading Diagnosis:** Acute intermittent porphyria  
+**Estimated Probability:** 45%
+
+================================================================================
+EXTRACTED GRAPH: 96 nodes, 96 edges
+----------------------------------------
+
+NODES:
+  [n1] diagnosis: Acute intermittent porphyria (AIP) / acute hepatic porphyria (45%) (phase: phase1)
+  [n2] diagnosis: Abdominal migraine / cyclic vomiting spectrum (25%) (phase: phase1)
+  [n3] diagnosis: Peptic ulcer disease or erosive gastritis (20%) (phase: phase1)
+  [n4] diagnosis: Intermittent bowel pathology not captured on imaging (15%) (phase: phase1)
+  [n5] diagnosis: Functional abdominal pain disorder / disorder of gut–brain interaction (10%) (phase: phase1)
+  [n6] clinical_feature: recurrent severe abdominal pain with normal imaging and unrevealing routine labs (phase: phase1)
+  [n7] clinical_feature: fatigue, dizziness, generalized weakness, and constipation (phase: phase1)
+  [n8] clinical_feature: Teenage girl with a potential hormonal trigger (phase: phase1)
+  [n9] clinical_feature: taking oral contraceptives (phase: phase1)
+  [n10] clinical_feature: Pain episodes are abrupt, severe, and recurrent over weeks, with vomiting that sometimes follows the pain (phase: phase1)
+  [n11] clinical_feature: Examination and studies are discordant with the intensity of symptoms (phase: phase1)
+  [n12] clinical_feature: epigastric pain and nausea (phase: phase1)
+  [n13] clinical_feature: repeated abrupt brief attacks, marked constipation, weakness, and entirely normal imaging with no meal relation (phase: phase1)
+  [n14] clinical_feature: constipation and the overall neurovisceral/autonomic pattern plus the age/sex/hormonal context (phase: phase1)
+  [n15] semantic_qualifier: subacute recurrent episodic abdominal pain syndrome (phase: phase1)
+  [n16] clinical_feature: 4 weeks of symptoms, increasing in frequency (phase: phase1)
+  [n17] clinical_feature: severe, abrupt, short-lived episodes initially, later lasting longer (phase: phase1)
+  [n18] clinical_feature: epigastric/upper abdominal predominance (phase: phase1)
+  [n19] clinical_feature: nausea and recurrent vomiting (phase: phase1)
+  [n20] clinical_feature: worsening constipation (phase: phase1)
+  [n21] clinical_feature: no fever, diarrhea, rash, or urinary symptoms (phase: phase1)
+  [n22] clinical_feature: repeated negative pregnancy testing (phase: phase1)
+  [n23] clinical_feature: repeated normal ultrasonography and CT (phase: phase1)
+  [n24] clinical_feature: normal chemistries, liver tests, kidney function, urinalysis (phase: phase1)
+  [n25] clinical_feature: Symptoms present for weeks (phase: phase1)
+  [n26] clinical_feature: Normal appendix on CT (phase: phase1)
+  [n27] clinical_feature: No obstruction on CT (phase: phase1)
+  [n28] clinical_feature: Repeat abdominal and pelvic ultrasounds unrevealing (phase: phase1)
+  [n29] clinical_feature: No transaminitis, cholestatic pattern, bilirubin elevation (phase: phase1)
+  [n30] clinical_feature: No mention of elevated lipase/pancreatic findings (phase: phase1)
+  [n31] clinical_feature: No peritoneal progression, no fever (phase: phase1)
+  [n32] clinical_feature: Pain is episodic, not steadily worsening (phase: phase1)
+  [n33] clinical_feature: severe abdominal pain (phase: phase1)
+  [n34] clinical_feature: constipation (phase: phase1)
+  [n35] clinical_feature: weakness (phase: phase1)
+  [n36] clinical_feature: dizziness (phase: phase1)
+  [n37] clinical_feature: normal imaging (phase: phase1)
+  [n38] clinical_feature: adolescent female after puberty (phase: phase1)
+  [n39] clinical_feature: possible hormonal exposure (oral contraceptive) (phase: phase1)
+  [n40] clinical_feature: initial tachycardia and dry mucous membranes (phase: phase1)
+  [n41] clinical_feature: leukocytosis with neutrophilia (phase: phase1)
+  [n42] clinical_feature: thrombocytosis (phase: phase1)
+  [n43] clinical_feature: microcytic anemia (phase: phase1)
+  [n44] clinical_feature: mildly elevated ESR (phase: phase1)
+  [n45] clinical_feature: normal CRP (phase: phase1)
+  [n46] clinical_feature: iron-deficiency anemia with reactive thrombocytosis (phase: phase1)
+  [n47] clinical_feature: stress leukocytosis may accompany pain/vomiting (phase: phase1)
+  [n48] clinical_feature: history of iron-deficiency anemia and prior pica (phase: phase1)
+  [n49] clinical_feature: no overt GI bleeding, diarrhea, weight loss, or imaging evidence of inflammatory bowel disease (phase: phase1)
+  [n50] clinical_feature: no documented hyponatremia (phase: phase1)
+  [n51] clinical_feature: no clear neuropathy, psychiatric disturbance, or dark urine (phase: phase1)
+  [n52] clinical_feature: tenderness/guarding can seem more “surgical” (phase: phase1)
+  [n53] clinical_feature: paroxysmal episodes of severe abdominal pain with nausea/vomiting (phase: phase1)
+  [n54] clinical_feature: symptom-free intervals implied between episodes (phase: phase1)
+  [n55] clinical_feature: adolescent age group (phase: phase1)
+  [n56] clinical_feature: constipation and generalized weakness are less characteristic than in porphyria (phase: phase1)
+  [n57] clinical_feature: no personal or family migraine history provided (phase: phase1)
+  [n58] clinical_feature: pain is not clearly stereotyped around migraine triggers (phase: phase1)
+  [n59] clinical_feature: upper abdominal pain and autonomic/GI dysmotility picture (phase: phase1)
+  [n60] clinical_feature: pain worsened after ibuprofen exposure (phase: phase1)
+  [n61] clinical_feature: family history of peptic ulcer disease (phase: phase1)
+  [n62] clinical_feature: iron-deficiency anemia could raise concern for chronic occult blood loss (phase: phase1)
+  [n63] clinical_feature: episodes are abrupt and intermittent rather than meal-related or more persistent dyspepsia (phase: phase1)
+  [n64] clinical_feature: no melena, hematemesis, or clear response to famotidine (phase: phase1)
+  [n65] clinical_feature: pain severe enough to wake from sleep (phase: phase1)
+  [n66] clinical_feature: abrupt severe episodic pain with vomiting (phase: phase1)
+  [n67] clinical_feature: pain-free intervals possible (phase: phase1)
+  [n68] clinical_feature: vomiting relieves pain somewhat (phase: phase1)
+  [n69] clinical_feature: symptoms have continued for weeks without progression to clear obstructive findings (phase: phase1)
+  [n70] clinical_feature: no distention (phase: phase1)
+  [n71] clinical_feature: stool burden was small, not suggesting major fecal impaction (phase: phase1)
+  [n72] clinical_feature: age and presentation are less typical for many of these conditions (phase: phase1)
+  [n73] clinical_feature: adolescent (phase: phase1)
+  [n74] clinical_feature: anxiety disorder (phase: phase1)
+  [n75] clinical_feature: recurrent pain with limited objective abnormalities (phase: phase1)
+  [n76] clinical_feature: significant vomiting (phase: phase1)
+  [n77] clinical_feature: waking from sleep (phase: phase1)
+  [n78] clinical_feature: progressive constipation and weakness (phase: phase1)
+  [n79] clinical_feature: severity of attacks and associated systemic/autonomic symptoms (phase: phase1)
+  [n80] discriminating_feature: mismatch between severe recurrent abdominal pain and repeatedly normal abdominal imaging and standard laboratory evaluation (phase: phase1)
+  [n81] discriminating_feature: constipation and neurovegetative symptoms (phase: phase1)
+  [n82] discriminating_feature: postpubertal female with a possible hormonal trigger (phase: phase1)
+  [n83] diagnosis: Cannabinoid hyperemesis syndrome (5%) (phase: phase1)
+  [n84] clinical_feature: last used marijuana 4 weeks ago (phase: phase1)
+  [n85] clinical_feature: pattern is abdominal pain-first, not classic prolonged recurrent emesis with hot bathing behavior (phase: phase1)
+  [n86] diagnosis: Superior mesenteric artery syndrome or gastric outlet pathology (5%) (phase: phase1)
+  [n87] clinical_feature: CT apparently did not support obstruction (phase: phase1)
+  [n88] clinical_feature: BMI is not low (phase: phase1)
+  [n89] diagnosis: Gastroparesis (10%) (phase: phase1)
+  [n90] clinical_feature: vomiting and retained gastric contents could suggest this (phase: phase1)
+  [n91] clinical_feature: severe episodic pain pattern and constipation/weakness syndrome fit porphyria better (phase: phase1)
+  [n92] diagnosis: Lead poisoning (10%) (phase: phase1)
+  [n93] clinical_feature: abdominal pain, constipation, microcytic anemia, and history of pica (phase: phase1)
+  [n94] clinical_feature: pica was remote (phase: phase1)
+  [n95] clinical_feature: episodic neurovisceral attacks in a postpubertal girl with OCP exposure (phase: phase1)
+  [n96] diagnosis: Inflammatory bowel disease or celiac disease (10%) (phase: phase1)
+
+EDGES:
+  [e1] supports (phase1): recurrent severe abdominal pain with nor -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "AIP classically causes intense, poorly localized abdominal pain with nausea and vomiting but often n"
+  [e2] supports (phase1): fatigue, dizziness, generalized weakness -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Constipation is especially characteristic in porphyric attacks because of autonomic dysfunction affe"
+  [e3] supports (phase1): Teenage girl with a potential hormonal t -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "AIP often emerges after puberty and is more common in females"
+  [e4] supports (phase1): taking oral contraceptives -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "attacks can be precipitated by hormones, including progesterone-containing medications or cyclic hor"
+  [e5] supports (phase1): Pain episodes are abrupt, severe, and re -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "This episodic neurovisceral pattern is highly compatible with porphyria."
+  [e6] supports (phase1): Examination and studies are discordant w -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "She has tenderness and guarding, but imaging repeatedly shows no surgical explanation; liver tests, "
+  [e7] supports (phase1): epigastric pain and nausea -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Peptic disease could cause epigastric pain and nausea"
+  [e8] argues_against (phase1): repeated abrupt brief attacks, marked co -> Peptic ulcer disease or erosive gastriti
+         verbatim: "repeated abrupt brief attacks, marked constipation, weakness, and entirely normal imaging with no me"
+  [e9] supports (phase1): constipation and the overall neuroviscer -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "constipation and the overall neurovisceral/autonomic pattern plus the age/sex/hormonal context make "
+  [e10] argues_against (phase1): repeated normal ultrasonography and CT -> Intermittent bowel pathology not capture
+         verbatim: "This is therefore not obviously inflammatory, infectious, obstructive, hepatobiliary, renal, or gyne"
+  [e11] argues_against (phase1): normal chemistries, liver tests, kidney  -> Intermittent bowel pathology not capture
+         verbatim: "This is therefore not obviously inflammatory, infectious, obstructive, hepatobiliary, renal, or gyne"
+  [e12] argues_against (phase1): Symptoms present for weeks -> Intermittent bowel pathology not capture
+         verbatim: "What argues against a surgical abdomen: Symptoms present for weeks"
+  [e13] argues_against (phase1): Normal appendix on CT -> Intermittent bowel pathology not capture
+         verbatim: "What argues against a surgical abdomen: Normal appendix on CT"
+  [e14] argues_against (phase1): No obstruction on CT -> Intermittent bowel pathology not capture
+         verbatim: "What argues against a surgical abdomen: No obstruction on CT"
+  [e15] argues_against (phase1): Repeat abdominal and pelvic ultrasounds  -> Intermittent bowel pathology not capture
+         verbatim: "What argues against a surgical abdomen: Repeat abdominal and pelvic ultrasounds unrevealing"
+  [e16] argues_against (phase1): No transaminitis, cholestatic pattern, b -> Intermittent bowel pathology not capture
+         verbatim: "What argues against a surgical abdomen: No transaminitis, cholestatic pattern, bilirubin elevation"
+  [e17] argues_against (phase1): No mention of elevated lipase/pancreatic -> Intermittent bowel pathology not capture
+         verbatim: "What argues against a surgical abdomen: No mention of elevated lipase/pancreatic findings"
+  [e18] argues_against (phase1): No peritoneal progression, no fever -> Intermittent bowel pathology not capture
+         verbatim: "What argues against a surgical abdomen: No peritoneal progression, no fever"
+  [e19] argues_against (phase1): Pain is episodic, not steadily worsening -> Intermittent bowel pathology not capture
+         verbatim: "What argues against a surgical abdomen: Pain is episodic, not steadily worsening"
+  [e20] supports (phase1): severe abdominal pain -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The combination of: severe abdominal pain ... is a classic pattern for acute hepatic porphyria, espe"
+  [e21] supports (phase1): nausea and recurrent vomiting -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The combination of: severe abdominal pain - nausea/vomiting ... is a classic pattern for acute hepat"
+  [e22] supports (phase1): constipation -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The combination of: ... constipation ... is a classic pattern for acute hepatic porphyria, especiall"
+  [e23] supports (phase1): weakness -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The combination of: ... weakness ... is a classic pattern for acute hepatic porphyria, especially AI"
+  [e24] supports (phase1): dizziness -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The combination of: ... dizziness ... is a classic pattern for acute hepatic porphyria, especially A"
+  [e25] supports (phase1): normal imaging -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The combination of: ... normal imaging ... is a classic pattern for acute hepatic porphyria, especia"
+  [e26] supports (phase1): adolescent female after puberty -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The combination of: ... adolescent female after puberty ... is a classic pattern for acute hepatic p"
+  [e27] supports (phase1): possible hormonal exposure (oral contrac -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The combination of: ... possible hormonal exposure (oral contraceptive) is a classic pattern for acu"
+  [e28] supports (phase1): initial tachycardia and dry mucous membr -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Her initial tachycardia and dry mucous membranes could simply reflect dehydration, but autonomic act"
+  [e29] argues_against (phase1): leukocytosis with neutrophilia -> Intermittent bowel pathology not capture
+         verbatim: "These findings do not strongly support an acute intraabdominal inflammatory process."
+  [e30] argues_against (phase1): thrombocytosis -> Intermittent bowel pathology not capture
+         verbatim: "These findings do not strongly support an acute intraabdominal inflammatory process."
+  [e31] argues_against (phase1): microcytic anemia -> Intermittent bowel pathology not capture
+         verbatim: "These findings do not strongly support an acute intraabdominal inflammatory process."
+  [e32] argues_against (phase1): mildly elevated ESR -> Intermittent bowel pathology not capture
+         verbatim: "The inflammatory markers are not convincingly high for an occult inflammatory abdominal disease."
+  [e33] argues_against (phase1): normal CRP -> Intermittent bowel pathology not capture
+         verbatim: "The inflammatory markers are not convincingly high for an occult inflammatory abdominal disease."
+  [e34] supports (phase1): iron-deficiency anemia with reactive thr -> microcytic anemia
+         verbatim: "The blood count is most consistent with iron-deficiency anemia with reactive thrombocytosis"
+  [e35] supports (phase1): stress leukocytosis may accompany pain/v -> leukocytosis with neutrophilia
+         verbatim: "stress leukocytosis may accompany pain/vomiting"
+  [e36] argues_against (phase1): no overt GI bleeding, diarrhea, weight l -> Inflammatory bowel disease or celiac dis
+         verbatim: "there is no overt GI bleeding, diarrhea, weight loss, or imaging evidence of inflammatory bowel dise"
+  [e37] supports (phase1): severe abdominal pain -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Supporting findings: severe recurrent abdominal pain without structural explanation"
+  [e38] supports (phase1): nausea and recurrent vomiting -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Supporting findings: nausea/vomiting"
+  [e39] supports (phase1): worsening constipation -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Supporting findings: constipation"
+  [e40] supports (phase1): fatigue, dizziness, generalized weakness -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Supporting findings: weakness/dizziness/fatigue"
+  [e41] supports (phase1): adolescent age group -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Supporting findings: adolescent female"
+  [e42] supports (phase1): taking oral contraceptives -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Supporting findings: oral contraceptive exposure as possible trigger"
+  [e43] supports (phase1): normal chemistries, liver tests, kidney  -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Supporting findings: normal liver enzymes, bilirubin, urinalysis, and imaging despite dramatic sympt"
+  [e44] argues_against (phase1): no documented hyponatremia -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Arguing against / less typical features: no documented hyponatremia"
+  [e45] argues_against (phase1): no clear neuropathy, psychiatric disturb -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Arguing against / less typical features: no clear neuropathy, psychiatric disturbance, or dark urine"
+  [e46] argues_against (phase1): tenderness/guarding can seem more “surgi -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "Arguing against / less typical features: tenderness/guarding can seem more “surgical,” though this c"
+  [e47] supports (phase1): paroxysmal episodes of severe abdominal  -> Abdominal migraine / cyclic vomiting spe
+         verbatim: "Supporting findings: paroxysmal episodes of severe abdominal pain with nausea/vomiting"
+  [e48] supports (phase1): symptom-free intervals implied between e -> Abdominal migraine / cyclic vomiting spe
+         verbatim: "Supporting findings: symptom-free intervals implied between episodes"
+  [e49] supports (phase1): adolescent age group -> Abdominal migraine / cyclic vomiting spe
+         verbatim: "Supporting findings: adolescent age group"
+  [e50] supports (phase1): normal imaging -> Abdominal migraine / cyclic vomiting spe
+         verbatim: "Supporting findings: normal imaging and routine labs"
+  [e51] argues_against (phase1): constipation and generalized weakness ar -> Abdominal migraine / cyclic vomiting spe
+         verbatim: "Arguing against: constipation and generalized weakness are less characteristic than in porphyria"
+  [e52] argues_against (phase1): no personal or family migraine history p -> Abdominal migraine / cyclic vomiting spe
+         verbatim: "Arguing against: no personal or family migraine history provided"
+  [e53] argues_against (phase1): pain is not clearly stereotyped around m -> Abdominal migraine / cyclic vomiting spe
+         verbatim: "Arguing against: pain is not clearly stereotyped around migraine triggers"
+  [e54] argues_against (phase1): upper abdominal pain and autonomic/GI dy -> Abdominal migraine / cyclic vomiting spe
+         verbatim: "Arguing against: upper abdominal pain and autonomic/GI dysmotility picture push me more toward porph"
+  [e55] supports (phase1): epigastric/upper abdominal predominance -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Supporting findings: epigastric-predominant pain"
+  [e56] supports (phase1): nausea and recurrent vomiting -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Supporting findings: nausea/vomiting"
+  [e57] supports (phase1): pain worsened after ibuprofen exposure -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Supporting findings: pain worsened after ibuprofen exposure"
+  [e58] supports (phase1): family history of peptic ulcer disease -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Supporting findings: family history of peptic ulcer disease"
+  [e59] supports (phase1): iron-deficiency anemia could raise conce -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Supporting findings: iron-deficiency anemia could raise concern for chronic occult blood loss"
+  [e60] argues_against (phase1): episodes are abrupt and intermittent rat -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Arguing against: episodes are abrupt and intermittent rather than meal-related or more persistent dy"
+  [e61] argues_against (phase1): constipation -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Arguing against: constipation, weakness, and normal imaging are nonspecific"
+  [e62] argues_against (phase1): weakness -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Arguing against: constipation, weakness, and normal imaging are nonspecific"
+  [e63] argues_against (phase1): normal imaging -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Arguing against: constipation, weakness, and normal imaging are nonspecific"
+  [e64] argues_against (phase1): no melena, hematemesis, or clear respons -> Peptic ulcer disease or erosive gastriti
+         verbatim: "Arguing against: no melena, hematemesis, or clear response to famotidine"
+  [e65] supports (phase1): pain severe enough to wake from sleep -> Peptic ulcer disease or erosive gastriti
+         verbatim: "pain severe enough to wake from sleep is concerning"
+  [e66] supports (phase1): abrupt severe episodic pain with vomitin -> Intermittent bowel pathology not capture
+         verbatim: "Supporting findings: abrupt severe episodic pain with vomiting"
+  [e67] supports (phase1): pain-free intervals possible -> Intermittent bowel pathology not capture
+         verbatim: "Supporting findings: pain-free intervals possible"
+  [e68] supports (phase1): worsening constipation -> Intermittent bowel pathology not capture
+         verbatim: "Supporting findings: constipation"
+  [e69] supports (phase1): vomiting relieves pain somewhat -> Intermittent bowel pathology not capture
+         verbatim: "Supporting findings: vomiting relieves pain somewhat, which can happen with obstructive phenomena"
+  [e70] argues_against (phase1): No obstruction on CT -> Intermittent bowel pathology not capture
+         verbatim: "Arguing against: CT did not show obstruction"
+  [e71] argues_against (phase1): symptoms have continued for weeks withou -> Intermittent bowel pathology not capture
+         verbatim: "Arguing against: symptoms have continued for weeks without progression to clear obstructive findings"
+  [e72] argues_against (phase1): no distention -> Intermittent bowel pathology not capture
+         verbatim: "Arguing against: no distention"
+  [e73] argues_against (phase1): stool burden was small, not suggesting m -> Intermittent bowel pathology not capture
+         verbatim: "Arguing against: stool burden was small, not suggesting major fecal impaction"
+  [e74] argues_against (phase1): age and presentation are less typical fo -> Intermittent bowel pathology not capture
+         verbatim: "Arguing against: age and presentation are less typical for many of these conditions"
+  [e75] supports (phase1): adolescent -> Functional abdominal pain disorder / dis
+         verbatim: "Supporting findings: adolescent"
+  [e76] supports (phase1): anxiety disorder -> Functional abdominal pain disorder / dis
+         verbatim: "Supporting findings: anxiety disorder"
+  [e77] supports (phase1): normal imaging -> Functional abdominal pain disorder / dis
+         verbatim: "Supporting findings: normal imaging and routine testing"
+  [e78] supports (phase1): recurrent pain with limited objective ab -> Functional abdominal pain disorder / dis
+         verbatim: "Supporting findings: recurrent pain with limited objective abnormalities"
+  [e79] argues_against (phase1): significant vomiting -> Functional abdominal pain disorder / dis
+         verbatim: "Arguing against: significant vomiting"
+  [e80] argues_against (phase1): waking from sleep -> Functional abdominal pain disorder / dis
+         verbatim: "Arguing against: waking from sleep"
+  [e81] argues_against (phase1): progressive constipation and weakness -> Functional abdominal pain disorder / dis
+         verbatim: "Arguing against: progressive constipation and weakness"
+  [e82] argues_against (phase1): severity of attacks and associated syste -> Functional abdominal pain disorder / dis
+         verbatim: "Arguing against: severity of attacks and associated systemic/autonomic symptoms suggest an organic e"
+  [e83] discriminates_between (phase1): mismatch between severe recurrent abdomi -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "The most important clue in the case is the mismatch between severe recurrent abdominal pain and repe"
+  [e84] discriminates_between (phase1): constipation and neurovegetative symptom -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "combined with constipation and neurovegetative symptoms"
+  [e85] discriminates_between (phase1): postpubertal female with a possible horm -> Acute intermittent porphyria (AIP) / acu
+         verbatim: "in a postpubertal female with a possible hormonal trigger"
+  [e86] argues_against (phase1): last used marijuana 4 weeks ago -> Cannabinoid hyperemesis syndrome
+         verbatim: "Cannabinoid hyperemesis syndrome: less likely because she last used marijuana 4 weeks ago"
+  [e87] argues_against (phase1): pattern is abdominal pain-first, not cla -> Cannabinoid hyperemesis syndrome
+         verbatim: "the pattern is abdominal pain-first, not classic prolonged recurrent emesis with hot bathing behavio"
+  [e88] argues_against (phase1): CT apparently did not support obstructio -> Superior mesenteric artery syndrome or g
+         verbatim: "Superior mesenteric artery syndrome or gastric outlet pathology: CT apparently did not support obstr"
+  [e89] argues_against (phase1): BMI is not low -> Superior mesenteric artery syndrome or g
+         verbatim: "and BMI is not low"
+  [e90] supports (phase1): vomiting and retained gastric contents c -> Gastroparesis
+         verbatim: "Gastroparesis: vomiting and retained gastric contents could suggest this"
+  [e91] argues_against (phase1): severe episodic pain pattern and constip -> Gastroparesis
+         verbatim: "but the severe episodic pain pattern and constipation/weakness syndrome fit porphyria better"
+  [e92] supports (phase1): abdominal pain, constipation, microcytic -> Lead poisoning
+         verbatim: "Lead poisoning: abdominal pain, constipation, microcytic anemia, and history of pica are intriguing"
+  [e93] argues_against (phase1): pica was remote -> Lead poisoning
+         verbatim: "however, her pica was remote"
+  [e94] argues_against (phase1): episodic neurovisceral attacks in a post -> Lead poisoning
+         verbatim: "and the episodic neurovisceral attacks in a postpubertal girl with OCP exposure make AIP more likely"
+  [e95] supports (phase1): microcytic anemia -> Inflammatory bowel disease or celiac dis
+         verbatim: "Inflammatory bowel disease or celiac disease: anemia and elevated ESR could raise the question"
+  [e96] supports (phase1): mildly elevated ESR -> Inflammatory bowel disease or celiac dis
+         verbatim: "Inflammatory bowel disease or celiac disease: anemia and elevated ESR could raise the question"

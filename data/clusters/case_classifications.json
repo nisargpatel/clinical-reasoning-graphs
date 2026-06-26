@@ -1,0 +1,1665 @@
+[
+  {
+    "case_id": "NEJM_CPC_01_2026",
+    "correct_diagnosis": "Disseminated meningococcal disease",
+    "classification": {
+      "organ_systems": [
+        "infectious disease",
+        "hematologic",
+        "cardiovascular",
+        "pulmonary",
+        "gastrointestinal",
+        "hepatic",
+        "renal"
+      ],
+      "primary_presenting_features": [
+        "fever after travel",
+        "abdominal pain",
+        "watery diarrhea",
+        "shock",
+        "dyspnea",
+        "lethargy",
+        "rapid progression to multiorgan failure"
+      ],
+      "key_lab_abnormalities": [
+        "severe thrombocytopenia",
+        "leukopenia followed by marked leukocytosis with bandemia",
+        "elevated lactate",
+        "coagulopathy with prolonged PT/INR and PTT",
+        "hypofibrinogenemia",
+        "markedly elevated D-dimer",
+        "direct hyperbilirubinemia",
+        "rising creatinine",
+        "severe metabolic acidosis",
+        "hypoglycemia"
+      ],
+      "demographic_profile": "50-year-old woman returning from rural Brazil with chronic portal hypertension, splenomegaly, leukopenia, and thrombocytopenia",
+      "diagnostic_category": "fulminant invasive bacterial infection causing disseminated meningococcal disease with septic shock and DIC",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_24_2025",
+    "correct_diagnosis": "Lyme carditis",
+    "classification": {
+      "organ_systems": [
+        "cardiovascular",
+        "infectious disease",
+        "musculoskeletal",
+        "hepatic"
+      ],
+      "primary_presenting_features": [
+        "fatigue",
+        "myalgias",
+        "pleuritic positional chest pain",
+        "palpitations",
+        "dyspnea on exertion",
+        "dizziness",
+        "bradycardia",
+        "atrioventricular conduction abnormalities"
+      ],
+      "key_lab_abnormalities": [
+        "elevated alanine aminotransferase",
+        "transiently elevated aspartate aminotransferase",
+        "elevated d-dimer",
+        "mildly elevated NT-proBNP",
+        "normal troponin"
+      ],
+      "demographic_profile": "32-year-old woman with recent SARS-CoV-2 reinfection and outdoor/tick exposure in a forested area with animal contact",
+      "diagnostic_category": "infectious carditis due to Lyme disease",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_35_2025",
+    "correct_diagnosis": "IgA vasculitis",
+    "classification": {
+      "organ_systems": [
+        "dermatologic",
+        "rheumatologic",
+        "immunologic",
+        "infectious"
+      ],
+      "primary_presenting_features": [
+        "fever",
+        "palpable purpuric rash on legs and buttocks",
+        "pruritus",
+        "refusal to walk",
+        "hand and foot swelling",
+        "conjunctival injection",
+        "posterior cervical lymphadenopathy",
+        "oral mucosal erythema"
+      ],
+      "key_lab_abnormalities": [
+        "leukocytosis with neutrophilia",
+        "elevated ESR",
+        "elevated CRP",
+        "mild eosinophilia"
+      ],
+      "demographic_profile": "5-year-old boy with recent outdoor summer camp exposure",
+      "diagnostic_category": "small-vessel vasculitis (IgA vasculitis)",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_17_2025",
+    "correct_diagnosis": "Disseminated strongyloidiasis",
+    "classification": {
+      "organ_systems": [
+        "pulmonary",
+        "gastrointestinal",
+        "infectious_disease",
+        "renal",
+        "hematologic",
+        "dermatologic",
+        "endocrine"
+      ],
+      "primary_presenting_features": [
+        "acute hypoxemic respiratory failure",
+        "shock",
+        "diffuse pulmonary infiltrates",
+        "nausea and vomiting",
+        "abdominal distention/ileus",
+        "cough and dyspnea",
+        "purpuric abdominal rash",
+        "recent kidney transplantation with immunosuppression"
+      ],
+      "key_lab_abnormalities": [
+        "leukocytosis with left shift",
+        "initial leukopenia and profound lymphopenia",
+        "eosinophilia",
+        "anemia",
+        "acute kidney injury",
+        "hyponatremia",
+        "severe hyperglycemia",
+        "mild transaminitis",
+        "elevated inflammatory markers",
+        "positive beta-D-glucan"
+      ],
+      "demographic_profile": "61-year-old man, 10 weeks after deceased-donor kidney transplant, on tacrolimus/mycophenolate/prednisone and antithymocyte globulin induction",
+      "diagnostic_category": "disseminated parasitic hyperinfection syndrome (disseminated strongyloidiasis)",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "rare_diagnosis"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_12_2025",
+    "correct_diagnosis": "Primary varicella-zoster virus infection",
+    "classification": {
+      "organ_systems": [
+        "dermatologic",
+        "infectious disease",
+        "mucocutaneous"
+      ],
+      "primary_presenting_features": [
+        "diffuse pruritic papulovesicular rash",
+        "sore throat",
+        "facial and truncal rash spread",
+        "palmar involvement",
+        "oral ulcer",
+        "low-grade fever"
+      ],
+      "key_lab_abnormalities": [
+        "mild transaminitis",
+        "mild hypoalbuminemia",
+        "atypical lymphocytes"
+      ],
+      "demographic_profile": "56-year-old woman residing in a homeless shelter with psychiatric comorbidity",
+      "diagnostic_category": "primary varicella-zoster virus infection",
+      "clinical_complexity": "moderate",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_08_2025",
+    "correct_diagnosis": "Euglycemic diabetic ketoacidosis due to SGLT2 inhibitor use",
+    "classification": {
+      "organ_systems": [
+        "endocrine",
+        "metabolic",
+        "renal",
+        "respiratory",
+        "cardiovascular",
+        "oncologic",
+        "neurologic"
+      ],
+      "primary_presenting_features": [
+        "altered mental status",
+        "somnolence",
+        "progressive dyspnea",
+        "volume overload with edema and weight gain",
+        "high anion gap metabolic acidosis",
+        "hypercapnic respiratory failure"
+      ],
+      "key_lab_abnormalities": [
+        "high anion gap acidosis",
+        "markedly elevated serum osmolality",
+        "ketonuria",
+        "mild hyperglycemia rather than severe hyperglycemia",
+        "acute kidney injury with elevated creatinine and urea nitrogen",
+        "hyperphosphatemia",
+        "respiratory acidosis with severe hypercapnia",
+        "elevated NT-proBNP",
+        "anemia",
+        "elevated inflammatory markers"
+      ],
+      "demographic_profile": "elderly woman with type 2 diabetes, chronic kidney disease, cardiopulmonary disease, and active urothelial carcinoma on dapagliflozin",
+      "diagnostic_category": "euglycemic diabetic ketoacidosis due to SGLT2 inhibitor use",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_04_2025",
+    "correct_diagnosis": "Sarcoidosis (Lofgren's syndrome)",
+    "classification": {
+      "organ_systems": [
+        "rheumatologic",
+        "pulmonary",
+        "lymphatic",
+        "cardiovascular",
+        "dermatologic"
+      ],
+      "primary_presenting_features": [
+        "bilateral ankle edema",
+        "ankle and wrist inflammatory arthralgia",
+        "fever",
+        "syncope",
+        "erythematous ankle rash",
+        "bilateral hilar lymphadenopathy"
+      ],
+      "key_lab_abnormalities": [
+        "elevated ESR",
+        "markedly elevated CRP",
+        "mild normocytic anemia",
+        "mild hyponatremia"
+      ],
+      "demographic_profile": "41-year-old man with recent coronary artery stent placement",
+      "diagnostic_category": "systemic granulomatous disease (sarcoidosis, Lofgren syndrome)",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_36_2024",
+    "correct_diagnosis": "Trichobezoar",
+    "classification": {
+      "organ_systems": [
+        "gastrointestinal",
+        "hematologic",
+        "psychiatric"
+      ],
+      "primary_presenting_features": [
+        "recurrent severe epigastric abdominal pain",
+        "nausea and vomiting",
+        "constipation",
+        "decreased appetite",
+        "pain relieved after vomiting"
+      ],
+      "key_lab_abnormalities": [
+        "microcytic anemia",
+        "leukocytosis with neutrophilia",
+        "thrombocytosis",
+        "mildly elevated ESR"
+      ],
+      "demographic_profile": "adolescent girl with anxiety disorder and prior pica",
+      "diagnostic_category": "gastrointestinal foreign body/bezoar",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "rare_diagnosis"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_31_2024",
+    "correct_diagnosis": "Icteric leptospirosis (Weil's disease)",
+    "classification": {
+      "organ_systems": [
+        "infectious",
+        "hepatic",
+        "pulmonary",
+        "renal",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "fever",
+        "myalgia",
+        "jaundice",
+        "hypoxemic respiratory failure",
+        "hypotension",
+        "dark urine"
+      ],
+      "key_lab_abnormalities": [
+        "marked direct hyperbilirubinemia with only mild transaminase elevation",
+        "acute kidney injury",
+        "thrombocytopenia",
+        "leukocytosis with neutrophilia",
+        "hyponatremia",
+        "coagulopathy",
+        "hypoalbuminemia"
+      ],
+      "demographic_profile": "previously healthy 37-year-old man with outdoor freshwater and insect exposure in New England",
+      "diagnostic_category": "zoonotic systemic infection (leptospirosis/Weil's disease)",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_19_2024",
+    "correct_diagnosis": "Secondary syphilis",
+    "classification": {
+      "organ_systems": [
+        "rheumatologic",
+        "dermatologic",
+        "infectious_disease",
+        "mucocutaneous",
+        "constitutional",
+        "ent"
+      ],
+      "primary_presenting_features": [
+        "symmetric inflammatory polyarthritis of wrists, ankles, and MCP joints",
+        "diffuse hyperpigmented scaly rash on trunk, back, legs, and dorsal feet with palms and soles spared",
+        "alopecia",
+        "oral commissure ulcerative lesion",
+        "nasal crusting with scant epistaxis",
+        "weight loss",
+        "orthostatic lightheadedness"
+      ],
+      "key_lab_abnormalities": [
+        "markedly elevated ESR",
+        "mildly elevated alkaline phosphatase",
+        "elevated D-dimer"
+      ],
+      "demographic_profile": "46-year-old sexually active man who has sex with men",
+      "diagnostic_category": "secondary syphilis",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "atypical_presentation"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_14_2024",
+    "correct_diagnosis": "Glutamic acid decarboxylase 65 autoantibody-associated stiff-person syndrome",
+    "classification": {
+      "organ_systems": [
+        "neurologic",
+        "musculoskeletal",
+        "autoimmune"
+      ],
+      "primary_presenting_features": [
+        "progressive back and leg stiffness",
+        "painful muscle rigidity",
+        "gait abnormality",
+        "exaggerated startle response",
+        "falls triggered by sudden movement or minor stimuli",
+        "episodic leg locking",
+        "nighttime jerking movements"
+      ],
+      "key_lab_abnormalities": [
+        "GAD65 autoantibody positivity",
+        "normal creatine kinase",
+        "normal inflammatory markers"
+      ],
+      "demographic_profile": "30-year-old woman with multiple autoimmune disorders",
+      "diagnostic_category": "autoimmune neurologic movement disorder",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "rare_diagnosis"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_07_2024",
+    "correct_diagnosis": "Myeloperoxidase antineutrophil cytoplasmic antibody-associated vasculitis",
+    "classification": {
+      "organ_systems": [
+        "neurologic",
+        "ophthalmologic",
+        "dermatologic",
+        "rheumatologic",
+        "immunologic"
+      ],
+      "primary_presenting_features": [
+        "recurrent painful diplopia",
+        "orbital pain with headache",
+        "abduction deficits/cranial nerve palsies",
+        "optic nerve sheath and intraconal orbital inflammation",
+        "photosensitive and annular rash",
+        "Raynaud phenomenon"
+      ],
+      "key_lab_abnormalities": [
+        "positive ANA",
+        "positive SSA antibody",
+        "elevated IgG4",
+        "inflammatory markers normal despite active disease",
+        "infectious CSF and serologic studies unrevealing"
+      ],
+      "demographic_profile": "67-year-old woman with autoimmune history including Graves orbitopathy and hypothyroidism",
+      "diagnostic_category": "ANCA-associated vasculitis",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_38_2023",
+    "correct_diagnosis": "Chorea due to antiphospholipid syndrome and systemic lupus erythematosus",
+    "classification": {
+      "organ_systems": [
+        "neurologic",
+        "hematologic",
+        "rheumatologic",
+        "vascular"
+      ],
+      "primary_presenting_features": [
+        "progressive chorea",
+        "confusion/encephalopathy",
+        "recurrent multifocal ischemic strokes",
+        "falls",
+        "dysarthria"
+      ],
+      "key_lab_abnormalities": [
+        "anemia",
+        "leukopenia/lymphopenia",
+        "mildly prolonged aPTT",
+        "elevated ESR"
+      ],
+      "demographic_profile": "68-year-old woman with prior recurrent deep venous thromboses, diabetes, hypertension, hypothyroidism, and vitiligo",
+      "diagnostic_category": "autoimmune hypercoagulable disease causing neuropsychiatric manifestations",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_31_2023",
+    "correct_diagnosis": "Limb-shaking transient ischemic attacks",
+    "classification": {
+      "organ_systems": [
+        "neurologic",
+        "vascular"
+      ],
+      "primary_presenting_features": [
+        "recurrent unilateral involuntary limb and facial movements",
+        "transient unresponsiveness",
+        "episodic focal neurologic deficits",
+        "brief preserved-awareness spells progressing to transient weakness and gaze deviation"
+      ],
+      "key_lab_abnormalities": [
+        "chronic hyponatremia",
+        "mild transient lactate elevation",
+        "positive ANA at 1:160 homogeneous pattern"
+      ],
+      "demographic_profile": "elderly man with vascular risk factors and severe carotid atherosclerotic disease",
+      "diagnostic_category": "cerebrovascular insufficiency causing limb-shaking transient ischemic attacks",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_02_2023",
+    "correct_diagnosis": "Chronic salicylate toxicity",
+    "classification": {
+      "organ_systems": [
+        "neurologic",
+        "metabolic",
+        "respiratory",
+        "hematologic",
+        "renal"
+      ],
+      "primary_presenting_features": [
+        "dizziness",
+        "altered mental status",
+        "agitation and delirium",
+        "deep rapid breathing",
+        "tinnitus",
+        "shortness of breath"
+      ],
+      "key_lab_abnormalities": [
+        "mixed acid-base disorder with low bicarbonate, respiratory alkalosis, and metabolic acidosis",
+        "elevated INR/prolonged prothrombin time",
+        "hypokalemia",
+        "mild acute-on-chronic kidney dysfunction",
+        "mild hypocalcemia",
+        "ketonuria",
+        "mild troponin elevation"
+      ],
+      "demographic_profile": "elderly man with traumatic brain injury, seizure disorder, diabetes, hypertension, and chronic kidney disease",
+      "diagnostic_category": "toxicologic syndrome due to chronic salicylate toxicity",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_33_2022",
+    "correct_diagnosis": "Sarcoidosis",
+    "classification": {
+      "organ_systems": [
+        "ophthalmologic",
+        "lymphatic",
+        "pulmonary",
+        "immunologic/rheumatologic",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "bilateral chronic uveitis",
+        "eye redness",
+        "optic-disk swelling",
+        "retinal vasculitis with hemorrhages and cotton-wool spots",
+        "diffuse mediastinal and abdominal lymphadenopathy"
+      ],
+      "key_lab_abnormalities": [
+        "elevated ESR",
+        "elevated lysozyme",
+        "mild anemia",
+        "lymphopenia",
+        "elevated total protein"
+      ],
+      "demographic_profile": "11-year-old girl from West Africa",
+      "diagnostic_category": "systemic granulomatous inflammatory disease (sarcoidosis)",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_21_2022",
+    "correct_diagnosis": "Granulomatosis with polyangiitis",
+    "classification": {
+      "organ_systems": [
+        "pulmonary",
+        "renal",
+        "hematologic",
+        "rheumatologic"
+      ],
+      "primary_presenting_features": [
+        "fever and cough",
+        "hemoptysis",
+        "shortness of breath",
+        "pleuritic chest and back pain",
+        "pulmonary infiltrates",
+        "hematuria"
+      ],
+      "key_lab_abnormalities": [
+        "severe anemia",
+        "acute kidney injury",
+        "urinalysis with 3+ blood and 2+ protein",
+        "red-cell casts",
+        "elevated CRP",
+        "elevated LDH",
+        "thrombocytosis"
+      ],
+      "demographic_profile": "adolescent girl with no major prior medical history",
+      "diagnostic_category": "ANCA-associated small-vessel vasculitis",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_15_2022",
+    "correct_diagnosis": "Aspiration pneumonia",
+    "classification": {
+      "organ_systems": [
+        "pulmonary",
+        "gastrointestinal",
+        "rheumatologic",
+        "infectious disease"
+      ],
+      "primary_presenting_features": [
+        "persistent productive cough",
+        "recurrent fevers",
+        "multifocal pulmonary opacities",
+        "tree-in-bud nodules",
+        "dyspnea",
+        "intermittent dysphagia",
+        "bitter taste in mouth"
+      ],
+      "key_lab_abnormalities": [
+        "leukocytosis with neutrophilia",
+        "elevated CRP",
+        "elevated ESR",
+        "elevated beta-D-glucan",
+        "positive BAL galactomannan",
+        "hypercapnia on venous blood gas"
+      ],
+      "demographic_profile": "57-year-old immunosuppressed man with polyarteritis nodosa, diabetes, GERD, smoking history, and chronic prednisone/methotrexate use",
+      "diagnostic_category": "aspiration pneumonia",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_11_2022",
+    "correct_diagnosis": "Myelodysplastic syndrome",
+    "classification": {
+      "organ_systems": [
+        "hematologic",
+        "gastrointestinal",
+        "pulmonary"
+      ],
+      "primary_presenting_features": [
+        "pancytopenia",
+        "schistocytes on peripheral smear",
+        "fatigue",
+        "fever",
+        "weight loss",
+        "dysphagia and odynophagia"
+      ],
+      "key_lab_abnormalities": [
+        "anemia",
+        "thrombocytopenia",
+        "leukopenia",
+        "elevated RDW",
+        "mildly elevated LDH",
+        "normal-to-elevated haptoglobin despite schistocytes",
+        "low reticulocyte response",
+        "elevated ferritin",
+        "prolonged/abnormal aPTT at outside hospital",
+        "elevated D-dimer",
+        "hypoalbuminemia"
+      ],
+      "demographic_profile": "elderly woman with prior chronic mild cytopenias and abnormal marrow cytogenetics",
+      "diagnostic_category": "myelodysplastic syndrome",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_03_2022",
+    "correct_diagnosis": "Crohn's disease",
+    "classification": {
+      "organ_systems": [
+        "gastrointestinal",
+        "musculoskeletal",
+        "hematologic",
+        "constitutional"
+      ],
+      "primary_presenting_features": [
+        "fever",
+        "fatigue",
+        "migratory arthralgia involving shoulders and knees",
+        "abdominal cramping",
+        "watery diarrhea",
+        "aphthous oral ulcer",
+        "occult gastrointestinal bleeding"
+      ],
+      "key_lab_abnormalities": [
+        "elevated ESR",
+        "markedly elevated CRP",
+        "mild anemia",
+        "leukocytosis with neutrophilia and monocytosis",
+        "hypoalbuminemia",
+        "thrombocytosis",
+        "positive fecal occult blood test",
+        "mild lipase elevation"
+      ],
+      "demographic_profile": "adolescent boy with recent camping and travel exposure in New England",
+      "diagnostic_category": "inflammatory bowel disease",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_25_2021",
+    "correct_diagnosis": "Hereditary hemochromatosis",
+    "classification": {
+      "organ_systems": [
+        "hepatic",
+        "cardiovascular",
+        "endocrine",
+        "hematologic",
+        "vascular"
+      ],
+      "primary_presenting_features": [
+        "fatigue",
+        "bilateral leg edema",
+        "ascites",
+        "weight fluctuation",
+        "abdominal distention",
+        "decreased libido",
+        "cold intolerance"
+      ],
+      "key_lab_abnormalities": [
+        "thrombocytopenia",
+        "leukopenia",
+        "macrocytosis",
+        "hyponatremia",
+        "marked hyperglycemia",
+        "elevated HbA1c",
+        "elevated AST",
+        "elevated alkaline phosphatase",
+        "mild hyperbilirubinemia",
+        "high-SAAG ascites"
+      ],
+      "demographic_profile": "middle-aged man with diabetes and chronic alcohol use history",
+      "diagnostic_category": "hereditary metabolic iron overload disorder",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_03_2021",
+    "correct_diagnosis": "Systemic primary amyloidosis",
+    "classification": {
+      "organ_systems": [
+        "ophthalmologic",
+        "neurologic",
+        "hepatic",
+        "lymphatic",
+        "rheumatologic",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "transient monocular vision loss",
+        "severe unilateral ptosis",
+        "orbital mass",
+        "diplopia",
+        "jaw claudication",
+        "weight loss",
+        "fatigue"
+      ],
+      "key_lab_abnormalities": [
+        "elevated ESR",
+        "elevated CRP",
+        "normocytic anemia",
+        "marked cholestatic liver enzyme elevation",
+        "elevated AST and ALT",
+        "hyperbilirubinemia",
+        "hypercholesterolemia"
+      ],
+      "demographic_profile": "middle-aged man with recent constitutional symptoms and transient unilateral visual loss",
+      "diagnostic_category": "systemic infiltrative disease (primary amyloidosis)",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_27_2020",
+    "correct_diagnosis": "HIV type 2 infection and cerebral toxoplasmosis",
+    "classification": {
+      "organ_systems": [
+        "neurologic",
+        "infectious_disease",
+        "immunologic",
+        "musculoskeletal",
+        "genitourinary"
+      ],
+      "primary_presenting_features": [
+        "progressive headache",
+        "gait instability",
+        "cerebellar ataxia",
+        "weight loss",
+        "brain mass lesions",
+        "oral thrush"
+      ],
+      "key_lab_abnormalities": [
+        "reactive HIV screening test",
+        "undetectable plasma HIV-1 RNA",
+        "severe CD4 lymphopenia",
+        "lymphopenia",
+        "mild leukocytosis with neutrophilia",
+        "pyuria",
+        "proteinuria"
+      ],
+      "demographic_profile": "53-year-old woman from Ivory Coast living in the United States",
+      "diagnostic_category": "opportunistic central nervous system infection due to HIV-2 with cerebral toxoplasmosis",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_02_2026",
+    "correct_diagnosis": "Disseminated infection with Klebsiella pneumoniae",
+    "classification": {
+      "organ_systems": [
+        "infectious",
+        "pulmonary",
+        "ophthalmologic",
+        "neurologic",
+        "hepatic"
+      ],
+      "primary_presenting_features": [
+        "fever and chills",
+        "productive cough",
+        "multiple cavitary pulmonary nodules and masses",
+        "acute right-sided vision loss",
+        "orbital/periorbital edema",
+        "hepatic mass",
+        "multifocal embolic-appearing cerebral lesions",
+        "weight loss"
+      ],
+      "key_lab_abnormalities": [
+        "marked leukocytosis with neutrophilia",
+        "lymphopenia",
+        "hypokalemia on initial presentation",
+        "acute kidney injury on initial presentation",
+        "hyperbilirubinemia",
+        "hypoalbuminemia",
+        "anemia",
+        "mild hypocalcemia"
+      ],
+      "demographic_profile": "63-year-old man, immigrant from the Caribbean, previously without regular medical care",
+      "diagnostic_category": "disseminated bacterial infection with metastatic abscesses (Klebsiella pneumoniae invasive syndrome)",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_07_2026",
+    "correct_diagnosis": "Periprosthetic joint infection with Mycobacterium bovis bacille Calmette-Guerin",
+    "classification": {
+      "organ_systems": [
+        "musculoskeletal",
+        "infectious_disease",
+        "orthopedic"
+      ],
+      "primary_presenting_features": [
+        "chronic painful prosthetic knee",
+        "knee effusion",
+        "periarticular mass with osteolysis",
+        "bloody synovial fluid",
+        "progressive gait instability"
+      ],
+      "key_lab_abnormalities": [
+        "mildly elevated C-reactive protein",
+        "neutrophil-predominant synovial fluid",
+        "positive synovial fluid alpha-defensin",
+        "repeated negative routine bacterial cultures",
+        "bloody synovial aspirates"
+      ],
+      "demographic_profile": "91-year-old man with remote total knee arthroplasty and prior intravesical BCG treatment for bladder cancer",
+      "diagnostic_category": "prosthetic joint infection due to atypical mycobacterial pathogen",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "rare_diagnosis"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_05_2026",
+    "correct_diagnosis": "Reninoma",
+    "classification": {
+      "organ_systems": [
+        "renal",
+        "cardiovascular",
+        "neurologic",
+        "endocrine"
+      ],
+      "primary_presenting_features": [
+        "severe refractory hypertension",
+        "worsening headache",
+        "papilledema with elevated intracranial pressure",
+        "hypokalemia",
+        "pulmonary edema"
+      ],
+      "key_lab_abnormalities": [
+        "severe hypokalemia",
+        "mild proteinuria",
+        "hyponatremia",
+        "elevated troponin",
+        "elevated ESR and CRP",
+        "left ventricular hypertrophy on ECG and echocardiography"
+      ],
+      "demographic_profile": "18-year-old obese woman with PCOS",
+      "diagnostic_category": "renin-secreting renal tumor causing secondary hyperaldosteronism",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "rare_diagnosis"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_01_2019",
+    "correct_diagnosis": "Post-traumatic stress disorder",
+    "classification": {
+      "organ_systems": [
+        "psychiatric",
+        "neurologic",
+        "gastrointestinal",
+        "cardiovascular"
+      ],
+      "primary_presenting_features": [
+        "flashbacks",
+        "hypervigilance",
+        "panic attacks",
+        "cognitive changes",
+        "mood symptoms",
+        "chronic headaches",
+        "nausea and vomiting",
+        "weight loss",
+        "chest pain with arm tingling",
+        "insomnia"
+      ],
+      "key_lab_abnormalities": [
+        "hypertriglyceridemia",
+        "elevated total cholesterol",
+        "mild prior ALT elevation",
+        "urine toxicology positive for cannabinoids"
+      ],
+      "demographic_profile": "young adult male military combat veteran with multiple traumatic exposures and prior traumatic brain injuries",
+      "diagnostic_category": "trauma-related psychiatric disorder",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_05_2019",
+    "correct_diagnosis": "Pernicious anemia (vitamin B12 deficiency)",
+    "classification": {
+      "organ_systems": [
+        "hematologic",
+        "neurologic",
+        "psychiatric"
+      ],
+      "primary_presenting_features": [
+        "right-hand paresthesia",
+        "acute psychosis",
+        "cognitive impairment",
+        "disorganized thought process",
+        "delusions of persecution"
+      ],
+      "key_lab_abnormalities": [
+        "anemia",
+        "leukopenia",
+        "neutropenia",
+        "eosinophilia",
+        "elevated RDW",
+        "mildly elevated LDH",
+        "mild hyperprolactinemia"
+      ],
+      "demographic_profile": "48-year-old woman with no known prior medical history presenting with new neuropsychiatric symptoms",
+      "diagnostic_category": "vitamin deficiency disorder causing neuropsychiatric and hematologic manifestations",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_08_2019",
+    "correct_diagnosis": "Ocular syphilis",
+    "classification": {
+      "organ_systems": [
+        "ophthalmologic",
+        "dermatologic",
+        "mucosal",
+        "neurologic",
+        "infectious disease",
+        "immunologic"
+      ],
+      "primary_presenting_features": [
+        "progressive bilateral vision loss",
+        "panuveitis with retinitis",
+        "scleritis",
+        "headaches",
+        "recurrent oral and nasal ulcers",
+        "desquamating maculopapular rash involving hands and legs"
+      ],
+      "key_lab_abnormalities": [
+        "CSF pleocytosis with neutrophilic predominance",
+        "elevated CSF protein",
+        "marked lymphopenia with absent B cells after immunosuppression",
+        "peripheral neutrophilic leukocytosis",
+        "negative autoimmune serologies"
+      ],
+      "demographic_profile": "58-year-old woman with chronic asthma and heavy immunosuppressive exposure",
+      "diagnostic_category": "infectious ocular disease (ocular syphilis/neurosyphilis)",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_10_2019",
+    "correct_diagnosis": "Idiopathic pulmonary fibrosis",
+    "classification": {
+      "organ_systems": [
+        "pulmonary"
+      ],
+      "primary_presenting_features": [
+        "progressive exertional dyspnea",
+        "chronic cough",
+        "interstitial lung disease pattern on chest CT",
+        "restrictive ventilatory defect",
+        "diffusion impairment"
+      ],
+      "key_lab_abnormalities": [
+        "reduced DLCO",
+        "reduced total lung capacity",
+        "mildly elevated ESR",
+        "elevated D-dimer",
+        "negative autoimmune serologies"
+      ],
+      "demographic_profile": "older man with remote smoking history",
+      "diagnostic_category": "fibrotic interstitial lung disease",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "broad_differential"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_15_2019",
+    "correct_diagnosis": "Acute hepatitis B virus and hepatitis delta virus coinfection",
+    "classification": {
+      "organ_systems": [
+        "hepatic",
+        "infectious_disease",
+        "gastrointestinal"
+      ],
+      "primary_presenting_features": [
+        "jaundice",
+        "dark urine",
+        "anorexia",
+        "nausea and vomiting",
+        "watery diarrhea",
+        "right upper quadrant abdominal tenderness",
+        "arthralgias",
+        "cognitive slowing/forgetfulness"
+      ],
+      "key_lab_abnormalities": [
+        "marked hepatocellular transaminitis",
+        "severe direct hyperbilirubinemia",
+        "prolonged prothrombin time/INR",
+        "mild alkaline phosphatase elevation",
+        "initial detectable HCV RNA followed by low/undetectable HCV RNA"
+      ],
+      "demographic_profile": "55-year-old man with injection drug use, untreated chronic hepatitis C, recent incarceration, homelessness, and shelter living",
+      "diagnostic_category": "acute viral hepatitis coinfection",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_17_2019",
+    "correct_diagnosis": "Systemic lupus erythematosus",
+    "classification": {
+      "organ_systems": [
+        "rheumatologic",
+        "cardiovascular",
+        "hematologic",
+        "pulmonary",
+        "serosal",
+        "lymphatic",
+        "renal",
+        "constitutional",
+        "dermatologic"
+      ],
+      "primary_presenting_features": [
+        "polyarthritis with synovitis",
+        "unintentional weight loss",
+        "pleuritic chest pain",
+        "progressive pericardial effusion with cardiac tamponade",
+        "pleural effusions",
+        "fever",
+        "fatigue/cachexia",
+        "lymphadenopathy"
+      ],
+      "key_lab_abnormalities": [
+        "severe microcytic anemia",
+        "leukopenia",
+        "elevated ESR and CRP",
+        "hypoalbuminemia",
+        "proteinuria",
+        "low total protein",
+        "elevated ferritin",
+        "elevated alkaline phosphatase and transaminases",
+        "bloody neutrophilic exudative pericardial fluid"
+      ],
+      "demographic_profile": "44-year-old man from sub-Saharan Africa with months of inflammatory joint symptoms and systemic illness",
+      "diagnostic_category": "systemic autoimmune connective tissue disease",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "atypical_presentation"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_39_1993",
+    "correct_diagnosis": "Giant-cell aortitis with descending aortic dissection and rupture",
+    "classification": {
+      "organ_systems": [
+        "cardiovascular",
+        "renal",
+        "rheumatologic",
+        "neurologic"
+      ],
+      "primary_presenting_features": [
+        "abrupt severe tearing upper-back pain",
+        "severe hypertension",
+        "anuria",
+        "mediastinal widening",
+        "near syncope"
+      ],
+      "key_lab_abnormalities": [
+        "acute kidney injury with rising creatinine",
+        "anemia",
+        "leukocytosis",
+        "hypoalbuminemia",
+        "hyponatremia",
+        "hyperglycemia"
+      ],
+      "demographic_profile": "elderly woman with long-standing hypertension, biopsy-proven giant-cell arteritis, prior cerebrovascular disease, and chronic low-dose prednisone use",
+      "diagnostic_category": "large-vessel vasculitis with acute aortic dissection and rupture",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_11_2015",
+    "correct_diagnosis": "Invasive Neisseria meningitidis infection",
+    "classification": {
+      "organ_systems": [
+        "infectious",
+        "neurologic",
+        "hematologic",
+        "dermatologic"
+      ],
+      "primary_presenting_features": [
+        "severe generalized headache",
+        "fever",
+        "petechial and purpuric rash",
+        "mild neck stiffness",
+        "myalgias",
+        "nausea and vomiting"
+      ],
+      "key_lab_abnormalities": [
+        "neutrophilic leukocytosis",
+        "thrombocytopenia",
+        "CSF neutrophilic pleocytosis",
+        "elevated D-dimer",
+        "mild hyperbilirubinemia",
+        "hypokalemia",
+        "hypophosphatemia",
+        "hypomagnesemia"
+      ],
+      "demographic_profile": "young adult woman with prior childhood bacterial meningitis, vaccinated against meningococcus",
+      "diagnostic_category": "invasive meningococcal infection",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_29_2014",
+    "correct_diagnosis": "Acute massive pulmonary embolism",
+    "classification": {
+      "organ_systems": [
+        "pulmonary",
+        "cardiovascular",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "syncope",
+        "sudden dyspnea on exertion",
+        "hypoxemia",
+        "transient calf cramping"
+      ],
+      "key_lab_abnormalities": [
+        "markedly elevated D-dimer",
+        "mild thrombocytopenia",
+        "low bicarbonate"
+      ],
+      "demographic_profile": "60-year-old obese woman with recent air travel and no major prior medical history",
+      "diagnostic_category": "venous thromboembolic disease with acute massive pulmonary embolism",
+      "clinical_complexity": "moderate",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_36_2013",
+    "correct_diagnosis": "Autoimmune hemolytic anemia and thrombocytopenia (Evans syndrome) due to systemic lupus erythematosus",
+    "classification": {
+      "organ_systems": [
+        "hematologic",
+        "rheumatologic",
+        "dermatologic",
+        "immunologic"
+      ],
+      "primary_presenting_features": [
+        "anemia",
+        "thrombocytopenia",
+        "fatigue",
+        "dyspnea on exertion",
+        "bruising",
+        "dark urine",
+        "headache",
+        "blurred or double vision",
+        "vesicular skin lesions"
+      ],
+      "key_lab_abnormalities": [
+        "Coombs-positive hemolytic anemia",
+        "reticulocytosis",
+        "elevated LDH",
+        "undetectable haptoglobin",
+        "indirect hyperbilirubinemia",
+        "spherocytes on smear",
+        "thrombocytopenia",
+        "positive ANA",
+        "elevated ESR",
+        "anticardiolipin IgM positivity"
+      ],
+      "demographic_profile": "38-year-old woman with recurrent hemolytic episodes and mucocutaneous/autoimmune features",
+      "diagnostic_category": "systemic autoimmune disease causing Evans syndrome",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_23_2013",
+    "correct_diagnosis": "Metformin-associated lactic acidosis or metformin toxicity",
+    "classification": {
+      "organ_systems": [
+        "metabolic",
+        "renal",
+        "gastrointestinal",
+        "neurologic",
+        "cardiovascular",
+        "toxicologic"
+      ],
+      "primary_presenting_features": [
+        "abdominal pain",
+        "vomiting",
+        "confusion",
+        "progressive somnolence",
+        "shock",
+        "hypothermia",
+        "oliguria"
+      ],
+      "key_lab_abnormalities": [
+        "severe lactic acidosis",
+        "profound acidemia",
+        "acute kidney injury on chronic kidney disease",
+        "hyperkalemia",
+        "marked hyperphosphatemia",
+        "leukocytosis",
+        "elevated lipase and amylase",
+        "high osmolality"
+      ],
+      "demographic_profile": "54-year-old woman with type 2 diabetes, chronic kidney disease, hypertension, and nephrolithiasis taking metformin",
+      "diagnostic_category": "toxic-metabolic emergency",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_20_2013",
+    "correct_diagnosis": "Glucose-6-phosphate dehydrogenase deficiency",
+    "classification": {
+      "organ_systems": [
+        "hematologic",
+        "hepatic",
+        "infectious_disease",
+        "genitourinary"
+      ],
+      "primary_presenting_features": [
+        "acute anemia",
+        "jaundice",
+        "dark urine",
+        "fatigue",
+        "malaise",
+        "body aches",
+        "testicular discomfort",
+        "worsening chronic leg pain"
+      ],
+      "key_lab_abnormalities": [
+        "drop in hemoglobin and hematocrit",
+        "reticulocytosis",
+        "markedly low haptoglobin",
+        "indirect hyperbilirubinemia",
+        "elevated LDH",
+        "elevated serum iron and ferritin",
+        "Coombs-negative hemolysis",
+        "mild leukocytosis",
+        "transient hypophosphatemia"
+      ],
+      "demographic_profile": "young North African male traveler",
+      "diagnostic_category": "hemolytic anemia due to enzymatic red-cell disorder",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_39_2010",
+    "correct_diagnosis": "Autoimmune hepatitis",
+    "classification": {
+      "organ_systems": [
+        "hepatic",
+        "gastrointestinal",
+        "immunologic"
+      ],
+      "primary_presenting_features": [
+        "jaundice",
+        "pruritus",
+        "dark urine",
+        "nausea",
+        "malaise",
+        "transaminitis"
+      ],
+      "key_lab_abnormalities": [
+        "marked elevation of AST and ALT",
+        "direct hyperbilirubinemia",
+        "mild prolongation of PT",
+        "positive anti-smooth-muscle antibody",
+        "low-titer positive ANA",
+        "normal alkaline phosphatase"
+      ],
+      "demographic_profile": "19-year-old postpartum woman",
+      "diagnostic_category": "autoimmune liver disease",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_28_2010",
+    "correct_diagnosis": "Postpartum coronary-artery dissection",
+    "classification": {
+      "organ_systems": [
+        "cardiovascular",
+        "obstetric"
+      ],
+      "primary_presenting_features": [
+        "sudden substernal chest pain",
+        "left jaw pain",
+        "shortness of breath",
+        "transient anterior ST-segment elevation",
+        "recurrent episodic chest pain",
+        "3 weeks postpartum"
+      ],
+      "key_lab_abnormalities": [
+        "elevated D-dimer",
+        "initially negative troponin I",
+        "mildly elevated amylase"
+      ],
+      "demographic_profile": "32-year-old postpartum woman, 3 weeks after uncomplicated vaginal delivery, with prior pregnancy-related hypertensive disorder",
+      "diagnostic_category": "postpartum spontaneous coronary artery dissection",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "rare_diagnosis"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_02_2009",
+    "correct_diagnosis": "Necrotizing fasciitis and toxic shock syndrome",
+    "classification": {
+      "organ_systems": [
+        "dermatologic",
+        "musculoskeletal",
+        "infectious",
+        "cardiovascular",
+        "pulmonary",
+        "renal",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "rapidly progressive right hand swelling and pain",
+        "necrotic eschar",
+        "septic shock with profound hypotension",
+        "altered mental status",
+        "fever and chills",
+        "severe pain with passive finger motion",
+        "petechiae",
+        "pulmonary edema"
+      ],
+      "key_lab_abnormalities": [
+        "leukocytosis with marked bandemia and left shift",
+        "acute kidney injury",
+        "lactic acidosis",
+        "elevated creatine kinase",
+        "thrombocytopenia",
+        "coagulopathy with prolonged PT/INR and aPTT",
+        "hypoxemia",
+        "hypoalbuminemia",
+        "hypocalcemia",
+        "hypomagnesemia",
+        "mild transaminitis"
+      ],
+      "demographic_profile": "young adult man with recent prednisone exposure, farm and animal exposure, and recent skin abscess history",
+      "diagnostic_category": "necrotizing soft-tissue infection with toxic shock syndrome",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_26_2005",
+    "correct_diagnosis": "Hypertrophic cardiomyopathy",
+    "classification": {
+      "organ_systems": [
+        "cardiovascular",
+        "neurologic",
+        "trauma"
+      ],
+      "primary_presenting_features": [
+        "sudden loss of consciousness during exertion",
+        "collapse while jogging",
+        "possible seizure-like posturing",
+        "head trauma from fall",
+        "recurrent exertional syncope"
+      ],
+      "key_lab_abnormalities": [
+        "ECG with left ventricular hypertrophy",
+        "right bundle-branch block",
+        "lateral ST-segment depression",
+        "lateral T-wave inversion",
+        "borderline positive creatine kinase"
+      ],
+      "demographic_profile": "approximately 40-year-old black man with prior exertional collapse and history of a 'thickened' heart",
+      "diagnostic_category": "cardiomyopathy",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_29_2003",
+    "correct_diagnosis": "Infection with Babesia microti (babesiosis) and Borrelia burgdorferi (Lyme disease).",
+    "classification": {
+      "organ_systems": [
+        "infectious",
+        "hematologic",
+        "hepatic",
+        "renal"
+      ],
+      "primary_presenting_features": [
+        "fever with rigors and night sweats",
+        "myalgias and arthralgias",
+        "malaise and anorexia",
+        "dyspnea on exertion",
+        "dark urine",
+        "weight loss",
+        "tick exposure in endemic area"
+      ],
+      "key_lab_abnormalities": [
+        "leukopenia",
+        "thrombocytopenia",
+        "progressive anemia",
+        "mild transaminitis",
+        "hyperbilirubinemia",
+        "abnormal urinalysis with proteinuria, pyuria, hematuria, and granular casts",
+        "positive Borrelia burgdorferi serology"
+      ],
+      "demographic_profile": "60-year-old man living in a tick-endemic wooded area in Massachusetts with recent multiple tick bites",
+      "diagnostic_category": "tick-borne coinfection",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_38_2003",
+    "correct_diagnosis": "Meningoencephalitis due to Neisseria meningitidis infection",
+    "classification": {
+      "organ_systems": [
+        "neurologic",
+        "infectious",
+        "respiratory",
+        "cardiovascular",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "fever",
+        "upper respiratory prodrome",
+        "vomiting",
+        "abrupt unresponsiveness",
+        "seizure-like posturing",
+        "rapid progression to coma",
+        "cerebral edema with herniation",
+        "pneumonia",
+        "purpuric skin lesions"
+      ],
+      "key_lab_abnormalities": [
+        "marked leukocytosis with neutrophilia and bandemia",
+        "hyperglycemia",
+        "metabolic acidosis",
+        "hypokalemia",
+        "hypomagnesemia",
+        "hypocalcemia",
+        "hypophosphatemia",
+        "severe hypoxemia on 100% oxygen"
+      ],
+      "demographic_profile": "12-year-old previously healthy girl",
+      "diagnostic_category": "meningoencephalitis due to meningococcal infection",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "multisystem"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_12_2004",
+    "correct_diagnosis": "Aortic dissection",
+    "classification": {
+      "organ_systems": [
+        "cardiovascular",
+        "obstetric",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "acute chest pain",
+        "upper back pain",
+        "neck pain",
+        "dyspnea",
+        "postpartum state",
+        "aortic regurgitation",
+        "ascending aortic dilation",
+        "small pericardial effusion"
+      ],
+      "key_lab_abnormalities": [
+        "severe anemia",
+        "thrombocytosis",
+        "markedly elevated ESR",
+        "hypoalbuminemia"
+      ],
+      "demographic_profile": "38-year-old postpartum woman two weeks after cesarean delivery with recurrent miscarriages",
+      "diagnostic_category": "acute aortic syndrome",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_17_2004",
+    "correct_diagnosis": "Cardiac arrest due to pulmonary embolism",
+    "classification": {
+      "organ_systems": [
+        "cardiovascular",
+        "pulmonary",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "sudden chest pain",
+        "acute shortness of breath",
+        "syncope/collapse",
+        "pulseless electrical activity cardiac arrest",
+        "severe hypoxemia",
+        "obstructive shock"
+      ],
+      "key_lab_abnormalities": [
+        "profound acidemia",
+        "hypercapnia",
+        "severe hypoxemia",
+        "hyperglycemia",
+        "mild creatinine elevation",
+        "leukocytosis",
+        "prolonged PT/INR and aPTT"
+      ],
+      "demographic_profile": "42-year-old woman with recent ankle fracture and leg immobilization in cast, oral contraceptive use, and family history of phlebitis",
+      "diagnostic_category": "venous thromboembolism causing massive pulmonary embolism",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_04_2012",
+    "correct_diagnosis": "Graves' disease with thyrotoxic periodic paralysis",
+    "classification": {
+      "organ_systems": [
+        "endocrine",
+        "neurologic",
+        "musculoskeletal",
+        "electrolyte"
+      ],
+      "primary_presenting_features": [
+        "acute diffuse myalgias",
+        "muscle weakness",
+        "inability to walk",
+        "episodic nocturnal leg cramps",
+        "hyporeflexia",
+        "rapid improvement after potassium replacement"
+      ],
+      "key_lab_abnormalities": [
+        "severe hypokalemia",
+        "hypophosphatemia",
+        "mildly elevated ALT",
+        "low creatinine",
+        "normal creatine kinase",
+        "high-carbohydrate meal preceding attack"
+      ],
+      "demographic_profile": "37-year-old man of Colombian origin with recent weight loss, tremor, blurred vision, and gynecomastia",
+      "diagnostic_category": "thyrotoxic periodic paralysis due to Graves' disease",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_04_2013",
+    "correct_diagnosis": "Thromboembolic renal infarction due to endocarditis",
+    "classification": {
+      "organ_systems": [
+        "renal",
+        "cardiovascular",
+        "infectious disease",
+        "hematologic"
+      ],
+      "primary_presenting_features": [
+        "acute left flank pain",
+        "low-grade fever",
+        "renal wedge-shaped perfusion defect",
+        "cardiac murmurs",
+        "recent malaise and nausea"
+      ],
+      "key_lab_abnormalities": [
+        "mild leukocytosis",
+        "neutrophilia",
+        "elevated D-dimer",
+        "elevated ESR",
+        "markedly elevated CRP",
+        "elevated lipoprotein A"
+      ],
+      "demographic_profile": "50-year-old man with prior Hodgkin lymphoma treated with chemotherapy, radiation, and splenectomy",
+      "diagnostic_category": "thromboembolic renal infarction due to infective endocarditis",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_28_2002",
+    "correct_diagnosis": "Necrotizing fasciitis",
+    "classification": {
+      "organ_systems": [
+        "skin/soft tissue",
+        "musculoskeletal",
+        "infectious disease",
+        "cardiovascular",
+        "pulmonary"
+      ],
+      "primary_presenting_features": [
+        "rapidly progressive right thigh pain and swelling",
+        "erythema with skin breakdown",
+        "septic shock with hypotension and tachycardia",
+        "bullae formation",
+        "pain out of proportion with pain on passive movement",
+        "delirium",
+        "dyspnea"
+      ],
+      "key_lab_abnormalities": [
+        "bandemia with left shift",
+        "acute kidney injury with creatinine 1.9 mg/dl",
+        "prolonged PT",
+        "positive D-dimer",
+        "metabolic acidosis with low bicarbonate",
+        "hypokalemia",
+        "hypomagnesemia",
+        "mild hyperglycemia",
+        "mild CK elevation"
+      ],
+      "demographic_profile": "35-year-old woman with recent skin injury and tampon use, previously healthy",
+      "diagnostic_category": "necrotizing soft tissue infection",
+      "clinical_complexity": "high",
+      "reasoning_challenge_type": "anchoring_risk"
+    }
+  },
+  {
+    "case_id": "NEJM_CPC_41_2009",
+    "correct_diagnosis": "Hypothermia with frostbite",
+    "classification": {
+      "organ_systems": [
+        "environmental",
+        "dermatologic",
+        "cardiovascular",
+        "neurologic",
+        "musculoskeletal"
+      ],
+      "primary_presenting_features": [
+        "accidental cold exposure",
+        "hypothermia",
+        "frostbite of hands and right foot",
+        "altered mental status",
+        "blue dusky extremities with bullae",
+        "bradycardia"
+      ],
+      "key_lab_abnormalities": [
+        "elevated blood ethanol",
+        "elevated creatine kinase",
+        "mild leukocytosis with neutrophilia",
+        "hypokalemia",
+        "low bicarbonate",
+        "hypoglycemia",
+        "elevated AST",
+        "elevated amylase",
+        "elevated lipase"
+      ],
+      "demographic_profile": "16-year-old previously healthy male adolescent with recent alcohol intake and prolonged outdoor cold exposure",
+      "diagnostic_category": "environmental cold injury",
+      "clinical_complexity": "moderate",
+      "reasoning_challenge_type": "multisystem"
+    }
+  }
+]

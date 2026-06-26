@@ -1,0 +1,473 @@
+{
+  "cluster_0": {
+    "organ_system": "infectious disease",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_01_2026"
+    ],
+    "case_indices": [
+      0
+    ],
+    "size": 1,
+    "diagnoses": [
+      "Disseminated meningococcal disease"
+    ],
+    "reasoning_types": [
+      "anchoring_risk"
+    ]
+  },
+  "cluster_1": {
+    "organ_system": "cardiovascular",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_24_2025",
+      "NEJM_CPC_39_1993",
+      "NEJM_CPC_28_2010",
+      "NEJM_CPC_12_2004"
+    ],
+    "case_indices": [
+      1,
+      32,
+      39,
+      44
+    ],
+    "size": 4,
+    "diagnoses": [
+      "Lyme carditis",
+      "Giant-cell aortitis with descending aortic dissection and rupture",
+      "Postpartum coronary-artery dissection",
+      "Aortic dissection"
+    ],
+    "reasoning_types": [
+      "anchoring_risk",
+      "anchoring_risk",
+      "rare_diagnosis",
+      "anchoring_risk"
+    ],
+    "mean_pairwise_similarity": 0.8005372431688371
+  },
+  "cluster_2": {
+    "organ_system": "cardiovascular",
+    "subcluster": 1,
+    "case_ids": [
+      "NEJM_CPC_26_2005",
+      "NEJM_CPC_17_2004"
+    ],
+    "case_indices": [
+      41,
+      45
+    ],
+    "size": 2,
+    "diagnoses": [
+      "Hypertrophic cardiomyopathy",
+      "Cardiac arrest due to pulmonary embolism"
+    ],
+    "reasoning_types": [
+      "anchoring_risk",
+      "anchoring_risk"
+    ],
+    "mean_pairwise_similarity": 0.87297540697794
+  },
+  "cluster_3": {
+    "organ_system": "dermatologic",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_35_2025",
+      "NEJM_CPC_12_2025",
+      "NEJM_CPC_02_2009"
+    ],
+    "case_indices": [
+      2,
+      4,
+      40
+    ],
+    "size": 3,
+    "diagnoses": [
+      "IgA vasculitis",
+      "Primary varicella-zoster virus infection",
+      "Necrotizing fasciitis and toxic shock syndrome"
+    ],
+    "reasoning_types": [
+      "anchoring_risk",
+      "anchoring_risk",
+      "anchoring_risk"
+    ],
+    "mean_pairwise_similarity": 0.7947171416510606
+  },
+  "cluster_4": {
+    "organ_system": "pulmonary",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_17_2025",
+      "NEJM_CPC_21_2022",
+      "NEJM_CPC_15_2022",
+      "NEJM_CPC_10_2019",
+      "NEJM_CPC_29_2014"
+    ],
+    "case_indices": [
+      3,
+      16,
+      17,
+      29,
+      34
+    ],
+    "size": 5,
+    "diagnoses": [
+      "Disseminated strongyloidiasis",
+      "Granulomatosis with polyangiitis",
+      "Aspiration pneumonia",
+      "Idiopathic pulmonary fibrosis",
+      "Acute massive pulmonary embolism"
+    ],
+    "reasoning_types": [
+      "rare_diagnosis",
+      "multisystem",
+      "anchoring_risk",
+      "broad_differential",
+      "anchoring_risk"
+    ],
+    "mean_pairwise_similarity": 0.7423785260370166
+  },
+  "cluster_5": {
+    "organ_system": "endocrine",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_08_2025",
+      "NEJM_CPC_04_2012"
+    ],
+    "case_indices": [
+      5,
+      46
+    ],
+    "size": 2,
+    "diagnoses": [
+      "Euglycemic diabetic ketoacidosis due to SGLT2 inhibitor use",
+      "Graves' disease with thyrotoxic periodic paralysis"
+    ],
+    "reasoning_types": [
+      "anchoring_risk",
+      "anchoring_risk"
+    ]
+  },
+  "cluster_6": {
+    "organ_system": "rheumatologic",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_04_2025",
+      "NEJM_CPC_19_2024",
+      "NEJM_CPC_17_2019"
+    ],
+    "case_indices": [
+      6,
+      9,
+      31
+    ],
+    "size": 3,
+    "diagnoses": [
+      "Sarcoidosis (Lofgren's syndrome)",
+      "Secondary syphilis",
+      "Systemic lupus erythematosus"
+    ],
+    "reasoning_types": [
+      "anchoring_risk",
+      "atypical_presentation",
+      "atypical_presentation"
+    ],
+    "mean_pairwise_similarity": 0.8681692745660061
+  },
+  "cluster_7": {
+    "organ_system": "gastrointestinal",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_36_2024",
+      "NEJM_CPC_03_2022"
+    ],
+    "case_indices": [
+      7,
+      19
+    ],
+    "size": 2,
+    "diagnoses": [
+      "Trichobezoar",
+      "Crohn's disease"
+    ],
+    "reasoning_types": [
+      "rare_diagnosis",
+      "anchoring_risk"
+    ]
+  },
+  "cluster_8": {
+    "organ_system": "infectious",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_31_2024",
+      "NEJM_CPC_02_2026",
+      "NEJM_CPC_11_2015",
+      "NEJM_CPC_29_2003"
+    ],
+    "case_indices": [
+      8,
+      23,
+      33,
+      42
+    ],
+    "size": 4,
+    "diagnoses": [
+      "Icteric leptospirosis (Weil's disease)",
+      "Disseminated infection with Klebsiella pneumoniae",
+      "Invasive Neisseria meningitidis infection",
+      "Infection with Babesia microti (babesiosis) and Borrelia burgdorferi (Lyme disease)."
+    ],
+    "reasoning_types": [
+      "multisystem",
+      "multisystem",
+      "anchoring_risk",
+      "multisystem"
+    ],
+    "mean_pairwise_similarity": 0.7941033360876033
+  },
+  "cluster_9": {
+    "organ_system": "neurologic",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_38_2023",
+      "NEJM_CPC_31_2023",
+      "NEJM_CPC_02_2023",
+      "NEJM_CPC_38_2003"
+    ],
+    "case_indices": [
+      12,
+      13,
+      14,
+      43
+    ],
+    "size": 4,
+    "diagnoses": [
+      "Chorea due to antiphospholipid syndrome and systemic lupus erythematosus",
+      "Limb-shaking transient ischemic attacks",
+      "Chronic salicylate toxicity",
+      "Meningoencephalitis due to Neisseria meningitidis infection"
+    ],
+    "reasoning_types": [
+      "multisystem",
+      "anchoring_risk",
+      "anchoring_risk",
+      "multisystem"
+    ],
+    "mean_pairwise_similarity": 0.7991384531930118
+  },
+  "cluster_10": {
+    "organ_system": "neurologic",
+    "subcluster": 1,
+    "case_ids": [
+      "NEJM_CPC_14_2024",
+      "NEJM_CPC_07_2024",
+      "NEJM_CPC_27_2020"
+    ],
+    "case_indices": [
+      10,
+      11,
+      22
+    ],
+    "size": 3,
+    "diagnoses": [
+      "Glutamic acid decarboxylase 65 autoantibody-associated stiff-person syndrome",
+      "Myeloperoxidase antineutrophil cytoplasmic antibody-associated vasculitis",
+      "HIV type 2 infection and cerebral toxoplasmosis"
+    ],
+    "reasoning_types": [
+      "rare_diagnosis",
+      "anchoring_risk",
+      "anchoring_risk"
+    ],
+    "mean_pairwise_similarity": 0.8043876059108986
+  },
+  "cluster_11": {
+    "organ_system": "ophthalmologic",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_33_2022",
+      "NEJM_CPC_03_2021",
+      "NEJM_CPC_08_2019"
+    ],
+    "case_indices": [
+      15,
+      21,
+      28
+    ],
+    "size": 3,
+    "diagnoses": [
+      "Sarcoidosis",
+      "Systemic primary amyloidosis",
+      "Ocular syphilis"
+    ],
+    "reasoning_types": [
+      "anchoring_risk",
+      "anchoring_risk",
+      "anchoring_risk"
+    ],
+    "mean_pairwise_similarity": 0.8370994842612942
+  },
+  "cluster_12": {
+    "organ_system": "hematologic",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_11_2022",
+      "NEJM_CPC_05_2019",
+      "NEJM_CPC_36_2013",
+      "NEJM_CPC_20_2013"
+    ],
+    "case_indices": [
+      18,
+      27,
+      35,
+      37
+    ],
+    "size": 4,
+    "diagnoses": [
+      "Myelodysplastic syndrome",
+      "Pernicious anemia (vitamin B12 deficiency)",
+      "Autoimmune hemolytic anemia and thrombocytopenia (Evans syndrome) due to systemic lupus erythematosus",
+      "Glucose-6-phosphate dehydrogenase deficiency"
+    ],
+    "reasoning_types": [
+      "anchoring_risk",
+      "anchoring_risk",
+      "multisystem",
+      "anchoring_risk"
+    ],
+    "mean_pairwise_similarity": 0.8153065731550461
+  },
+  "cluster_13": {
+    "organ_system": "hepatic",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_25_2021",
+      "NEJM_CPC_15_2019",
+      "NEJM_CPC_39_2010"
+    ],
+    "case_indices": [
+      20,
+      30,
+      38
+    ],
+    "size": 3,
+    "diagnoses": [
+      "Hereditary hemochromatosis",
+      "Acute hepatitis B virus and hepatitis delta virus coinfection",
+      "Autoimmune hepatitis"
+    ],
+    "reasoning_types": [
+      "multisystem",
+      "anchoring_risk",
+      "anchoring_risk"
+    ],
+    "mean_pairwise_similarity": 0.8403544617441397
+  },
+  "cluster_14": {
+    "organ_system": "musculoskeletal",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_07_2026"
+    ],
+    "case_indices": [
+      24
+    ],
+    "size": 1,
+    "diagnoses": [
+      "Periprosthetic joint infection with Mycobacterium bovis bacille Calmette-Guerin"
+    ],
+    "reasoning_types": [
+      "rare_diagnosis"
+    ]
+  },
+  "cluster_15": {
+    "organ_system": "renal",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_05_2026",
+      "NEJM_CPC_04_2013"
+    ],
+    "case_indices": [
+      25,
+      47
+    ],
+    "size": 2,
+    "diagnoses": [
+      "Reninoma",
+      "Thromboembolic renal infarction due to endocarditis"
+    ],
+    "reasoning_types": [
+      "rare_diagnosis",
+      "anchoring_risk"
+    ]
+  },
+  "cluster_16": {
+    "organ_system": "psychiatric",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_01_2019"
+    ],
+    "case_indices": [
+      26
+    ],
+    "size": 1,
+    "diagnoses": [
+      "Post-traumatic stress disorder"
+    ],
+    "reasoning_types": [
+      "multisystem"
+    ]
+  },
+  "cluster_17": {
+    "organ_system": "metabolic",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_23_2013"
+    ],
+    "case_indices": [
+      36
+    ],
+    "size": 1,
+    "diagnoses": [
+      "Metformin-associated lactic acidosis or metformin toxicity"
+    ],
+    "reasoning_types": [
+      "anchoring_risk"
+    ]
+  },
+  "cluster_18": {
+    "organ_system": "skin/soft tissue",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_28_2002"
+    ],
+    "case_indices": [
+      48
+    ],
+    "size": 1,
+    "diagnoses": [
+      "Necrotizing fasciitis"
+    ],
+    "reasoning_types": [
+      "anchoring_risk"
+    ]
+  },
+  "cluster_19": {
+    "organ_system": "environmental",
+    "subcluster": 0,
+    "case_ids": [
+      "NEJM_CPC_41_2009"
+    ],
+    "case_indices": [
+      49
+    ],
+    "size": 1,
+    "diagnoses": [
+      "Hypothermia with frostbite"
+    ],
+    "reasoning_types": [
+      "multisystem"
+    ]
+  }
+}

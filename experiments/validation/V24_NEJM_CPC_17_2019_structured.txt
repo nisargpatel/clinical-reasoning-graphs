@@ -1,0 +1,391 @@
+TRACE ID: V24
+Case: NEJM_CPC_17_2019 | Model: anthropic/claude-sonnet-4.5 | Condition: structured
+Ground truth: Systemic lupus erythematosus
+Final diagnosis: Adult-onset Still's Disease (70%)
+================================================================================
+
+ORIGINAL TRACE:
+----------------------------------------
+## Phase 1 — INITIAL ASSESSMENT
+
+### A. PROBLEM REPRESENTATION
+
+A 44-year-old man from sub-Saharan Africa with chronic progressive polyarticular inflammatory arthritis, profound cachexia with 18kg weight loss, pancytopenia (severe microcytic anemia, leukopenia), large hemorrhagic pericardial effusion with tamponade, serositis (pleural effusions, ascites), generalized lymphadenopathy, and markedly elevated inflammatory markers.
+
+### B. INITIAL DIFFERENTIAL DIAGNOSIS
+
+1. **Disseminated Tuberculosis (TB)** (40%)
+   - Most likely explanation given epidemiologic risk (sub-Saharan African origin), chronic systemic illness, serositis (pericardial, pleural, peritoneal), lymphadenopathy, profound constitutional symptoms, and cytopenias
+
+2. **Adult-onset Still's Disease (AOSD)** (25%)
+   - Explains polyarthritis, high fevers, serositis, marked leukopenia (paradoxical for classic AOSD but can occur), extremely high ferritin, lymphadenopathy
+
+3. **Systemic Lupus Erythematosus (SLE)** (15%)
+   - Accounts for polyarthritis, serositis (pleural, pericardial, peritoneal), cytopenias, rash, constitutional symptoms, proteinuria
+
+4. **Lymphoma (T-cell or Hodgkin)** (10%)
+   - Explains cachexia, lymphadenopathy, B symptoms, cytopenias, serositis from lymphatic obstruction
+
+5. **HIV-associated disease** (10%)
+   - Despite negative screening, explains pancytopenia, wasting, opportunistic infections, lymphadenopathy given sexual activity and endemic area origin
+
+**Leading Diagnosis: Disseminated Tuberculosis - 40%**
+
+**Reasoning:** The combination of origin from TB-endemic region, chronic progressive course over 10 months, profound wasting, pericardial effusion (TB is the leading cause of pericarditis in endemic areas), serositis involving multiple serous cavities, lymphadenopathy, and cytopenias strongly suggests disseminated TB. The hemorrhagic pericardial fluid with high protein and neutrophilic predominance is consistent with tuberculous pericarditis.
+
+---
+
+## Phase 2 — STRUCTURED SECOND LOOK
+
+### A. PROBLEM REPRESENTATION CHECK
+
+Re-examining my representation: I captured the key features, but I should emphasize:
+- **Hyperacute deterioration** in final weeks superimposed on chronic illness
+- **Extremely high ferritin** (1,921 μg/L) with very low iron and TIBC (anemia of chronic disease)
+- **Profound leukopenia** (not typical for most infections)
+- **Negative interferon-gamma release assay (IGRA)** for TB - this is critical evidence AGAINST TB
+- The **polyarthritis is TRUE synovitis** (not just arthralgias) - warm knees with effusions, wrist and PIP involvement
+
+### B. STRESS TEST LEADING DIAGNOSIS (TB)
+
+**Strongest arguments AGAINST disseminated TB:**
+1. **Negative IGRA** - highly sensitive for TB, especially in disseminated disease; negative test significantly reduces TB probability
+2. **Profound leukopenia** - unusual for TB, which typically causes leukocytosis or normal counts
+3. **True inflammatory polyarthritis** - not a typical feature of TB (Poncet's disease is rare, reactive, and non-erosive)
+4. **Pericardial fluid negative for organisms** and predominantly neutrophilic rather than lymphocytic (TB usually lymphocyte-predominant)
+
+**Unexplained findings:**
+- Marked leukopenia with profound anemia
+- True synovitis with knee effusions
+- Extremely elevated ferritin
+
+### C. CONSIDER ALTERNATIVES
+
+**Best alternative: Adult-onset Still's Disease (AOSD)**
+
+**Specific findings supporting AOSD over TB:**
+1. **Extremely high ferritin** (1,921 μg/L) - hallmark of AOSD; ferritin >1,000 with low glycosylated fraction is highly specific
+2. **High spiking fevers** (to 39.7°C) - characteristic quotidian fever pattern of AOSD
+3. **True inflammatory polyarthritis** - cardinal feature of AOSD
+4. **Serositis** (pericarditis, pleuritis, peritonitis) - classic for AOSD
+5. **Lymphadenopathy** and hepatosplenomegaly (elevated alkaline phosphatase, AST/ALT) - typical
+6. **Marked elevation of inflammatory markers** (ESR 105, CRP 86)
+7. **Leukopenia can occur** in AOSD, though leukocytosis is more common
+8. **Rash** - described as pruritic with scaling; salmon-pink evanescent rash is classic but not always present
+
+**Can't-miss diagnosis: SLE**
+- Also explains serositis, cytopenias, arthritis, constitutional symptoms
+- But: no photosensitivity, no mention of ANA testing, rash doesn't fit malar or discoid pattern
+
+### D. DEFEND OR UPDATE
+
+**Findings MOST STRONGLY SUPPORTING AOSD:**
+1. Ferritin >1,900 - extraordinarily high, nearly pathognomonic when >1,000
+2. Quintuple serositis (pericardial, pleural, peritoneal)
+3. True inflammatory arthritis with synovitis
+4. Quotidian fevers
+5. Lymphadenopathy and hepatic involvement
+6. Marked systemic inflammation
+
+**Comparison to TB:**
+- **Base rates:** In a patient from TB-endemic area, TB has high prior probability, BUT
+- **IGRA negative** dramatically reduces TB likelihood (sensitivity >95% in disseminated disease)
+- **Clinical fit:** AOSD explains ALL findings including the profound leukopenia and extremely high ferritin
+- TB does NOT explain the true polyarticular synovitis or extreme ferritin elevation
+
+**Is unexplained evidence significant?**
+- For TB: The negative IGRA, leukopenia, and true arthritis are clinically significant departures
+- For AOSD: Leukopenia is unusual but can occur; all other findings fit perfectly
+
+The ferritin level is the most discriminating finding - this degree of hyperferritinemia is exceptional and virtually diagnostic of AOSD in the right clinical context.
+
+---
+
+## Phase 3 — REVISED ASSESSMENT
+
+After systematic reassessment, I am **CHANGING my diagnosis** from disseminated TB to Adult-onset Still's Disease.
+
+**FINAL DIFFERENTIAL DIAGNOSIS (ranked by probability):**
+
+1. **Adult-onset Still's Disease** (70%)
+2. **Systemic Lupus Erythematosus** (15%)
+3. **Disseminated Tuberculosis** (8%)
+4. **Lymphoma** (5%)
+5. **HIV-associated systemic disease** (2%)
+
+**RATIONALE FOR CHANGE:**
+
+The critical pivot point was recognizing that the **extremely elevated ferritin (>1,900 μg/L)** combined with the **negative IGRA** fundamentally changes the diagnostic landscape. While I initially anchored on TB due to epidemiologic factors and serositis, the AOSD diagnosis explains:
+
+- The extreme ferritin elevation (hallmark finding)
+- True inflammatory polyarthritis with effusions
+- Serositis involving pericardium, pleura, and peritoneum
+- High spiking fevers
+- Profound constitutional symptoms and cachexia
+- Lymphadenopathy
+- Elevated liver enzymes
+- Marked elevation of acute phase reactants
+
+The leukopenia, while atypical for AOSD (which usually causes leukocytosis), can occur and is more compatible with AOSD than the neutrophilic leukopenia seen here would be with TB. The negative IGRA significantly argues against TB, and TB would not explain the extreme ferritin or true synovitis.
+
+**Final Leading Diagnosis:** Adult-onset Still's Disease
+
+**Final Probability:** 70%
+
+================================================================================
+EXTRACTED GRAPH: 44 nodes, 100 edges
+----------------------------------------
+
+NODES:
+  [n1] diagnosis: Disseminated Tuberculosis (TB) (40%) (phase: phase1)
+  [n2] diagnosis: Adult-onset Still's Disease (AOSD) (25%) (phase: phase1)
+  [n3] diagnosis: Systemic Lupus Erythematosus (SLE) (15%) (phase: phase1)
+  [n4] diagnosis: Lymphoma (T-cell or Hodgkin) (10%) (phase: phase1)
+  [n5] diagnosis: HIV-associated disease (10%) (phase: phase1)
+  [n6] clinical_feature: sub-Saharan African origin (phase: phase1)
+  [n7] clinical_feature: chronic systemic illness (phase: phase1)
+  [n8] clinical_feature: serositis (pericardial, pleural, peritoneal) (phase: phase1)
+  [n9] clinical_feature: lymphadenopathy (phase: phase1)
+  [n10] clinical_feature: profound constitutional symptoms (phase: phase1)
+  [n11] clinical_feature: cytopenias (phase: phase1)
+  [n12] clinical_feature: polyarthritis (phase: phase1)
+  [n13] clinical_feature: high fevers (phase: phase1)
+  [n14] clinical_feature: marked leukopenia (phase: phase1)
+  [n15] clinical_feature: extremely high ferritin (phase: phase1)
+  [n16] clinical_feature: rash (phase: phase1)
+  [n17] clinical_feature: proteinuria (phase: phase1)
+  [n18] clinical_feature: cachexia (phase: phase1)
+  [n19] clinical_feature: B symptoms (phase: phase1)
+  [n20] clinical_feature: sexual activity and endemic area origin (phase: phase1)
+  [n21] clinical_feature: negative screening (phase: phase1)
+  [n22] clinical_feature: chronic progressive course over 10 months (phase: phase1)
+  [n23] clinical_feature: profound wasting (phase: phase1)
+  [n24] clinical_feature: pericardial effusion (phase: phase1)
+  [n25] clinical_feature: hemorrhagic pericardial fluid with high protein and neutrophilic predominance (phase: phase1)
+  [n26] clinical_feature: Hyperacute deterioration in final weeks superimposed on chronic illness (phase: phase2)
+  [n27] clinical_feature: Extremely high ferritin (1,921 μg/L) with very low iron and TIBC (anemia of chronic disease) (phase: phase2)
+  [n28] clinical_feature: Profound leukopenia (phase: phase2)
+  [n29] clinical_feature: Negative interferon-gamma release assay (IGRA) for TB (phase: phase2)
+  [n30] clinical_feature: polyarthritis is TRUE synovitis (phase: phase2)
+  [n31] clinical_feature: Pericardial fluid negative for organisms and predominantly neutrophilic rather than lymphocytic (phase: phase2)
+  [n32] clinical_feature: high spiking fevers (to 39.7°C) (phase: phase2)
+  [n33] clinical_feature: hepatosplenomegaly (elevated alkaline phosphatase, AST/ALT) (phase: phase2)
+  [n34] clinical_feature: marked elevation of inflammatory markers (ESR 105, CRP 86) (phase: phase2)
+  [n35] clinical_feature: no photosensitivity (phase: phase2)
+  [n36] clinical_feature: no mention of ANA testing (phase: phase2)
+  [n37] clinical_feature: rash doesn't fit malar or discoid pattern (phase: phase2)
+  [n38] discriminating_feature: ferritin level is the most discriminating finding (phase: phase2)
+  [n39] evidence_reference: TB is the leading cause of pericarditis in endemic areas (phase: phase1)
+  [n40] evidence_reference: highly sensitive for TB, especially in disseminated disease (phase: phase2)
+  [n41] evidence_reference: Poncet's disease is rare, reactive, and non-erosive (phase: phase2)
+  [n42] evidence_reference: ferritin >1,000 with low glycosylated fraction is highly specific (phase: phase2)
+  [n43] evidence_reference: sensitivity >95% in disseminated disease (phase: phase2)
+  [n44] evidence_reference: virtually diagnostic of AOSD in the right clinical context (phase: phase2)
+
+EDGES:
+  [e1] supports (phase1): sub-Saharan African origin -> Disseminated Tuberculosis (TB)
+         verbatim: "Most likely explanation given epidemiologic risk (sub-Saharan African origin)"
+  [e2] supports (phase1): chronic systemic illness -> Disseminated Tuberculosis (TB)
+         verbatim: "Most likely explanation given ... chronic systemic illness"
+  [e3] supports (phase1): serositis (pericardial, pleural, periton -> Disseminated Tuberculosis (TB)
+         verbatim: "Most likely explanation given ... serositis (pericardial, pleural, peritoneal)"
+  [e4] supports (phase1): lymphadenopathy -> Disseminated Tuberculosis (TB)
+         verbatim: "Most likely explanation given ... lymphadenopathy"
+  [e5] supports (phase1): profound constitutional symptoms -> Disseminated Tuberculosis (TB)
+         verbatim: "Most likely explanation given ... profound constitutional symptoms"
+  [e6] supports (phase1): cytopenias -> Disseminated Tuberculosis (TB)
+         verbatim: "Most likely explanation given ... cytopenias"
+  [e7] supports (phase1): polyarthritis -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Explains polyarthritis"
+  [e8] supports (phase1): high fevers -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Explains ... high fevers"
+  [e9] supports (phase1): serositis (pericardial, pleural, periton -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Explains ... serositis"
+  [e10] supports (phase1): marked leukopenia -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Explains ... marked leukopenia (paradoxical for classic AOSD but can occur)"
+  [e11] supports (phase1): extremely high ferritin -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Explains ... extremely high ferritin"
+  [e12] supports (phase1): lymphadenopathy -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Explains ... lymphadenopathy"
+  [e13] supports (phase1): polyarthritis -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Accounts for polyarthritis"
+  [e14] supports (phase1): serositis (pericardial, pleural, periton -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Accounts for ... serositis (pleural, pericardial, peritoneal)"
+  [e15] supports (phase1): cytopenias -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Accounts for ... cytopenias"
+  [e16] supports (phase1): rash -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Accounts for ... rash"
+  [e17] supports (phase1): profound constitutional symptoms -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Accounts for ... constitutional symptoms"
+  [e18] supports (phase1): proteinuria -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Accounts for ... proteinuria"
+  [e19] supports (phase1): cachexia -> Lymphoma (T-cell or Hodgkin)
+         verbatim: "Explains cachexia"
+  [e20] supports (phase1): lymphadenopathy -> Lymphoma (T-cell or Hodgkin)
+         verbatim: "Explains ... lymphadenopathy"
+  [e21] supports (phase1): B symptoms -> Lymphoma (T-cell or Hodgkin)
+         verbatim: "Explains ... B symptoms"
+  [e22] supports (phase1): cytopenias -> Lymphoma (T-cell or Hodgkin)
+         verbatim: "Explains ... cytopenias"
+  [e23] supports (phase1): serositis (pericardial, pleural, periton -> Lymphoma (T-cell or Hodgkin)
+         verbatim: "Explains ... serositis from lymphatic obstruction"
+  [e24] supports (phase1): cytopenias -> HIV-associated disease
+         verbatim: "Despite negative screening, explains pancytopenia"
+  [e25] supports (phase1): cachexia -> HIV-associated disease
+         verbatim: "Despite negative screening, explains ... wasting"
+  [e26] supports (phase1): lymphadenopathy -> HIV-associated disease
+         verbatim: "Despite negative screening, explains ... lymphadenopathy"
+  [e27] supports (phase1): sexual activity and endemic area origin -> HIV-associated disease
+         verbatim: "given sexual activity and endemic area origin"
+  [e28] argues_against (phase1): negative screening -> HIV-associated disease
+         verbatim: "Despite negative screening"
+  [e29] supports (phase1): sub-Saharan African origin -> Disseminated Tuberculosis (TB)
+         verbatim: "The combination of origin from TB-endemic region ... strongly suggests disseminated TB"
+  [e30] supports (phase1): chronic progressive course over 10 month -> Disseminated Tuberculosis (TB)
+         verbatim: "The combination of ... chronic progressive course over 10 months ... strongly suggests disseminated "
+  [e31] supports (phase1): profound wasting -> Disseminated Tuberculosis (TB)
+         verbatim: "The combination of ... profound wasting ... strongly suggests disseminated TB"
+  [e32] supports (phase1): pericardial effusion -> Disseminated Tuberculosis (TB)
+         verbatim: "The combination of ... pericardial effusion ... strongly suggests disseminated TB"
+  [e33] supports (phase1): serositis (pericardial, pleural, periton -> Disseminated Tuberculosis (TB)
+         verbatim: "The combination of ... serositis involving multiple serous cavities ... strongly suggests disseminat"
+  [e34] supports (phase1): lymphadenopathy -> Disseminated Tuberculosis (TB)
+         verbatim: "The combination of ... lymphadenopathy ... strongly suggests disseminated TB"
+  [e35] supports (phase1): cytopenias -> Disseminated Tuberculosis (TB)
+         verbatim: "The combination of ... cytopenias strongly suggests disseminated TB"
+  [e36] supports (phase1): hemorrhagic pericardial fluid with high  -> Disseminated Tuberculosis (TB)
+         verbatim: "The hemorrhagic pericardial fluid with high protein and neutrophilic predominance is consistent with"
+  [e37] supports (phase1): TB is the leading cause of pericarditis  -> Disseminated Tuberculosis (TB)
+         verbatim: "TB is the leading cause of pericarditis in endemic areas"
+  [e38] triggered_reflection (phase2): Negative interferon-gamma release assay  -> r1
+         verbatim: "Negative interferon-gamma release assay (IGRA) for TB - this is critical evidence AGAINST TB"
+  [e39] argues_against (phase2): Negative interferon-gamma release assay  -> Disseminated Tuberculosis (TB)
+         verbatim: "Negative IGRA - highly sensitive for TB, especially in disseminated disease; negative test significa"
+  [e40] argues_against (phase2): Profound leukopenia -> Disseminated Tuberculosis (TB)
+         verbatim: "Profound leukopenia - unusual for TB, which typically causes leukocytosis or normal counts"
+  [e41] argues_against (phase2): polyarthritis is TRUE synovitis -> Disseminated Tuberculosis (TB)
+         verbatim: "True inflammatory polyarthritis - not a typical feature of TB (Poncet's disease is rare, reactive, a"
+  [e42] argues_against (phase2): Pericardial fluid negative for organisms -> Disseminated Tuberculosis (TB)
+         verbatim: "Pericardial fluid negative for organisms and predominantly neutrophilic rather than lymphocytic (TB "
+  [e43] supports (phase2): Extremely high ferritin (1,921 μg/L) wit -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Extremely high ferritin (1,921 μg/L) - hallmark of AOSD; ferritin >1,000 with low glycosylated fract"
+  [e44] supports (phase2): high spiking fevers (to 39.7°C) -> Adult-onset Still's Disease (AOSD)
+         verbatim: "High spiking fevers (to 39.7°C) - characteristic quotidian fever pattern of AOSD"
+  [e45] supports (phase2): polyarthritis is TRUE synovitis -> Adult-onset Still's Disease (AOSD)
+         verbatim: "True inflammatory polyarthritis - cardinal feature of AOSD"
+  [e46] supports (phase2): serositis (pericardial, pleural, periton -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Serositis (pericarditis, pleuritis, peritonitis) - classic for AOSD"
+  [e47] supports (phase2): hepatosplenomegaly (elevated alkaline ph -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Lymphadenopathy and hepatosplenomegaly (elevated alkaline phosphatase, AST/ALT) - typical"
+  [e48] supports (phase2): marked elevation of inflammatory markers -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Marked elevation of inflammatory markers (ESR 105, CRP 86)"
+  [e49] supports (phase2): Profound leukopenia -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Leukopenia can occur in AOSD, though leukocytosis is more common"
+  [e50] supports (phase2): rash -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Rash - described as pruritic with scaling; salmon-pink evanescent rash is classic but not always pre"
+  [e51] supports (phase2): serositis (pericardial, pleural, periton -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Also explains serositis, cytopenias, arthritis, constitutional symptoms"
+  [e52] supports (phase2): cytopenias -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Also explains serositis, cytopenias, arthritis, constitutional symptoms"
+  [e53] supports (phase2): polyarthritis -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Also explains serositis, cytopenias, arthritis, constitutional symptoms"
+  [e54] supports (phase2): profound constitutional symptoms -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Also explains serositis, cytopenias, arthritis, constitutional symptoms"
+  [e55] argues_against (phase2): no photosensitivity -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "But: no photosensitivity"
+  [e56] argues_against (phase2): no mention of ANA testing -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "But: no mention of ANA testing"
+  [e57] argues_against (phase2): rash doesn't fit malar or discoid patter -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "But: ... rash doesn't fit malar or discoid pattern"
+  [e58] supports (phase2): Extremely high ferritin (1,921 μg/L) wit -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Ferritin >1,900 - extraordinarily high, nearly pathognomonic when >1,000"
+  [e59] supports (phase2): serositis (pericardial, pleural, periton -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Quintuple serositis (pericardial, pleural, peritoneal)"
+  [e60] supports (phase2): polyarthritis is TRUE synovitis -> Adult-onset Still's Disease (AOSD)
+         verbatim: "True inflammatory arthritis with synovitis"
+  [e61] supports (phase2): high spiking fevers (to 39.7°C) -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Quotidian fevers"
+  [e62] supports (phase2): lymphadenopathy -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Lymphadenopathy and hepatic involvement"
+  [e63] supports (phase2): hepatosplenomegaly (elevated alkaline ph -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Lymphadenopathy and hepatic involvement"
+  [e64] supports (phase2): marked elevation of inflammatory markers -> Adult-onset Still's Disease (AOSD)
+         verbatim: "Marked systemic inflammation"
+  [e65] argues_against (phase2): Negative interferon-gamma release assay  -> Disseminated Tuberculosis (TB)
+         verbatim: "IGRA negative dramatically reduces TB likelihood"
+  [e66] supports (phase2): Profound leukopenia -> Adult-onset Still's Disease (AOSD)
+         verbatim: "AOSD explains ALL findings including the profound leukopenia"
+  [e67] supports (phase2): Extremely high ferritin (1,921 μg/L) wit -> Adult-onset Still's Disease (AOSD)
+         verbatim: "AOSD explains ALL findings including the ... extremely high ferritin"
+  [e68] argues_against (phase2): polyarthritis is TRUE synovitis -> Disseminated Tuberculosis (TB)
+         verbatim: "TB does NOT explain the true polyarticular synovitis"
+  [e69] argues_against (phase2): Extremely high ferritin (1,921 μg/L) wit -> Disseminated Tuberculosis (TB)
+         verbatim: "TB does NOT explain the ... extreme ferritin elevation"
+  [e70] argues_against (phase2): Negative interferon-gamma release assay  -> Disseminated Tuberculosis (TB)
+         verbatim: "For TB: The negative IGRA ... are clinically significant departures"
+  [e71] argues_against (phase2): Profound leukopenia -> Disseminated Tuberculosis (TB)
+         verbatim: "For TB: The negative IGRA, leukopenia, and true arthritis are clinically significant departures"
+  [e72] argues_against (phase2): polyarthritis is TRUE synovitis -> Disseminated Tuberculosis (TB)
+         verbatim: "For TB: The negative IGRA, leukopenia, and true arthritis are clinically significant departures"
+  [e73] supports (phase2): Profound leukopenia -> Adult-onset Still's Disease (AOSD)
+         verbatim: "For AOSD: Leukopenia is unusual but can occur; all other findings fit perfectly"
+  [e74] discriminates_between (phase2): ferritin level is the most discriminatin -> Adult-onset Still's Disease (AOSD) & Dis
+         verbatim: "The ferritin level is the most discriminating finding"
+  [e75] supports (phase2): highly sensitive for TB, especially in d -> Disseminated Tuberculosis (TB)
+         verbatim: "Negative IGRA - highly sensitive for TB, especially in disseminated disease"
+  [e76] supports (phase2): Poncet's disease is rare, reactive, and  -> Disseminated Tuberculosis (TB)
+         verbatim: "Poncet's disease is rare, reactive, and non-erosive"
+  [e77] supports (phase2): ferritin >1,000 with low glycosylated fr -> Adult-onset Still's Disease (AOSD)
+         verbatim: "ferritin >1,000 with low glycosylated fraction is highly specific"
+  [e78] supports (phase2): sensitivity >95% in disseminated disease -> Disseminated Tuberculosis (TB)
+         verbatim: "sensitivity >95% in disseminated disease"
+  [e79] supports (phase2): virtually diagnostic of AOSD in the righ -> Adult-onset Still's Disease (AOSD)
+         verbatim: "this degree of hyperferritinemia is exceptional and virtually diagnostic of AOSD in the right clinic"
+  [e80] promoted (phase3): r1 -> Adult-onset Still's Disease (AOSD)
+         verbatim: "After systematic reassessment, I am CHANGING my diagnosis from disseminated TB to Adult-onset Still'"
+  [e81] demoted (phase3): r1 -> Disseminated Tuberculosis (TB)
+         verbatim: "After systematic reassessment, I am CHANGING my diagnosis from disseminated TB to Adult-onset Still'"
+  [e82] unchanged (phase3): r1 -> Systemic Lupus Erythematosus (SLE)
+         verbatim: "Systemic Lupus Erythematosus (15%)"
+  [e83] demoted (phase3): r1 -> Lymphoma (T-cell or Hodgkin)
+         verbatim: "Lymphoma (5%)"
+  [e84] demoted (phase3): r1 -> HIV-associated disease
+         verbatim: "HIV-associated systemic disease (2%)"
+  [e85] supports (phase3): Extremely high ferritin (1,921 μg/L) wit -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The critical pivot point was recognizing that the extremely elevated ferritin (>1,900 μg/L) ... fund"
+  [e86] argues_against (phase3): Negative interferon-gamma release assay  -> Disseminated Tuberculosis (TB)
+         verbatim: "The critical pivot point was recognizing that the ... negative IGRA fundamentally changes the diagno"
+  [e87] supports (phase3): Extremely high ferritin (1,921 μg/L) wit -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: The extreme ferritin elevation (hallmark finding)"
+  [e88] supports (phase3): polyarthritis is TRUE synovitis -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: True inflammatory polyarthritis with effusions"
+  [e89] supports (phase3): serositis (pericardial, pleural, periton -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: Serositis involving pericardium, pleura, and peritoneum"
+  [e90] supports (phase3): high spiking fevers (to 39.7°C) -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: High spiking fevers"
+  [e91] supports (phase3): profound constitutional symptoms -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: Profound constitutional symptoms and cachexia"
+  [e92] supports (phase3): cachexia -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: Profound constitutional symptoms and cachexia"
+  [e93] supports (phase3): lymphadenopathy -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: Lymphadenopathy"
+  [e94] supports (phase3): hepatosplenomegaly (elevated alkaline ph -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: Elevated liver enzymes"
+  [e95] supports (phase3): marked elevation of inflammatory markers -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The AOSD diagnosis explains: Marked elevation of acute phase reactants"
+  [e96] supports (phase3): Profound leukopenia -> Adult-onset Still's Disease (AOSD)
+         verbatim: "The leukopenia, while atypical for AOSD (which usually causes leukocytosis), can occur and is more c"
+  [e97] argues_against (phase3): Negative interferon-gamma release assay  -> Disseminated Tuberculosis (TB)
+         verbatim: "The negative IGRA significantly argues against TB"
+  [e98] argues_against (phase3): Extremely high ferritin (1,921 μg/L) wit -> Disseminated Tuberculosis (TB)
+         verbatim: "TB would not explain the extreme ferritin"
+  [e99] argues_against (phase3): polyarthritis is TRUE synovitis -> Disseminated Tuberculosis (TB)
+         verbatim: "TB would not explain the ... true synovitis"
+  [e100] triggered_reflection (phase2): Extremely high ferritin (1,921 μg/L) wit -> r1
+         verbatim: "The ferritin level is the most discriminating finding - this degree of hyperferritinemia is exceptio"
+
+REFLECTION EVENTS:
+  [r1] Negative IGRA and extremely elevated ferritin with true synovitis prompted recon (phase: phase2)
+
+PROBLEM REPRESENTATION:
+  A 44-year-old man from sub-Saharan Africa with chronic progressive polyarticular inflammatory arthritis, profound cachexia with 18kg weight loss, pancytopenia (severe microcytic anemia, leukopenia), l

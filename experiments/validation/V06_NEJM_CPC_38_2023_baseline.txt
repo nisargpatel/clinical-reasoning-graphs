@@ -1,0 +1,158 @@
+TRACE ID: V06
+Case: NEJM_CPC_38_2023 | Model: anthropic/claude-opus-4.5 | Condition: baseline
+Ground truth: Chorea due to antiphospholipid syndrome and systemic lupus erythematosus
+Final diagnosis: Antiphospholipid Syndrome (Catastrophic APS or APS with CNS involvement) (78%)
+================================================================================
+
+ORIGINAL TRACE:
+----------------------------------------
+I'll analyze this complex case systematically, focusing on the key clinical features and their evolution over time.
+
+## Key Clinical Features
+
+**Temporal Progression:**
+- Week 0: Acute stroke symptoms (dysarthria, dizziness) with small left frontal infarct
+- Weeks 1-6: Progressive involuntary movements (chorea) involving legs → arms → tongue
+- Week 7-9: Multiple falls, widespread chorea
+- Week 9: New confusion, multiple new infarcts on MRI
+
+**Movement Disorder Characteristics:**
+- Nonrhythmic, dancelike, writhing movements (classic chorea)
+- Involves face, tongue, trunk, and all limbs
+- Partially suppressible
+- Normal EEG (not seizures)
+
+**Imaging Pattern:**
+- Multiple scattered small infarcts in different vascular territories
+- Both cortical and subcortical involvement
+- Bilateral cerebral hemispheres and cerebellum
+- No large vessel occlusion or stenosis
+
+**Laboratory Findings:**
+- Anemia (Hgb 7.9, Hct 26%) - significant
+- Leukopenia with lymphopenia
+- Mildly elevated INR and aPTT
+- Elevated ESR
+
+**Relevant History:**
+- Two prior DVTs
+- Vitiligo (autoimmune condition)
+- Multiple vascular risk factors
+
+## Diagnostic Reasoning
+
+The combination of:
+1. **Multifocal strokes in different vascular territories** without large vessel disease
+2. **Progressive chorea** 
+3. **Cytopenias** (anemia, leukopenia, lymphopenia)
+4. **Prolonged aPTT** 
+5. **History of recurrent DVTs**
+6. **Vitiligo** (associated autoimmune condition)
+
+This constellation strongly suggests **Antiphospholipid Syndrome (APS)**. The mechanism explains:
+- Recurrent arterial (strokes) and venous (DVTs) thromboses
+- Chorea is a well-recognized neurological manifestation of APS
+- Cytopenias can occur in APS
+- Prolonged aPTT paradoxically associated with thrombosis (lupus anticoagulant)
+- Association with other autoimmune conditions (vitiligo)
+
+The switch from warfarin to apixaban 10 months ago may be significant, as DOACs may be less effective than warfarin in APS, particularly in high-risk patients.
+
+## Differential Diagnosis
+
+1. **Antiphospholipid Syndrome (APS)** - Primary or secondary to SLE
+2. **Systemic Lupus Erythematosus with CNS involvement** - Cytopenias, autoimmune features, could cause strokes and chorea
+3. **Sneddon Syndrome** - Livedo reticularis with strokes (often APS-related)
+4. **Infective Endocarditis** - Embolic strokes, anemia; but no fever, heart findings
+5. **Cerebral Vasculitis** - Multifocal strokes, but typically different imaging pattern
+
+## Arguments For/Against Leading Diagnoses
+
+**For APS:**
+- Recurrent DVTs + multiple arterial strokes = dual thrombotic tendency
+- Chorea is characteristic of APS
+- Prolonged aPTT with thrombosis (lupus anticoagulant)
+- Cytopenias
+- Worsening after switching from warfarin to apixaban
+
+**Against other diagnoses:**
+- No fever/murmur against endocarditis
+- No rash/arthritis/serositis against primary SLE (though could be secondary APS)
+- Vasculitis less likely given thrombotic pattern and prolonged aPTT
+
+**Leading Diagnosis:** Antiphospholipid Syndrome (Catastrophic APS or APS with CNS involvement)
+**Estimated Probability:** 78%
+
+================================================================================
+EXTRACTED GRAPH: 24 nodes, 21 edges
+----------------------------------------
+
+NODES:
+  [n1] clinical_feature: Multifocal strokes in different vascular territories without large vessel disease (phase: phase1)
+  [n2] clinical_feature: Progressive chorea (phase: phase1)
+  [n3] clinical_feature: Cytopenias (anemia, leukopenia, lymphopenia) (phase: phase1)
+  [n4] clinical_feature: Prolonged aPTT (phase: phase1)
+  [n5] clinical_feature: History of recurrent DVTs (phase: phase1)
+  [n6] clinical_feature: Vitiligo (phase: phase1)
+  [n7] diagnosis: Antiphospholipid Syndrome (APS) (78%) (phase: phase1)
+  [n8] diagnosis: Systemic Lupus Erythematosus with CNS involvement (30%) (phase: phase1)
+  [n9] diagnosis: Sneddon Syndrome (phase: phase1)
+  [n10] diagnosis: Infective Endocarditis (10%) (phase: phase1)
+  [n11] diagnosis: Cerebral Vasculitis (10%) (phase: phase1)
+  [n12] clinical_feature: Chorea is a well-recognized neurological manifestation of APS (phase: phase1)
+  [n13] clinical_feature: Prolonged aPTT paradoxically associated with thrombosis (lupus anticoagulant) (phase: phase1)
+  [n14] clinical_feature: Association with other autoimmune conditions (vitiligo) (phase: phase1)
+  [n15] clinical_feature: The switch from warfarin to apixaban 10 months ago may be significant, as DOACs may be less effective than warfarin in APS, particularly in high-risk patients (phase: phase1)
+  [n16] clinical_feature: Recurrent arterial (strokes) and venous (DVTs) thromboses (phase: phase1)
+  [n17] clinical_feature: No fever/murmur (phase: phase1)
+  [n18] clinical_feature: No rash/arthritis/serositis (phase: phase1)
+  [n19] clinical_feature: thrombotic pattern (phase: phase1)
+  [n20] diagnosis: Catastrophic APS or APS with CNS involvement (78%) (phase: phase1)
+  [n21] clinical_feature: Livedo reticularis with strokes (often APS-related) (phase: phase1)
+  [n22] clinical_feature: Embolic strokes, anemia (phase: phase1)
+  [n23] clinical_feature: Multifocal strokes (phase: phase1)
+  [n24] clinical_feature: typically different imaging pattern (phase: phase1)
+
+EDGES:
+  [e1] supports (phase1): Multifocal strokes in different vascular -> Antiphospholipid Syndrome (APS)
+         verbatim: "Multifocal strokes in different vascular territories without large vessel disease"
+  [e2] supports (phase1): Progressive chorea -> Antiphospholipid Syndrome (APS)
+         verbatim: "Progressive chorea"
+  [e3] supports (phase1): Cytopenias (anemia, leukopenia, lymphope -> Antiphospholipid Syndrome (APS)
+         verbatim: "Cytopenias (anemia, leukopenia, lymphopenia)"
+  [e4] supports (phase1): Prolonged aPTT -> Antiphospholipid Syndrome (APS)
+         verbatim: "Prolonged aPTT"
+  [e5] supports (phase1): History of recurrent DVTs -> Antiphospholipid Syndrome (APS)
+         verbatim: "History of recurrent DVTs"
+  [e6] supports (phase1): Vitiligo -> Antiphospholipid Syndrome (APS)
+         verbatim: "Vitiligo (associated autoimmune condition)"
+  [e7] supports (phase1): Recurrent arterial (strokes) and venous  -> Antiphospholipid Syndrome (APS)
+         verbatim: "Recurrent arterial (strokes) and venous (DVTs) thromboses"
+  [e8] supports (phase1): Chorea is a well-recognized neurological -> Antiphospholipid Syndrome (APS)
+         verbatim: "Chorea is a well-recognized neurological manifestation of APS"
+  [e9] supports (phase1): Prolonged aPTT paradoxically associated  -> Antiphospholipid Syndrome (APS)
+         verbatim: "Prolonged aPTT paradoxically associated with thrombosis (lupus anticoagulant)"
+  [e10] supports (phase1): Cytopenias (anemia, leukopenia, lymphope -> Systemic Lupus Erythematosus with CNS in
+         verbatim: "Systemic Lupus Erythematosus with CNS involvement - Cytopenias, autoimmune features, could cause str"
+  [e11] supports (phase1): Association with other autoimmune condit -> Systemic Lupus Erythematosus with CNS in
+         verbatim: "Association with other autoimmune conditions (vitiligo)"
+  [e12] supports (phase1): Livedo reticularis with strokes (often A -> Sneddon Syndrome
+         verbatim: "Sneddon Syndrome - Livedo reticularis with strokes (often APS-related)"
+  [e13] supports (phase1): Embolic strokes, anemia -> Infective Endocarditis
+         verbatim: "Infective Endocarditis - Embolic strokes, anemia"
+  [e14] argues_against (phase1): No fever/murmur -> Infective Endocarditis
+         verbatim: "no fever, heart findings"
+  [e15] supports (phase1): Multifocal strokes -> Cerebral Vasculitis
+         verbatim: "Cerebral Vasculitis - Multifocal strokes"
+  [e16] argues_against (phase1): thrombotic pattern -> Cerebral Vasculitis
+         verbatim: "Vasculitis less likely given thrombotic pattern and prolonged aPTT"
+  [e17] argues_against (phase1): Prolonged aPTT -> Cerebral Vasculitis
+         verbatim: "Vasculitis less likely given thrombotic pattern and prolonged aPTT"
+  [e18] argues_against (phase1): No rash/arthritis/serositis -> Systemic Lupus Erythematosus with CNS in
+         verbatim: "No rash/arthritis/serositis against primary SLE (though could be secondary APS)"
+  [e19] supports (phase1): The switch from warfarin to apixaban 10  -> Antiphospholipid Syndrome (APS)
+         verbatim: "The switch from warfarin to apixaban 10 months ago may be significant, as DOACs may be less effectiv"
+  [e20] supports (phase1): Antiphospholipid Syndrome (APS) -> Catastrophic APS or APS with CNS involve
+         verbatim: "Leading Diagnosis: Antiphospholipid Syndrome (Catastrophic APS or APS with CNS involvement)"
+  [e21] supports (phase1): typically different imaging pattern -> Cerebral Vasculitis
+         verbatim: "but typically different imaging pattern"
